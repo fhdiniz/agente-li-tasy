@@ -69,6 +69,8 @@ Este guia foi escrito para quem nunca instalou um plugin de IA e usa o **aplicat
 
 No Codex, o plugin é instalado de forma manual: você baixa a pasta do plugin e pede ao Codex para ligá-la.
 
+> O app do Codex tem um explorador de plugins (botão **+** ou aba **Plugins**), mas ele mostra só os plugins de marketplaces já configurados. Instalar este plugin por lá ainda não foi testado; até lá, use os passos abaixo, que funcionam com certeza.
+
 **Passo 1. Instalar o app.** Baixe o app do Codex na [página oficial do Codex](https://openai.com/codex/), instale e entre com a conta da empresa.
 
 **Passo 2. Baixar a pasta do plugin (pelo navegador).**
@@ -582,7 +584,7 @@ A versão instalada e as novidades ficam no [CHANGELOG](CHANGELOG.md).
 
 ## Comandos do plugin
 
-Você pode chamar cada função pelo atalho da sua ferramenta ou simplesmente escrevendo a frase, em português, na caixa de mensagem. As duas formas dão o mesmo resultado. No app, digite `/` (Claude) ou `$` (Codex) e a lista de atalhos aparece para você clicar.
+Você pode chamar cada função pelo atalho da sua ferramenta ou simplesmente escrevendo a frase, em português, na caixa de mensagem. As duas formas dão o mesmo resultado. No app, digite `/` (Claude) ou `$` ou `@` (Codex) e a lista de atalhos aparece para você clicar.
 
 | O que faz | Claude (app, aba Code, ou terminal) | Codex (app ou terminal) | Gemini, Cursor, Copilot | Exemplo de frase |
 |---|---|---|---|---|
