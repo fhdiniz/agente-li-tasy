@@ -1,0 +1,1666 @@
+{
+ "/api/Auth/login": [
+  "siifa-integration/siifa-devolucao-fatura-integration.bft",
+  "siifa-integration/siifa-protocol-integration.bft",
+  "siifa-integration/siifa-resposta-devolucao-integration.bft"
+ ],
+ "/api/CalculateFees": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/CreateAppointment": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/CreateClient": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/CreateClientSurgicalEpisode": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/EligibilityCheckFund": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/ExamTag": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft"
+ ],
+ "/api/Factura": [
+  "siifa-integration/siifa-protocol-integration.bft"
+ ],
+ "/api/FacturaRadicado/${exchangeProperty.idFactura}": [
+  "siifa-integration/siifa-protocol-integration.bft"
+ ],
+ "/api/FevRips/Status/${property[invoice]}": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "/api/GetReportsBulkBill": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/GetReportsDVA": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/GetReportsDVAAlliedHealth": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/GetReportsIHC": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/OnlineEligibilityCheck": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/Pathology": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "/api/Pathology/additional-exam": [
+  "anapath/philips-tie-ABC - Anapath.bft"
+ ],
+ "/api/Pathology/report/pdf": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/Pathology/suspend-exam": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "/api/SearchForClaimIDs": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/SeguimientoFacturaDevolucion/ByIdFactura": [
+  "siifa-integration/siifa-devolucao-fatura-integration.bft"
+ ],
+ "/api/SeguimientoFacturaDevolucion/ReiteracionRespuesta": [
+  "siifa-integration/siifa-resposta-devolucao-integration.bft"
+ ],
+ "/api/SeguimientoFacturaDevolucion/Respuesta": [
+  "siifa-integration/siifa-resposta-devolucao-integration.bft"
+ ],
+ "/api/Token/GerarToken": [
+  "inventory/inventory-sap/inventory-sap.bft"
+ ],
+ "/api/TransmitClaims": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/TransmitIHC": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/TransmitPC": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/UpdateClient": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/UpdateItemFees": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/VerifyMedicare": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/account-batch-movement/store-sap-response": [
+  "financial/accounting-batch-movement/SAP - BackOffice.bft"
+ ],
+ "/api/alerts": [
+  "anesthesia-chart-drug-interaction/anesthesia-chart-drug-interaction.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/flow_add_Material_Monograph.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/flow_add_Material_Monograph.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/flow_add_Material_Monograph.bft",
+  "telehealth-icca/dev/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/prescr_add_material.bft"
+ ],
+ "/api/apacReport": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/apacReport/answerreport": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/apacReport/error": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/apacReport/success": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/authorization-historic/update-status": [
+  "insurance-authorization/philips-tie-API SEND HISTORIC AUTHORIZATION (SALES FORCE).bft"
+ ],
+ "/api/azure/prs/callback": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "/api/azure/tc/callback": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "/api/azure/urs/callback": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "/api/b2b/v1/orgs/${property.configProperty[prodaOrgId]}/devices/${property.configProperty[deviceName]}/jwk": [
+  "ANZ/AUS/eclipse/proda.bft"
+ ],
+ "/api/bankinvoicerecord": [
+  "bank-invoice-record/bank-inoice-record.bft"
+ ],
+ "/api/bankinvoicerecord/saveLogInfo": [
+  "bank-invoice-record/bank-inoice-record.bft"
+ ],
+ "/api/bankinvoicerecord/signBBDCInvoice": [
+  "bank-invoice-record/bank-inoice-record.bft"
+ ],
+ "/api/bed-control": [
+  "ADT/VOICEHCS/philips-tie-VOICEHCS.bft"
+ ],
+ "/api/beneficiarios/beneficiarios-desligados": [
+  "cancel-appointment/philips-tie-optimos.bft"
+ ],
+ "/api/billing/co-payment": [
+  "billing/copago/copago.bft"
+ ],
+ "/api/billing/drg": [
+  "drg/drg.bft"
+ ],
+ "/api/billing/pyxis/batch-material": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "/api/billing/sus/apacReport": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/billing/sus/apacReport/": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/billingAudit/billingAuditRequest": [
+  "hpms-ptu/hpms-ptu-auditoria-cobranca.bft"
+ ],
+ "/api/billingAudit/send": [
+  "hpms-ptu/hpms-ptu-auditoria-cobranca.bft"
+ ],
+ "/api/bionexo": [
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn-open-api.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn.bft",
+  "material-class/material-class.bft",
+  "material-group/material-group.bft",
+  "material-subgroup/philips-tie-API Material Subgroup.bft"
+ ],
+ "/api/cadbenef/beneficiarios/compartilhamento-riscos": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/beneficiarios/compartilhamento-riscos${exchangeProperty.endpointSuffix}": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/beneficiarios/consulta/dados": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/beneficiarios/preco": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/beneficiarios/preco/error": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/beneficiarios/reprocessamento": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/beneficiarios/reprocrespenvio": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/cadbenef/cadBenefRespEnvio": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "/api/call": [
+  "telehealth-icca/5.00.1818/video/start-call/flows_start_call.bft",
+  "telehealth-icca/5.00.1818/video/start-call/video_start_call.bft",
+  "telehealth-icca/5.02.1833/video/start-call/flows_start_call.bft",
+  "telehealth-icca/5.02.1833/video/start-call/video_start_call.bft",
+  "telehealth-icca/dev/video/start-call/flows_start_call.bft",
+  "telehealth-icca/dev/video/start-call/video_start_call.bft"
+ ],
+ "/api/callApi/PostAuthorization": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/callApi/PostOmbudsman": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/call_participants": [
+  "telehealth-icca/5.00.1818/video/active-call/flow_active_call.bft",
+  "telehealth-icca/5.00.1818/video/active-call/video_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/flow_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/video_active_call.bft",
+  "telehealth-icca/dev/video/active-call/flow_active_call.bft",
+  "telehealth-icca/dev/video/active-call/video_active_call.bft"
+ ],
+ "/api/chat/chatAttachmentControl": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatAttachmentsConsult": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatCreateRoom": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatLogErrors": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatPendencyControl": [
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatRecoverRoom": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatRoomRecords": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatSearchRoomPendency": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatSearchUpdates": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chat/chatSendMessage": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "/api/chatbot/person/": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/chatbot/schedules/": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/chatbot/schedules/book-time/": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/chatbot/schedules/patient/transfer/": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/clinical-patient-notes/${property[clinicalNoteId]}": [
+  "radiotherapy-management/patient-admission.bft"
+ ],
+ "/api/clinical-results": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-barueri-sp-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_aracaju_se_rtn.bft"
+ ],
+ "/api/clinical/micromedex": [
+  "micromedex/micromedex.bft"
+ ],
+ "/api/clinical/micromedex/therapeutic-doses": [
+  "micromedex/micromedex.bft",
+  "telehealth-icca/dev/prescription/add-material/therapeuticDose/flow_prescription_therapeuticDose.bft"
+ ],
+ "/api/cnes/execute": [
+  "cnes/cnes.bft"
+ ],
+ "/api/cnsQueryData/createRequestCns": [
+  "cns.querydata/cns.querydata.bft"
+ ],
+ "/api/cnsQueryData/updateTransmission": [
+  "cns.querydata/cns.querydata.bft"
+ ],
+ "/api/company-establishment/search": [
+  "company-establishment/philips-tie-Company Establishment.bft"
+ ],
+ "/api/contingency/": [
+  "patient-information/H2TC/H2TC-TIE.bft"
+ ],
+ "/api/control/deadletter/messages/cleaner": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "/api/control/messages/cleaner": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "/api/cost-center/search": [
+  "cost-center/philips-tie-cost-center.bft"
+ ],
+ "/api/credit-card-movement/billingCards": [
+  "credit-card-movement/credit-card-movement.bft",
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "/api/currency": [
+  "material-class/material-class.bft"
+ ],
+ "/api/dispensaryfhir": [
+  "ADT/FHIR BACKUP/philips-tie-FHIR BACKUP.bft"
+ ],
+ "/api/electronic-patient-document-management/": [
+  "page-writer/page-writer.bft"
+ ],
+ "/api/encounter-patient": [
+  "ADT/KIOSKOS/philips-tie-KIOSKOS (1).bft",
+  "ADT/OMINT/philips-tie-Encounter API.bft"
+ ],
+ "/api/encounter-patient/transaction/list": [
+  "turnstiles/zkbio/philips-tie-zkbio.bft"
+ ],
+ "/api/encounter-regulation/gerint/response-process": [
+  "ADT/GERINT/philips-tie-GERINT.bft"
+ ],
+ "/api/encounterInformation/${header.encounterId}/clinicalNotes": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/encounterInformation/${header.encounterId}/emergency-discharge": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/encounterInformation/${header.encounterId}/img-result": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/encounterInformation/${header.encounterId}/laboratory-results": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/encounterInformation/${header.encounterId}/patient-care": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/end_call": [
+  "telehealth-icca/5.00.1818/video/end-call/flow_end_call.bft",
+  "telehealth-icca/5.00.1818/video/end-call/video_end_call.bft",
+  "telehealth-icca/5.02.1833/video/end-call/flow_end_call.bft",
+  "telehealth-icca/5.02.1833/video/end-call/video_end_call.bft",
+  "telehealth-icca/dev/video/end-call/flow_end_call.bft",
+  "telehealth-icca/dev/video/end-call/video_end_call.bft"
+ ],
+ "/api/examRecordWint": [
+  "cnes/cnes.bft"
+ ],
+ "/api/examstatusupdate": [
+  "lis-systems/sonic-lis/sonic-lis.bft"
+ ],
+ "/api/exchanges/": [
+  "blackboard/blackboard.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_blumenau_rtn.bft",
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "/api/externalcostcenter/status/${property[EstablishmentId]}": [
+  "external-cost-center/external-cost-center.bft"
+ ],
+ "/api/facial-positivity/insured/register": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "/api/facial-positivity/insured/update": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "/api/facial-positivity/provider/register": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "/api/facial-positivity/provider/service-locations": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "/api/finacial/insuranceReturn": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "/api/financial/insuranceReceipt": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "/api/fleury-integration/fleuryReceiveSyncExamMaterial": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleuryissuelabel": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleurymaintainclient": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleurymaintainclient/${exchangeProperty.codEstablishment}/${exchangeProperty.codLog}/${exchangeProperty.codPrescriptionSequence}${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleurymaintainclient/${exchangeProperty.codNaturalPerson}/${exchangeProperty.codLog}/${exchangeProperty.prescriptionNumber}${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleurymakevalidations${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleurymakevalidations/${exchangeProperty.codEstablishment}/${exchangeProperty.codLog}/${exchangeProperty.prescriptionNumber}/${exchangeProperty.userName}${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleuryopentoken${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleuryopentoken/${exchangeProperty.prescriptionNumber}/${exchangeProperty.codEstablishment}${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleuryopentoken/build-xml${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleuryreprocesscontingency": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/fleurytokensuspension": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/receiveexamssuspension": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/recordanalyteresult": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/recordwithcontingency${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fleury-integration/recordwithcontingency/processdata${headers[CamelHttpUri]}": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "/api/fresenius/list_anticoagulants": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/list_dialysates": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/list_medical_staff": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/list_patient_data": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/list_rooms": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/list_treatment_methods": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/patient_arrival": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/post_session_return_general": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/post_session_return_vital_values": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/post_session_update_vital_values": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/fresenius/session_presc": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "/api/generate-log": [
+  "atc/ATC sending.bft",
+  "digital-signature/philips-tie-Digital Signature.bft",
+  "hemoterapy-blood/tie-Hemotherapy-ABC.bft",
+  "overmind/overmind.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft",
+  "servicio-renta/TecSalud - Servicio de Renta.bft"
+ ],
+ "/api/generic/send_ngcap": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "/api/global-material-price/insert-file": [
+  "billing/alfaBeta/philips-tie-Alfa Beta Sistemas.bft"
+ ],
+ "/api/gpu/gpuAnswerService": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuAnswerServiceImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuAnswerServiceLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuAnswerServiceNoClient": [
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuAnswerServiceNoClientImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuAnswerServiceNoClientLog": [
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuCancelService": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuCancelServiceImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuCancelServiceLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuComplementaryServiceProtocol": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuComplementaryServiceProtocolImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuComplementaryServiceProtocolLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolHistory": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolHistoryImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolHistoryLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolStatus": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolStatusImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolStatusLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuConsultProtocolStatusNoClientImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuForwardExecution": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuForwardExecutionImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuForwardExecutionLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuRequestServiceProtocol": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuRequestServiceProtocolImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuRequestServiceProtocolLog": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gpu/gpuRequestServiceProtocolNoClientImp": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "/api/gtplan/purchaseOrder": [
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_blumenau_rtn.bft"
+ ],
+ "/api/gtplan/transferRequest": [
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_blumenau_rtn.bft"
+ ],
+ "/api/health-history/allergies-history/patient/${header.patientId}": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/health-history/clinical-history/patient/${header.patientId}": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/health-history/current-medications/patient/${header.patientId}": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/health-history/social-history/patient/${header.patientId}": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/health-history/surgical-history/patient/${header.patientId}": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "/api/health-insurance/call/callType": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/healthAid/reportHealthAid": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/insured": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/insured/monthYear-period": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/irpf": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/irpf/dataFile": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/irpf/years": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/monthly-fee/invoice-file": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/monthlyfee/invoice": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/monthlyfee/simulationInterestAndFine": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/protocol/detail": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/protocol/service": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/health-insurance/protocol/status": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "/api/html-to-pdf": [
+  "my-companion/telehealth-send-terms-of-use.bft"
+ ],
+ "/api/icca/document/${property[doc_id]}/transmission": [
+  "telehealth-icca/5.00.1818/document-export/MDM_T01_T07/outbound_doc_exp.bft",
+  "telehealth-icca/5.00.1818/document-export/MDM_T01_T07/outbound_flow_doc_exp.bft",
+  "telehealth-icca/5.02.1833/document-export/MDM_T01_T07/outbound_doc_exp.bft",
+  "telehealth-icca/5.02.1833/document-export/MDM_T01_T07/outbound_flow_doc_exp.bft",
+  "telehealth-icca/dev/document-export/MDM_T01_T07/outbound_doc_exp.bft",
+  "telehealth-icca/dev/document-export/MDM_T01_T07/outbound_flow_doc_exp.bft"
+ ],
+ "/api/icca/infusion-pump/interface": [
+  "bombas-infusao-tecsalud/philips-tie-TecSalud - Bombas de Infusión.bft",
+  "telehealth-icca/5.00.1818/infusion-pump/interface/ORU_R01/flows_infusion_pump.bft",
+  "telehealth-icca/5.00.1818/infusion-pump/interface/ORU_R01/infusion_pump.bft",
+  "telehealth-icca/5.02.1833/infusion-pump/interface/ORU_R01/flows_infusion_pump.bft",
+  "telehealth-icca/5.02.1833/infusion-pump/interface/ORU_R01/infusion_pump.bft",
+  "telehealth-icca/dev/infusion-pump/interface/ORU_R01/flows_infusion_pump.bft",
+  "telehealth-icca/dev/infusion-pump/interface/ORU_R01/infusion_pump.bft"
+ ],
+ "/api/icca/medicines": [
+  "anesthesia-chart-drug-interaction/anesthesia-chart-drug-interaction.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/prescr_add_material.bft"
+ ],
+ "/api/icca/medicines/api-alert": [
+  "anesthesia-chart-drug-interaction/anesthesia-chart-drug-interaction.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/prescr_add_material.bft"
+ ],
+ "/api/icca/order/administrationOrder": [
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/dev/order-import/order_import.bft"
+ ],
+ "/api/icca/order/identify": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-import/order.import.ods.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/dev/order-export/order_export.bft",
+  "telehealth-icca/dev/order-import/order.import.ods.bft",
+  "telehealth-icca/dev/order-import/order_import.bft"
+ ],
+ "/api/icca/order/import/${property[orderType]}": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-import/order.import.ods.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/dev/order-export/order_export.bft",
+  "telehealth-icca/dev/order-import/order.import.ods.bft",
+  "telehealth-icca/dev/order-import/order_import.bft"
+ ],
+ "/api/icca/order/log": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-import/order.import.ods.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/dev/order-export/order_export.bft",
+  "telehealth-icca/dev/order-import/order.import.ods.bft",
+  "telehealth-icca/dev/order-import/order_import.bft"
+ ],
+ "/api/icca/patient/data-import": [
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/pdi.bft"
+ ],
+ "/api/icca/patient/linked-data/generate-data/${property[action]}": [
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/pdi.bft"
+ ],
+ "/api/icca/patient/linked-data/release": [
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/flow_pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/pdi.bft"
+ ],
+ "/api/icca/register-flags/${property[alert_flag_id]}": [
+  "telehealth-icca/5.02.1833/register-flags/outbound/outbound_flow_register_flags.bft",
+  "telehealth-icca/dev/register-flags/outbound/outbound_flow_register_flags.bft"
+ ],
+ "/api/initialize_call": [
+  "telehealth-icca/5.00.1818/video/start-call/flows_start_call.bft",
+  "telehealth-icca/5.00.1818/video/start-call/video_start_call.bft",
+  "telehealth-icca/5.02.1833/video/start-call/flows_start_call.bft",
+  "telehealth-icca/5.02.1833/video/start-call/video_start_call.bft",
+  "telehealth-icca/dev/video/start-call/flows_start_call.bft",
+  "telehealth-icca/dev/video/start-call/video_start_call.bft"
+ ],
+ "/api/inpart/surgerySchedulingStatus": [
+  "Inpart-OPME/Inpart - Surgery Status OPME.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_aracaju_se_rtn.bft"
+ ],
+ "/api/insurance/remunerationByDiagnosis/getElegibility": [
+  "new-remuneration-model/philips-tie.bft"
+ ],
+ "/api/insuranceAuthorization": [
+  "insurance-authorization/philips-tie-Insurance_Authorization.bft"
+ ],
+ "/api/insuredTerms/createInsuredTerms": [
+  "hpms-health-insurance-terms-insured/hpms-health-insurance-terms-insured.bft"
+ ],
+ "/api/insuredTerms/revokeTerm": [
+  "hpms-health-insurance-terms-insured/hpms-health-insurance-terms-insured.bft"
+ ],
+ "/api/integrated-test${headers[CamelHttpPath]}": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "/api/integrated-test/plan-test${headers[CamelHttpPath]}": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "/api/integrated-test/test-case${headers[CamelHttpPath]}": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "/api/integrated-test/test-result${headers[CamelHttpPath]}": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "/api/integratedExams": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/interfaceLab/executeExportInterfaceDefault": [
+  "interfaceamento-laboratorio/interfaceamento-laboratorio.bft"
+ ],
+ "/api/interfaceLab/executeImportInterfaceDefault": [
+  "interfaceamento-laboratorio/interfaceamento-laboratorio.bft"
+ ],
+ "/api/inventory/${property.initialParameters[": [
+  "inventory/inventory-sap/inventory-sap.bft"
+ ],
+ "/api/labExam/allExames": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/labExamSusp/suspendPrescriptionExam": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/ledger-account/search": [
+  "ledger-account/philips-tie-Ledger Account.bft"
+ ],
+ "/api/login": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/logout": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "/api/material": [
+  "material/material-with-establishment-tecsalud/API Material (REST) - TecSalud.bft",
+  "stock-movement/stock-movement.bft"
+ ],
+ "/api/material/": [
+  "material/material-with-establishment-tecsalud/API Material (REST) - TecSalud.bft"
+ ],
+ "/api/material/establishment": [
+  "material/material-with-establishment-tecsalud/API Material (REST) - TecSalud.bft"
+ ],
+ "/api/materialClass/": [
+  "material-class/material-class.bft"
+ ],
+ "/api/materials-requisition/requisition/allMaterials/byRequisition": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/materials-requisition/requisition/process": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/matrix-integration/get-data-request-pacient": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "/api/matrix-integration/receive-order": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "/api/matrix-integration/result-exams": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "/api/matrix-integration/sample-status-update": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "/api/medAntiNeoplasicos": [
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "/api/medicalreport": [
+  "ris-systems/workmate-claris-integrations/workmate-claris-integrations.bft"
+ ],
+ "/api/medicalreportauth": [
+  "ris-systems/xper-im/xper-im.bft"
+ ],
+ "/api/memed/patients": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "/api/memed/prescriptions": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "/api/memed/web": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "/api/mipres/audit-data": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/billing-code": [
+  "mipres/api-mipres-com-receive.bft"
+ ],
+ "/api/mipres/cufe-integration": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/delivery-code": [
+  "mipres/api-mipres-com-receive.bft"
+ ],
+ "/api/mipres/dispensation": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/link-mipres-prescription": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/multiprofessional-commission-data": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/prescription-data": [
+  "mipres/api-mipres-com-receive.bft"
+ ],
+ "/api/mipres/response-post-prescription": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/save-dispensing-directions": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mipres/save-prescription-multiplecriteria": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "/api/mock/cobertura-carencia": [
+  "carencia/carencia.bft"
+ ],
+ "/api/mock/gravar-agendamento": [
+  "gravar-atendimento/gravar-atendimento.bft",
+  "gravar-gendamento/gravar-gendamento.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_blumenau_rtn.bft"
+ ],
+ "/api/natural-person": [
+  "chatbot/philips-tie-ABC - Chatbot.bft",
+  "natural-person/natural-person-albert-einstein/Albert Einstein - Natural Person.bft",
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/natural-person/${exchangeProperty.codigoPessoa}/documentation": [
+  "natural-person/natural-person-albert-einstein/Albert Einstein - Natural Person.bft"
+ ],
+ "/api/natural-person/${property.initialParameters[": [
+  "natural-person/natural-person/natural-person.bft"
+ ],
+ "/api/natural-person/${property[natural_person_code]}": [
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/natural-person/${property[natural_person_code]}/additional-information/RESIDENCE": [
+  "natural-person/natural-person/Tecsalud-send_Receive_Natural_Person_Data_And_Complement.bft",
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/natural-person/history/create": [
+  "natural-person/natural-person-history/Tecsalud-API Create History Natual Person - JSON.bft",
+  "natural-person/natural-person-history/philips-tie-Natural Person - History.bft"
+ ],
+ "/api/nota-autenticacao/3525904/download/": [
+  "invoice/tax-reform/invoice-nfse-jundiai-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-maceio-al-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-matao-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ribeirao-pires-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-jose-do-rio-preto-sp-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-maceio-al-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice-send-sao-jose-do-rio-preto_sp_rtn.bft"
+ ],
+ "/api/openapi/token": [
+  "invoice/tax-reform/sefaz-dce-rtn-open-api.bft"
+ ],
+ "/api/osb/token": [
+  "CADSUS/philips-tie-CADSUS REST.bft"
+ ],
+ "/api/payment-transfer-third-party/${property[payment_transfer_id]}/update-integration-date": [
+  "Medical Fees Integration/Medical Fees Integration.bft"
+ ],
+ "/api/performAPACParam": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/performAPACParam/error": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/performAPACParam/success": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/physician-registration": [
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/physician-registration/documentation": [
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/physician-registration/documentation/${property[documentSequence]}": [
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/pix/billing/${property[billingId]}": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-barueri-sp-rtn.bft",
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "/api/pix/billing/${property[pixBillingId]}": [
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "/api/pix/payment-return/${property[paymentReturnId]}": [
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "/api/pix/payment-transaction": [
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "/api/pix/transmission": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-barueri-sp-rtn.bft",
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "/api/pix/transmission/${property[pixTransmissionId]}/error": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-barueri-sp-rtn.bft",
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "/api/plan-test${headers[CamelHttpPath]}": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "/api/preInvoice/file/import": [
+  "invoice/pre-invoice-file.bft"
+ ],
+ "/api/prescription/attachment/base64": [
+  "slinews/philips-tie-SLine - Laboratory.bft",
+  "telehealth-icca/5.02.1833/outpatient-prescription/attachment/outpatient_prescription_attachment.bft",
+  "telehealth-icca/dev/outpatient-prescription/attachment/outpatient_prescription_attachment.bft"
+ ],
+ "/api/procedure/${property[procedure_code]}/${property[origin]}": [
+  "servicio-renta/TecSalud - Servicio de Renta.bft"
+ ],
+ "/api/protservpag/protocolos/pedido-protocolo": [
+  "hpms-paid-protocols/hpms-paid-protocols.bft"
+ ],
+ "/api/protservpag/protocolos/pedido-protocolo-detalhe": [
+  "hpms-paid-protocols/hpms-paid-protocols.bft"
+ ],
+ "/api/prs${headers[CamelHttpPath]}": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "/api/purchase/order": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft"
+ ],
+ "/api/purchase/order/${property.order}": [
+  "purchase-order/philips-tie-INPART_OPS - Purchase Order Attachment.bft"
+ ],
+ "/api/purchase/order/${property.order}/attachments": [
+  "purchase-order/philips-tie-INPART_OPS - Purchase Order Attachment.bft"
+ ],
+ "/api/purchase/order/{id}/attachments": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft"
+ ],
+ "/api/queues/": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/quotationPatient": [
+  "billing/quotationPatient/quotationPatient.bft"
+ ],
+ "/api/receipt-checkout/${body[id]}": [
+  "cost-center/philips-tie-cost-center.bft"
+ ],
+ "/api/receipt-inspection/count-and-release": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/registerReportAnalytes": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/registerReportAnalytes/microorganism": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/registerSampleDateCollection": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/registerStatusChanges": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/registerdocument/document-base64-encounter": [
+  "page-writer/page-writer.bft"
+ ],
+ "/api/registerdocument/document-update-base64": [
+  "radiotherapy-management/ged-radiotherapy-management.bft"
+ ],
+ "/api/report/generate/pdf/base64Encode": [
+  "magsul/philips-tie-Magsul.bft",
+  "radiotherapy-management/patient-admission.bft"
+ ],
+ "/api/report/generate/send/reportMail": [
+  "cmdk/bp-export-purchase-order/philips-tie-OPME - Exportação de Ordem de Compra .bft"
+ ],
+ "/api/reportspatient/error": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "cnes/cnes.bft"
+ ],
+ "/api/reportspatient/success": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "cnes/cnes.bft"
+ ],
+ "/api/resultLaboratory": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "/api/rips/updateGetStatus": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "/api/rips/updateStatus/${property[invoice]}/${property[status]}": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "/api/schedules/actives/consultation": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/actives/exam": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/actives/service": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/consultation/${exchange.properties[sequence]}/status": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/consultation/${property.scheduleID}/status": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/consultation/available": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/consultation/book-time": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/consultation/generate-transfer": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/consultation/schedules": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/exams/${exchange.properties[sequence]}/status": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/exams/${exchangeProperty.scheduleId}/external-code": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/schedules/exams/${exchangeProperty.sequence}/status": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "/api/schedules/exams/${property.examId}/orientations": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/exams/${property.scheduleID}/status": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/exams/${property.scheduleSequence}/status": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "/api/schedules/exams/available": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/exams/book-time": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/exams/consultation": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/exams/generate-transfer": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/integrated-schedule/cancel-schedule": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/integrated-schedule/integrated-appointments": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/integrated-schedule/send-email": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/ivr/create-protocol": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/ivr/update-protocol": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "/api/schedules/services/${property.scheduleID}/status": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/services/book-time": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/services/consultation": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/schedules/services/transfer": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "/api/services-integrations/check-files": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "/api/services-integrations/export-catalog": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "/api/services-integrations/gas-therapy/finish": [
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft"
+ ],
+ "/api/services-integrations/gas-therapy/start": [
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft"
+ ],
+ "/api/services-integrations/gas-therapy/update": [
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft"
+ ],
+ "/api/services-integrations/import-catalog/importOrderSets": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "/api/services-integrations/import-files": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "/api/services-integrations/insurance-managers": [
+  "insurance-managers/philips-tie-Insurance Managers.bft"
+ ],
+ "/api/servicos/envio/receptorTransfusao": [
+  "sht/envio-destinos/envio-destinos.bft"
+ ],
+ "/api/sharedBilling/billingSharingAtPreEstablishedPrice": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "/api/sharedBilling/billingSharingAtPreEstablishedPriceImpFont": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "/api/sharedBilling/preEstablishedPriceImp": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "/api/siad/document/log": [
+  "siad-stock-integration/siad-stock-integration.bft"
+ ],
+ "/api/siifa-fatura": [
+  "siifa-integration/siifa-protocol-integration.bft"
+ ],
+ "/api/siifa-return-invoice/update-status": [
+  "siifa-integration/siifa-devolucao-fatura-integration.bft"
+ ],
+ "/api/sline-integration/processController": [
+  "slinews/philips-tie-SLine - Laboratory.bft"
+ ],
+ "/api/slineLogger/saveLogIntegration": [
+  "sline/philips-tie-Sline.bft"
+ ],
+ "/api/stock-transfer-control": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/stockMovement": [
+  "WMS Senior/philips-tie-WMS Senior.bft",
+  "stock-movement/stock-movement.bft"
+ ],
+ "/api/storage": [
+  "generic-storage-files/Generic Storage Files.bft",
+  "my-companion/telehealth-import-files.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T01_T02/clinical_notes_imp.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T01_T02/flow_clinical_notes_imp.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T01_T02/clinical_notes_imp.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T01_T02/flow_clinical_notes_imp.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T01_T02/clinical_notes_imp.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T01_T02/flow_clinical_notes_imp.bft"
+ ],
+ "/api/storage/file": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft",
+  "generic-storage-files/Generic Storage Files.bft",
+  "purchase-order/philips-tie-INPART_OPS - Purchase Order Attachment.bft"
+ ],
+ "/api/supplier-batch": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/sus/apac/executor/error": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/sus/apac/executor/success": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "/api/sus/getApac/error": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "/api/sus/getApac/success": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "/api/sus/getExecution/error": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "/api/sus/getExecution/success": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "/api/sus/medAntiNeoplasicos/success": [
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "/api/telehealth/active-call": [
+  "telehealth-icca/5.00.1818/video/active-call/flow_active_call.bft",
+  "telehealth-icca/5.00.1818/video/active-call/video_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/flow_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/video_active_call.bft",
+  "telehealth-icca/dev/video/active-call/flow_active_call.bft",
+  "telehealth-icca/dev/video/active-call/video_active_call.bft"
+ ],
+ "/api/telehealth/automated-acuity": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/early-warning-score": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/finish-call": [
+  "telehealth-icca/5.00.1818/video/active-call/flow_active_call.bft",
+  "telehealth-icca/5.00.1818/video/active-call/video_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/flow_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/video_active_call.bft",
+  "telehealth-icca/dev/video/active-call/flow_active_call.bft",
+  "telehealth-icca/dev/video/active-call/video_active_call.bft"
+ ],
+ "/api/telehealth/patient/${property[patient_id]}": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A08/flow_adt_a08.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A31/flow_adt_a31.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A08/flow_adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A31/flow_adt_a31.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A08/flow_adt_a08.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A31/flow_adt_a31.bft"
+ ],
+ "/api/telehealth/patient/locate": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A08/flow_adt_a08.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A31/flow_adt_a31.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-import/order.import.ods.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A08/flow_adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A31/flow_adt_a31.bft",
+  "telehealth-icca/dev/order-export/order_export.bft",
+  "telehealth-icca/dev/order-import/order.import.ods.bft",
+  "telehealth-icca/dev/order-import/order_import.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A08/flow_adt_a08.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A31/flow_adt_a31.bft"
+ ],
+ "/api/telehealth/patient/vitalsign/trendupload": [
+  "trend-upload/trend-upload.bft"
+ ],
+ "/api/telehealth/risk-of-death-score": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/risk-of-readmission-score": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/sentry-score": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/sentry-smart-alert": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/sepsis-alert": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/sepsis-score": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/telehealth/vent-management": [
+  "blackboard/blackboard.bft"
+ ],
+ "/api/test-case${headers[CamelHttpPath]}": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "/api/test-plan${headers[CamelHttpPath]}": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "/api/test-result${headers[CamelHttpPath]}": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "/api/tie-events/dce-cancelamento-event": [
+  "invoice/tax-reform/sefaz-dce-rtn-open-api.bft"
+ ],
+ "/api/tie-events/dce-envio-event": [
+  "invoice/tax-reform/sefaz-dce-rtn-open-api.bft"
+ ],
+ "/api/tiss/getData": [
+  "client-tiss-provider/tiss.bft"
+ ],
+ "/api/tiss/receive": [
+  "client-tiss-provider/tiss.bft"
+ ],
+ "/api/tiss/save-tiss-authorization": [
+  "overmind/overmind.bft"
+ ],
+ "/api/tiss/treat-error": [
+  "client-tiss-provider/tiss.bft"
+ ],
+ "/api/token": [
+  "datasus/datasus.bft"
+ ],
+ "/api/treasury/recieve": [
+  "credit-card-movement/credit-card-movement.bft",
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "/api/v1/Clientes": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/v1/Fornecedores": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/v1/Pedidos": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/v1/ProdutosFundacaoPioXii": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/v1/RecebimentoNotaFiscalFundacaoPioXii": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/v1/patient-drug-list/super-interactions": [
+  "telehealth-icca/dev/prescription/add-material/flow_prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/therapeuticDose/flow_prescription_therapeuticDose.bft"
+ ],
+ "/api/v1/token": [
+  "sht/access-token/access-token.bft",
+  "sht/envio-destinos-arch/envio-destinos-arch.bft"
+ ],
+ "/api/v2/insurance-authorizations/${property.insuranceAuthorizationSequence}": [
+  "overmind/overmind.bft"
+ ],
+ "/api/v2/insurance-authorizations/${property.insuranceAuthorizationSequence}/procedure-material-code": [
+  "overmind/overmind.bft"
+ ],
+ "/api/v2/insurance-authorizations/external-code/${property[externalCode]}": [
+  "overmind/overmind.bft"
+ ],
+ "/api/v2/insurance-authorizations/pending-authorizations": [
+  "overmind/overmind.bft"
+ ],
+ "/api/vcomct/ctRespEnvio": [
+  "hpms-vcom/hpms-vcom.bft"
+ ],
+ "/api/vcomprosp/prospRespEnvio": [
+  "hpms-vcom/hpms-vcom.bft"
+ ],
+ "/api/video-meeting/getRooms": [
+  "my-companion/telehealth-import-files.bft"
+ ],
+ "/api/video-meeting/getTeleconsultationData": [
+  "my-companion/telehealth-send-terms-of-use.bft",
+  "my-companion/telehealth-update-terms-of-use.bft"
+ ],
+ "/api/video-meeting/saveMessage": [
+  "my-companion/telehealth-import-files.bft"
+ ],
+ "/api/video-meeting/updateAcceptances": [
+  "my-companion/telehealth-update-terms-of-use.bft"
+ ],
+ "/api/wms/save-logs": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/wms/token": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "/api/wtt-integration/saveInfo": [
+  "radiology/wtt-integration/wtt-Integration.bft"
+ ],
+ "/api/wtt-integration/savePrintReport": [
+  "radiology/wtt-integration/wtt-Integration.bft"
+ ],
+ "/apiman-gateway/saude/api/1.1/gerint/internacoes/permutar": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "/apiman-gateway/saude/api/1.1/gerint/leitos/buscaGrupoLeitos": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "/apiman-gateway/saude/api/1.1/gerint/solicitacoes/buscaSolicitacoesPaciente": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "/apiman-gateway/saude/api/1.1/gerint/solicitacoes/encerramento": [
+  "ADT/GERINT/philips-tie-GERINT.bft"
+ ],
+ "/apiman-gateway/saude/api/1.1/gerint/solicitacoes/validaNumeroCerih/": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "10.125.0.133:50002/api/omint1/auth": [
+  "invoice/invoice-send-conditional.bft"
+ ],
+ "10.125.0.133:50002/api/omint1/receive/invoice": [
+  "invoice/invoice-send-conditional.bft"
+ ],
+ "10.125.0.133:50003/api/omint2/auth": [
+  "invoice/invoice-send-conditional.bft"
+ ],
+ "10.125.0.133:50003/api/omint2/receive/invoice": [
+  "invoice/invoice-send-conditional.bft"
+ ],
+ "am-trasv-apm-dev.azure-api.net/rips/api/FevRips/LoadFevRipsAsync": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "am-trasv-apm-dev.azure-api.net/rips/api/user/Authenticate": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "api-hml.gndi.com.br/ts-tasy/v1/api/Gerenciador.Integracao.Tasy.Api/api/programa-gestao/cadastrar-beneficiario-programa-gestao": [
+  "hdm/hdm/hdm.bft"
+ ],
+ "api-hom.procempa.com.br/apiman-gateway/saude/api/1.1/gerpac": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "api-hom.procempa.com.br/apiman-gateway/saude/api/1.1/gerpac/": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "api-hom.procempa.com.br/apiman-gateway/saude/api/1.1/gerpac/execucoes": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "api-hom.procempa.com.br/apiman-gateway/saude/api/1.1/gerpac/solicitacoes/medAntiNeoplasicos": [
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "api.itau.com.br/sandbox/api/oauth/token": [
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "ehr-services.hmg.saude.gov.br/api/fhir/r4/Bundle": [
+  "datasus/datasus.bft"
+ ],
+ "emr-homolog.nexodata.com.br/api/auth/validacao": [
+  "NexoData/philips-tie-NexoData.bft"
+ ],
+ "fleni.example.com/api/v1/autentification": [
+  "res-fleni/philips-tie-RES - FLENI.bft"
+ ],
+ "fleni.example.com/api/v1/sistemaExterno/": [
+  "res-fleni/philips-tie-RES - FLENI.bft"
+ ],
+ "gateway-hml.unimed.coop.br/vcom/api/cadastro": [
+  "hpms-vcom/hpms-vcom.bft"
+ ],
+ "giuapihml.unimed.coop.br/api/token": [
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "hml.api-ml.rededor.corp/prescricao-mevo-prxy-eapi/v1/api/auth/validacao": [
+  "NexoData/RedeDor/Artefato DBEXA_DLB_PHILIPS_02062023_COMPLETO_2.bft"
+ ],
+ "http4://open-api-url-example.com/api/laboratory-exams/worklist": [
+  "standard-lab-integration-OpenAPI/philips-tie-Standard Lab Integration (OpenAPI).bft"
+ ],
+ "http://prefsorriso-mt.agilicloud.com.br/api/CancelarNfse": [
+  "invoice/invoice-rondonopolis-mt.bft"
+ ],
+ "http://prefsorriso-mt.agilicloud.com.br/api/ConsultarLoteRps": [
+  "invoice/invoice-rondonopolis-mt.bft"
+ ],
+ "https4://test.5.rsp.humanservices.gov.au/piaweb/api/b2b/v1/devices": [
+  "ANZ/AUS/eclipse/proda.bft"
+ ],
+ "https4://test.5.rsp.humanservices.gov.au/piaweb/api/b2b/v1/orgs": [
+  "ANZ/AUS/eclipse/proda.bft"
+ ],
+ "https://governadorvaladares-mg.issintegra.com.br/webservices/abrasf/api/CancelarNfse": [
+  "invoice/invoice-governador-valadares-mg.bft"
+ ],
+ "https://governadorvaladares-mg.issintegra.com.br/webservices/abrasf/api/ConsultarLoteRps": [
+  "invoice/invoice-governador-valadares-mg.bft"
+ ],
+ "https://governadorvaladares-mg.issintegra.com.br/webservices/abrasf/api/RecepcionarLoteRps": [
+  "invoice/invoice-governador-valadares-mg.bft"
+ ],
+ "https://governadorvaladares-mg.treino-issintegra.com.br/webservices/abrasf/api/CancelarNfse": [
+  "invoice/invoice-governador-valadares-mg.bft"
+ ],
+ "https://governadorvaladares-mg.treino-issintegra.com.br/webservices/abrasf/api/ConsultarLoteRps": [
+  "invoice/invoice-governador-valadares-mg.bft"
+ ],
+ "https://governadorvaladares-mg.treino-issintegra.com.br/webservices/abrasf/api/RecepcionarLoteRps": [
+  "invoice/invoice-governador-valadares-mg.bft"
+ ],
+ "https://sandbox.banregio.com/api/v1": [
+  "api-electronicpayment/api.electronicpayment.bft"
+ ],
+ "nfps-e-hml.pmf.sc.gov.br/api/v1/autenticacao/oauth/token": [
+  "invoice/invoice-florianopolis-sc.bft"
+ ],
+ "nfps-e-hml.pmf.sc.gov.br/api/v1/cancelamento/notas/cancela": [
+  "invoice/invoice-florianopolis-sc.bft"
+ ],
+ "nfps-e-hml.pmf.sc.gov.br/api/v1/processamento/notas/processa": [
+  "invoice/invoice-florianopolis-sc.bft"
+ ],
+ "nfps-e.pmf.sc.gov.br/api/v1/autenticacao/oauth/token": [
+  "invoice/invoice-florianopolis-sc.bft"
+ ],
+ "nfps-e.pmf.sc.gov.br/api/v1/cancelamento/notas/cancela": [
+  "invoice/invoice-florianopolis-sc.bft"
+ ],
+ "nfps-e.pmf.sc.gov.br/api/v1/processamento/notas/processa": [
+  "invoice/invoice-florianopolis-sc.bft"
+ ],
+ "nfse.rondonopolis.mt.gov.br/api/GerarNfse": [
+  "invoice/invoice-rondonopolis-mt.bft"
+ ],
+ "novacmbhe.unimed.coop.br/api/v1/download": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft"
+ ],
+ "novacmbhe.unimed.coop.br/api/v1/transacao/": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft"
+ ],
+ "novacmbhe.unimed.coop.br/api/v1/transacao/caixaentrada": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft"
+ ],
+ "prefsorriso-mt.agilicloud.com.br/api/CancelarNfse": [
+  "invoice/tax-reform/invoice-nfse-sorriso-mt-rtn.bft"
+ ],
+ "prefsorriso-mt.agilicloud.com.br/api/GerarNfse?homologacao=true": [
+  "invoice/tax-reform/invoice-nfse-sorriso-mt-rtn.bft"
+ ],
+ "preifacturaorquestadorwin.azurewebsites.net/api/procesarDocumento": [
+  "invoice/invoice-colombia.bft"
+ ],
+ "public/api/toBnu": [
+  "boleta/philips-tie-boletaIntegration.bft"
+ ],
+ "realm.mongodb.com/api/client/v2.0/app/ripslink-rxjjx/auth/providers/custom-function/login": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "resources/api/pix/webhook": [
+  "pix/flows.bft",
+  "pix/pix.bft"
+ ],
+ "ripsvalidacion-pre.azurewebsites.net/api/User/Authenticate": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "servicoshml.unimedbh.com.br/sdc/api/v1/dados-clinicos/elegibilidade-oncologia": [
+  "new-remuneration-model/philips-tie.bft"
+ ],
+ "shtnovo/api/servicos/envio/receptorTransfusao": [
+  "sht/envio-destinos-arch/envio-destinos-arch.bft"
+ ],
+ "tolife-api-analyticsbi/api/pattern-data/leito": [
+  "ADT/ToLife/philips-tie-ToLife.bft"
+ ],
+ "ts-tasy/v1/api/Gerenciador.Integracao.Tasy.Api/api/programa-gestao/integracoes-beneficiario-indicado": [
+  "beneficiary/philips-tie-beneficiary.bft"
+ ],
+ "ts/v1/api/Gerenciador.Integracao.Tasy.Api/api/integracoes-beneficiarios/notre-life/inclusoes": [
+  "intermedica-beneficiary/philips-tie-Intermedica Beneficiary.bft"
+ ]
+}

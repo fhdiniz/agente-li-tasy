@@ -1,0 +1,3837 @@
+{
+ "API Schedule (REST)": [
+  "api-schedules/API Schedule (REST) Export.bft",
+  "api-schedules/API Schedule (REST).bft",
+  "api-schedules/Schedule.bft"
+ ],
+ "API URA Avaya": [
+  "ura-avaya/ura-avaya.bft"
+ ],
+ "API Web Suite User": [
+  "web-suite-user/web-suite-user.bft"
+ ],
+ "Audio/Video - End Call": [
+  "telehealth-icca/5.00.1818/video/end-call/event_end_call.bft",
+  "telehealth-icca/5.00.1818/video/end-call/video_end_call.bft",
+  "telehealth-icca/5.02.1833/video/end-call/event_end_call.bft",
+  "telehealth-icca/5.02.1833/video/end-call/video_end_call.bft",
+  "telehealth-icca/dev/video/end-call/event_end_call.bft",
+  "telehealth-icca/dev/video/end-call/video_end_call.bft"
+ ],
+ "Audio/Video - Start Call": [
+  "telehealth-icca/5.00.1818/video/start-call/event_start_call.bft",
+  "telehealth-icca/5.00.1818/video/start-call/video_start_call.bft",
+  "telehealth-icca/5.02.1833/video/start-call/event_start_call.bft",
+  "telehealth-icca/5.02.1833/video/start-call/video_start_call.bft",
+  "telehealth-icca/dev/video/start-call/event_start_call.bft",
+  "telehealth-icca/dev/video/start-call/video_start_call.bft"
+ ],
+ "Blackboard_Admission_Diagnosis": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Cancel_Flowsheet": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Cancel_Ventilation_Status": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Continuous_Infusion": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_ICU_Outbound": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Lab_Result": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Medical_Order": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Medical_Order_Cancel": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Microbiology": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Patient_Admission": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Patient_Limits": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Patient_Ventilation": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Perda_Urina": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Respiratory_Vitals_Aperiodic": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Sedation_Holiday": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Sepsis_Sofa_Baseline": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Vitals_Aperiodic": [
+  "blackboard/blackboard.bft"
+ ],
+ "Blackboard_Vitals_Periodic": [
+  "blackboard/blackboard.bft"
+ ],
+ "CmbApiBearer": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiDownload": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiFileToken": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiHistory": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiInbox": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiLinkGed": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiTag": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiUploadFile": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiValidationErrors": [
+  "hpms-cmb-integration/hpms-cmb-integration.bft",
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "CmbApiVersions": [
+  "nova-cmb/philips-tie-CMB Central de Movimentações Batch.bft"
+ ],
+ "EPIMED_SEND_LAB_DATA": [
+  "ADT/epimed/epimed.bft",
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft",
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "Fleury_receiveExamsSuspension_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft",
+  "purchase-quotation/purchase-quotation.bft"
+ ],
+ "Fleury_receiveResultsExams_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "Fleury_requestContingency_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "Fleury_sendExamsSuspension_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "Fleury_sendTokenContingencyEvent": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "GetRESBear": [
+  "RES cspar/RES - Registro Eletrônico de Saúde CSPAR.bft",
+  "fresenius/NephroSys_Fresenius.bft",
+  "patient-information/RES-CSPAR/RES-RegistroEletronicoSaudeCSPAR.bft"
+ ],
+ "GetRESData": [
+  "RES cspar/RES - Registro Eletrônico de Saúde CSPAR.bft",
+  "patient-information/RES-CSPAR/RES-RegistroEletronicoSaudeCSPAR.bft"
+ ],
+ "GetRESMedicianToken": [
+  "RES cspar/RES - Registro Eletrônico de Saúde CSPAR.bft",
+  "fresenius/NephroSys_Fresenius.bft",
+  "patient-information/RES-CSPAR/RES-RegistroEletronicoSaudeCSPAR.bft"
+ ],
+ "HIService.HPIIRevalidation": [
+  "ANZ/AUS/HI/HI-tie.bft"
+ ],
+ "HIService.IHIRevalidation": [
+  "ANZ/AUS/HI/HI-tie.bft"
+ ],
+ "ICCA_GE_vitalsigns.result": [
+  "ADT/CARESCAPE - GE/philips-tie-Carescape - GE.bft"
+ ],
+ "ICCA_SendPatientData_A01": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice_nfse_palmas_to_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_aracaju_se_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_blumenau_rtn.bft"
+ ],
+ "ICCA_VitalSign_TrendUpload": [
+  "trend-upload/trend-upload.bft"
+ ],
+ "ISPM_ReceiveTreatmentPlan": [
+  "ispm/patient-all/patient-all.bft",
+  "ispm/patient-info/patient-info.bft"
+ ],
+ "ISPM_SendPatientData_A01": [
+  "ispm/complete-integration/ispm-integration.bft",
+  "ispm/patient-all/patient-all.bft"
+ ],
+ "ISPM_SendPatientData_A08": [
+  "ispm/complete-integration/ispm-integration.bft",
+  "ispm/patient-all/patient-all.bft",
+  "ispm/patient-data/patient-data.bft"
+ ],
+ "ISPM_receiveSummaryReportOfProtocol": [
+  "ispm/complete-integration/ispm-integration.bft"
+ ],
+ "InfusionPump.Delivery.ORU_R01": [
+  "telehealth-icca/5.00.1818/infusion-pump/interface/ORU_R01/event_infusion_pump.bft",
+  "telehealth-icca/5.00.1818/infusion-pump/interface/ORU_R01/infusion_pump.bft",
+  "telehealth-icca/5.02.1833/infusion-pump/interface/ORU_R01/event_infusion_pump.bft",
+  "telehealth-icca/5.02.1833/infusion-pump/interface/ORU_R01/infusion_pump.bft",
+  "telehealth-icca/dev/infusion-pump/interface/ORU_R01/event_infusion_pump.bft",
+  "telehealth-icca/dev/infusion-pump/interface/ORU_R01/infusion_pump.bft"
+ ],
+ "Integracao_SHT_envioDestinos_arch": [
+  "sht/envio-destinos-arch/envio-destinos-arch.bft"
+ ],
+ "Mindray - Demographics": [
+  "ADT/Mindray - Demographics/philips-tie-Mindray - Demographics (1).bft"
+ ],
+ "OMB.O27": [
+  "hemoterapy-blood/hemoterapy-blood-bank.bft"
+ ],
+ "PFCS.appointment.event": [
+  "surgical-center/PFCS/philips-tie-PFCS.surgicalCenter.bft"
+ ],
+ "PFCS.code.status.event": [
+  "ADT/PFCS/PFCS_FLAGS_CODE.bft",
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.company.establishment.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.company.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.coverage.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft",
+  "ADT/PFCS/philips-tie-PFCS.coverage.bft"
+ ],
+ "PFCS.device.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.encounter.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.establishment.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.location.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.medicationRequest.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft",
+  "pfcs/medical-request/philips-tie-PFCS.MediRequest.CPOE.bft"
+ ],
+ "PFCS.patient.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.practitioner.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.procedure.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.schedule.event": [
+  "surgical-center/PFCS/philips-tie-PFCS.surgicalCenter.bft"
+ ],
+ "PFCS.service.request.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.slot.event": [
+  "surgical-center/PFCS/philips-tie-PFCS.surgicalCenter.bft"
+ ],
+ "PFCS.special.request.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.surgicalProcedure.event": [
+  "surgical-center/PFCS/philips-tie-PFCS.surgicalCenter.bft"
+ ],
+ "PFCS.surgicalTask.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft",
+  "surgical-center/PFCS/philips-tie-PFCS.surgicalCenter.bft"
+ ],
+ "PFCS.task.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS.vital.signs.event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "PFCS_Blackboard_Patient_Admission": [
+  "blackboard/blackboard.bft"
+ ],
+ "Patient.Registration.Falcon": [
+  "falcon/inbound/PatientAdmissionFalcon.bft"
+ ],
+ "PhilipsFaceVerification": [
+  "hpms-philips-face-verification/hpms-philips-face-verification.bft"
+ ],
+ "Product Documentation - Verification Test Case GET": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "Product Documentation - Verification Test Case POST": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "Product Documentation - Verification Test Case PUT": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "Product Documentation - Verification Test Plan": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "Product Documentation - Verification Test Result": [
+  "product-documentation-emr/product-documentation-emr.bft"
+ ],
+ "ProductDocumentation.PRS.INSERT": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "ProductDocumentation.PRS.UPDATE": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "ProductDocumentation.TC.INSERT": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "ProductDocumentation.TC.UPDATE": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "ProductDocumentation.URS.INSERT": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "ProductDocumentation.URS.UPDATE": [
+  "product-documentation-azure/product-documentation-azuredevops.bft"
+ ],
+ "ReceiveClinicalNotes": [
+  "ispm/patient-clinical-notes/patient-clinical-notes.bft"
+ ],
+ "Schedule.Ticket.Cancellation": [
+  "boleta/philips-tie-boletaIntegration.bft"
+ ],
+ "Servicio de Renta - account.patient": [
+  "servicio-renta/TecSalud - Servicio de Renta.bft"
+ ],
+ "Servicio de Renta - encounter.sector": [
+  "servicio-renta/TecSalud - Servicio de Renta.bft"
+ ],
+ "Surgery.Ticket.Update": [
+  "boleta/philips-tie-boletaIntegration.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Autorização - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Autorizações - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Boleto PDF - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - IRPF - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - IRPF Ano Base - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - IRPF PDF - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Ouvidoria - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Ouvidoria Tipo solicitação": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Prot Detalhe - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Prot Service - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Protocolo Status - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API Beneficiário - Titulos - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API TOTEM - Anos e Meses": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API TOTEM - Autenticacao - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API TOTEM - Auxilio Saude - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API TOTEM - Lista de Boletos - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API TOTEM - Meses e Anos - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "Unimed Brasil - API TOTEM - Simulação Juros e multa - Event": [
+  "hpms-unimed-brasil-app/hpms-unimed-brasil-beneficiary-app.bft"
+ ],
+ "VARIAN_authorizeOrReleaseTreatment": [
+  "varian/authorize-or-release-treatment-adt-a01/authorize-or-release-treatment-adt-a01.bft",
+  "varian/complete-integration/aria-varian-radiotherapy.bft"
+ ],
+ "VARIAN_radiotherapyData": [
+  "varian/complete-integration/aria-varian-radiotherapy.bft",
+  "varian/receive-treatment/receive-treatment.bft"
+ ],
+ "VARIAN_receiveDocumentRadioteraphy": [
+  "natural-person/natural-person/natural-person.bft",
+  "varian/complete-integration/aria-varian-radiotherapy.bft",
+  "varian/receive-document-radioteraphy/receive-document-radioteraphy.bft"
+ ],
+ "VARIAN_receiveScheduleRadioteraphy": [
+  "varian/complete-integration/aria-varian-radiotherapy.bft",
+  "varian/receive-schedule-radioteraphy/receive-schedule-radioteraphy.bft"
+ ],
+ "VARIAN_registerPatientArrival": [
+  "varian/complete-integration/aria-varian-radiotherapy.bft",
+  "varian/register-patient-arrival/register-patient-arrival.bft"
+ ],
+ "VARIAN_sendDocumentRadiotherapy": [
+  "varian/authorize-or-release-treatment-mdm-t02/authorize-or-release-treatment-mdm-t02.bft",
+  "varian/complete-integration/aria-varian-radiotherapy.bft"
+ ],
+ "VAdt_01": [
+  "varian/patient-record/patient-record.bft"
+ ],
+ "a100.add.beneficiaries": [
+  "hpms-ptu-a100/hpms-ptu-a100.bft"
+ ],
+ "accountbatch.event": [
+  "account-batch/philips-tie-Account Batch.bft"
+ ],
+ "accountpayable.request": [
+  "account-payable/philips-tie-Account Payable.bft"
+ ],
+ "accountpayable.request.new": [
+  "account-payable/philips-tie-Account Payable.bft"
+ ],
+ "accountreceivable.get.request": [
+  "account-receivable/philips-tie-Account Receivable.bft",
+  "financial/account-receivable/financial-account-receivable.bft"
+ ],
+ "addmaterial.send": [
+  "WMS Senior/philips-tie-WMS Senior.bft",
+  "material/material-insert-send/material_insert_send.bft"
+ ],
+ "advancepaid.event": [
+  "advance-paid/philips-tie-Advance Paid.bft"
+ ],
+ "advancepaidreturn.event": [
+  "advance-paid-return/philips-tie-Advance Paid Return.bft"
+ ],
+ "allergy.information.update": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A60/adt_a60.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A60/event_adt_a60.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A60/adt_a60.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A60/event_adt_a60.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A60/adt_a60.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A60/event_adt_a60.bft"
+ ],
+ "allergy.intolerance.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "anesthesiaChart.addMaterial": [
+  "anesthesia-chart-drug-interaction/anesthesia-chart-drug-interaction.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft"
+ ],
+ "anesthesiaChart.drugInteration": [
+  "anesthesia-chart-drug-interaction/anesthesia-chart-drug-interaction.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft"
+ ],
+ "anmat.file.send": [
+  "anmat/anmat.bft",
+  "anmat/anmatFileSend/anmatFileSend.bft"
+ ],
+ "anmat.transaction.event": [
+  "anmat/getTransaction/anmat.get.transactions.bft"
+ ],
+ "anmat.transaction.medical.product.event": [
+  "anmat/getTransaction/anmat.get.transactions.bft"
+ ],
+ "anmat.unconfirmed.transaction.event": [
+  "anmat/getTransaction/anmat.get.transactions.bft"
+ ],
+ "api.alberteinstein.naturalpersondocumentation.request": [
+  "natural-person/natural-person-albert-einstein/Albert Einstein - Natural Person.bft"
+ ],
+ "api.anmat.cancel.transaction": [
+  "anmat/getCancelTransaction/getCancelTransactions.bft"
+ ],
+ "api.auditoria.cobranca.envio.delphi.event": [
+  "hpms-ptu/hpms-ptu-auditoria-cobranca.bft"
+ ],
+ "api.auditoria.cobranca.recebimento.delphi.event": [
+  "hpms-ptu/hpms-ptu-auditoria-cobranca.bft"
+ ],
+ "api.auditoriaCobranca.envio.event": [
+  "hpms-ptu/hpms-ptu-auditoria-cobranca.bft"
+ ],
+ "api.bankinvoicerecord.sign": [
+  "bank-invoice-record/bank-inoice-record.bft"
+ ],
+ "api.bed.control": [
+  "bed-control/philips-tie-bedcontrol.bft"
+ ],
+ "api.cancel.schedule.fleni": [
+  "fleni/API cancel schedule FLENI.bft"
+ ],
+ "api.contingency.request": [
+  "patient-information/H2TC/H2TC-TIE.bft"
+ ],
+ "api.copago": [
+  "billing/copago/copago.bft"
+ ],
+ "api.costcenter.request": [
+  "cost-center/philips-tie-cost-center.bft"
+ ],
+ "api.cross": [
+  "ADT/CROSS/philips-tie-Cross agendamentos.bft",
+  "cross/cross.bft"
+ ],
+ "api.dischargesummary": [
+  "patient-information/PEP-Items/philips-tie-Discharge Summary - [Medical Records].bft"
+ ],
+ "api.electronicpayment.cancelbilling": [
+  "api-electronicpayment/api.electronicpayment.bft"
+ ],
+ "api.electronicpayment.healthcheck": [
+  "api-electronicpayment/api.electronicpayment.bft"
+ ],
+ "api.electronicpayment.refundbilling": [
+  "api-electronicpayment/api.electronicpayment.bft"
+ ],
+ "api.encounterPatient": [
+  "ADT/KIOSKOS/philips-tie-KIOSKOS (1).bft",
+  "ADT/OMINT/philips-tie-Encounter API.bft"
+ ],
+ "api.establishments.request": [
+  "consultation-schedule/consultation-schedule.bft",
+  "establishment/establishment.bft"
+ ],
+ "api.fatura.pre.pagamento.event": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "api.fatura.pre.pagamento.receber.backend.event": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "api.fatura.pre.pagamento.receber.event": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "api.fatura.prepagamento.login.event": [
+  "hpms-ptu/hpms-ptu-fatura-pre-pagamento.bft"
+ ],
+ "api.forponto": [
+  "ADT/Catraca/philips-tie-Catraca.bft"
+ ],
+ "api.hdm.request": [
+  "hdm/hdm/hdm.bft"
+ ],
+ "api.inbound.cancel.appointment": [
+  "cancel-appointment/philips-tie-optimos.bft"
+ ],
+ "api.inbound.create.appointment": [
+  "create-appointment/create-appointment.bft"
+ ],
+ "api.inbound.send.protocol.history": [
+  "send-protocol/send-protocol.bft"
+ ],
+ "api.inbound.sms.infobip": [
+  "sms/sms-infobip.bft"
+ ],
+ "api.insurance-denials.event": [
+  "insurance-denials/philips-tie-insurance-denials.bft"
+ ],
+ "api.insurance-rule.request": [
+  "insurance-price-rules/philips-tie-API - PROCEDURE PLAN RULE.bft"
+ ],
+ "api.insurance-taxes.event": [
+  "insurance-denials/philips-tie-insurance-denials.bft"
+ ],
+ "api.insurance.authorization": [
+  "insurance-authorization/philips-tie-Insurance_Authorization.bft"
+ ],
+ "api.insurances.request": [
+  "api-Insurance/api-Insurance.bft",
+  "consultation-schedule/consultation-schedule.bft"
+ ],
+ "api.integracao.cadbenef.consult.benef.event": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "api.integracao.cadbenef.dados.contrato.event": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "api.integracao.cadbenef.event": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "api.integracao.cadbenef.reproc.benef.event": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "api.integracao.cadbenef.reproc.event": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "api.integracao.cadbenef.request.event": [
+  "hpms-cadbenef/hpms-cadbenef.bft"
+ ],
+ "api.integracao.servprotpagos.consult.protpagos.event": [
+  "hpms-paid-protocols/hpms-paid-protocols.bft"
+ ],
+ "api.integracao.servprotpagos.detail.event": [
+  "hpms-paid-protocols/hpms-paid-protocols.bft"
+ ],
+ "api.integracao.vcomct.event": [
+  "hpms-vcom/hpms-vcom.bft"
+ ],
+ "api.integracao.vcomprospect.event": [
+  "hpms-vcom/hpms-vcom.bft"
+ ],
+ "api.internal.procedure.request": [
+  "consultation-schedule/consultation-schedule.bft"
+ ],
+ "api.invoice.printing": [
+  "api-invoice-printing/philips-tie-api-invoice-printing.bft"
+ ],
+ "api.invoice.request": [
+  "invoice/standard-invoice.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn-open-api.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn.bft"
+ ],
+ "api.legalentity.get.request": [
+  "legal-entity/legal-entity-abc.bft",
+  "legal-entity/legal-entity.bft"
+ ],
+ "api.legalentity.post.request": [
+  "legal-entity/legal-entity-abc.bft",
+  "legal-entity/legal-entity.bft"
+ ],
+ "api.legalentity.put.request": [
+  "legal-entity/legal-entity-abc.bft",
+  "legal-entity/legal-entity.bft",
+  "pacs-abc/PACS ABC.bft"
+ ],
+ "api.medical.specialties.request": [
+  "consultation-schedule/consultation-schedule.bft"
+ ],
+ "api.mipres.com.receive.datosprescripcion": [
+  "mipres/api-mipres-com-receive.bft"
+ ],
+ "api.mipres.com.receive.facturacion": [
+  "mipres/api-mipres-com-receive.bft"
+ ],
+ "api.mipres.com.receive.suministro": [
+  "mipres/api-mipres-com-receive.bft"
+ ],
+ "api.mipres.put.dispensation": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "api.mipres.put.facturacionnopbs": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "api.natural-person.merged-duplicity": [
+  "natural-person/merged-duplicity/merged-duplicity.bft"
+ ],
+ "api.natural-person.request": [
+  "ADT/Natural Person/philips-tie-Natural Person Export.bft",
+  "natural-person/natural-person-albert-einstein/Albert Einstein - Natural Person.bft"
+ ],
+ "api.naturalPerson.request": [
+  "api-natural-person/api-natural-person.bft"
+ ],
+ "api.nexodata.cancel.prescription": [
+  "NexoData/philips-tie-NexoData - Swing.bft"
+ ],
+ "api.nexodata.update.prescription": [
+  "NexoData/philips-tie-NexoData - Swing.bft"
+ ],
+ "api.payment.transfer.third.party": [
+  "third-party/philips-tie-api-payment-transfer-third-party.bft"
+ ],
+ "api.pf_codigo_externo.send": [
+  "natural-person/natural-person/Tecsalud-send_Receive_Natural_Person_Data_And_Complement.bft"
+ ],
+ "api.physicianRegistration.request": [
+  "api-physician-registration/api-physician-registration.bft"
+ ],
+ "api.pix.payment.receive.callback": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "api.receive.invoice.colombia": [
+  "invoice/invoice-colombia.bft"
+ ],
+ "api.request.schedules": [
+  "consultation-schedule/consultation-schedule.bft"
+ ],
+ "api.schedule.request": [
+  "api-schedules/Schedule.bft"
+ ],
+ "api.send.cancel.insurance.authorization": [
+  "insurance-authorization/philips-tie-Insurance_Authorization.bft"
+ ],
+ "api.send.inspection": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "api.send.insurance.authorization": [
+  "insurance-authorization/philips-tie-Insurance_Authorization.bft"
+ ],
+ "api.send.insurance.authorization.sync": [
+  "insurance-authorization/philips-tie-Insurance_Authorization.bft"
+ ],
+ "api.send.invoice": [
+  "invoice/api-send-invoice.bft"
+ ],
+ "api.send.invoice.colombia": [
+  "invoice/invoice-colombia.bft"
+ ],
+ "api.send.invoice.conditional": [
+  "invoice/invoice-send-conditional.bft"
+ ],
+ "api.send.invoice.notransmission.request": [
+  "invoice/api-send-invoice-notransmission.bft"
+ ],
+ "api.send.sms.infobip": [
+  "sms/sms-infobip.bft"
+ ],
+ "api.siapi.consultar.alta": [
+  "ADT/SIAPI/philips-tie-SIAPI.bft",
+  "ADT/encounter-patient/siapi/philips-tie-siapi.bft"
+ ],
+ "api.siapi.consultar.internacao": [
+  "ADT/SIAPI/philips-tie-SIAPI.bft",
+  "ADT/encounter-patient/siapi/philips-tie-siapi.bft"
+ ],
+ "api.siapi.encaminhar.alta": [
+  "ADT/SIAPI/philips-tie-SIAPI.bft",
+  "ADT/encounter-patient/siapi/philips-tie-siapi.bft"
+ ],
+ "api.siapi.encaminhar.internacao": [
+  "ADT/SIAPI/philips-tie-SIAPI.bft",
+  "ADT/encounter-patient/siapi/philips-tie-siapi.bft"
+ ],
+ "api.siapi.retificar.alta": [
+  "ADT/SIAPI/philips-tie-SIAPI.bft",
+  "ADT/encounter-patient/siapi/philips-tie-siapi.bft"
+ ],
+ "api.siapi.retificar.internacao": [
+  "ADT/SIAPI/philips-tie-SIAPI.bft",
+  "ADT/encounter-patient/siapi/philips-tie-siapi.bft"
+ ],
+ "api.simulation.wint.integration": [
+  "wint/wint-simulacao-tie.bft"
+ ],
+ "api.tasy.cross": [
+  "ADT/CROSS/philips-tie-Cross agendamentos.bft",
+  "cross/cross.bft"
+ ],
+ "api.tiss-protocol-receive.event.post": [
+  "billing/tiss-receiving-protocol/tiss-protocol-receiving.bft"
+ ],
+ "api.tolife.bed": [
+  "ADT/ToLife/philips-tie-ToLife.bft"
+ ],
+ "api.unimedbh.elegibilidade.oncologia": [
+  "new-remuneration-model/philips-tie.bft"
+ ],
+ "api.voice.receiver": [
+  "ADT/VOICEHCS/philips-tie-VOICEHCS.bft"
+ ],
+ "api.wint.integration": [
+  "wint/wint-consulta-tie.bft"
+ ],
+ "api.wipro.checkcoverage": [
+  "wipro/philips-tie-wipro.bft"
+ ],
+ "audamedic.result": [
+  "audamedic/Audamedic - send patient accounts.bft"
+ ],
+ "audamedic.send.patient.accounts": [
+  "audamedic/Audamedic - send patient accounts.bft"
+ ],
+ "automation_nf_rede_dorEvent": [
+  "invoice/invoice-tcell-rededor-automation-protocol.bft"
+ ],
+ "barcode.post.request": [
+  "material/barcode/philips-tie-Barcode (REST).bft"
+ ],
+ "barcode.put.request": [
+  "material/barcode/philips-tie-Barcode (REST).bft"
+ ],
+ "beneficiary": [
+  "beneficiary/philips-tie-beneficiary.bft"
+ ],
+ "billing.apac.gerpac.execucoes": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "billing.apac.gerpac.request": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "billing.apac.gerpac.update": [
+  "billing/gerpac/philips-tie-GERPAC.bft",
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "billing.api.gerpac.findRequest": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "billing.drg.admission": [
+  "drg/drg.bft"
+ ],
+ "billing.drg.admission.put": [
+  "drg/drg.bft"
+ ],
+ "billing.find.quotation.patient.request": [
+  "billing/quotationPatient/quotationPatient.bft"
+ ],
+ "billing.get.request": [
+  "billing/tradimus/tradimus.bft"
+ ],
+ "billing.post.request": [
+  "billing/tradimus/tradimus.bft"
+ ],
+ "billing.quotation.request": [
+  "billing/quotationPatient/quotationPatient.bft"
+ ],
+ "billing.sus.get.apac.executor": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "billing.sus.get.apac.find.anticancer.medicines": [
+  "billing/gerpac/philips-tie-GerpacApac.bft"
+ ],
+ "billing.sus.get.apac.request.patient": [
+  "billing/gerpac/philips-tie-GERPAC.bft"
+ ],
+ "bloodbank.report.result": [
+  "hemoterapy-blood/TecSalud - Banco de Sangre.bft",
+  "hemoterapy-blood/philips-tie-TecSalud - Banco de Sangue.bft"
+ ],
+ "bloodbank.send": [
+  "hemoterapy-blood/TecSalud - Banco de Sangre.bft",
+  "hemoterapy-blood/philips-tie-TecSalud - Banco de Sangue.bft"
+ ],
+ "bloodbank.status.update": [
+  "hemoterapy-blood/TecSalud - Banco de Sangre.bft",
+  "hemoterapy-blood/philips-tie-TecSalud - Banco de Sangue.bft"
+ ],
+ "bloodbank.update": [
+  "hemoterapy-blood/philips-tie-TecSalud - Banco de Sangue.bft"
+ ],
+ "bomba.infusion.receive TecSalud": [
+  "bombas-infusao-tecsalud/philips-tie-TecSalud - Bombas de Infusión.bft"
+ ],
+ "brand.get.request": [
+  "brand/philips-tie-Brand.bft"
+ ],
+ "brand.post.request": [
+  "brand/philips-tie-Brand.bft"
+ ],
+ "brand.put.request": [
+  "brand/philips-tie-Brand.bft"
+ ],
+ "brandtype.get.request": [
+  "brand-type/philips-tie-Brand Type.bft"
+ ],
+ "brandtype.post.request": [
+  "brand-type/philips-tie-Brand Type.bft"
+ ],
+ "brandtype.put.request": [
+  "brand-type/philips-tie-Brand Type.bft"
+ ],
+ "category.per.encounter.type": [
+  "ADT/Business Encounter Rules/philips-tie-Business Encounter Rules - API Encounter.bft",
+  "ADT/OMINT/philips-tie-Business Encounter Rules - API Encounter.bft"
+ ],
+ "changeHistoryView.mhr.mioto": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "chat.login.service.attachment.control.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.attachments.consult.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.create.room.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.download.file.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.lock.unlock.room.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.pendency.control.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.recover.room.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.room.records.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.search.file.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.search.room.pendency.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.search.updates.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.send.file.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chat.login.service.send.message.event": [
+  "chat-interchange/philips-tie-Chat Interchange _v00.bft",
+  "chat-interchange/philips-tie-Chat Interchange _v01.bft",
+  "chat-interchange/philips-tie-Chat Interchange.bft"
+ ],
+ "chatbot_receive_schedule": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "chatbot_send_consult_service_schedule": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "chatbot_send_exam_schedule": [
+  "chatbot/philips-tie-ABC - Chatbot.bft"
+ ],
+ "checkout.event": [
+  "checkout/philips-tie-Checkout.bft"
+ ],
+ "cielo.creditcard.tokenization": [
+  "hpms-cielo-payment/hpms-cielo-payment.bft"
+ ],
+ "clinical.notes.import": [
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T01_T02/clinical_notes_imp.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T01_T02/event_clinical_notes_imp.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/outbound/MDM_T02/outbound_clinical_notes_imp.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/outbound/MDM_T02/outbound_event_clinical_notes_imp.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T01_T02/clinical_notes_imp.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T01_T02/event_clinical_notes_imp.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/outbound/MDM_T02/outbound_event_clinical_notes_imp.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T01_T02/clinical_notes_imp.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T01_T02/event_clinical_notes_imp.bft",
+  "telehealth-icca/dev/clinical-notes/outbound/MDM_T02/outbound_event_clinical_notes_imp.bft"
+ ],
+ "clinical.notes.inactive": [
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T11/clinical_notes_inactive.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T11/event_clinical_notes_inactive.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/outbound/MDM_T11/outbound_clinical_notes_inactive.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/outbound/MDM_T11/outbound_event_clinical_notes_inactive.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T11/clinical_notes_inactive.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T11/event_clinical_notes_inactive.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/outbound/MDM_T11/outbound_event_clinical_notes_inactive.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T11/clinical_notes_inactive.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T11/event_clinical_notes_inactive.bft",
+  "telehealth-icca/dev/clinical-notes/outbound/MDM_T11/outbound_event_clinical_notes_inactive.bft"
+ ],
+ "clinical.notes.release.pacs": [
+  "magsul/philips-tie-Magsul.bft"
+ ],
+ "clinical.notes.update": [
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T08_T10/clinical_notes_up.bft",
+  "telehealth-icca/5.00.1818/clinical-notes/inbound/MDM_T08_T10/event_clinical_notes_up.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T08_T10/clinical_notes_up.bft",
+  "telehealth-icca/5.02.1833/clinical-notes/inbound/MDM_T08_T10/event_clinical_notes_up.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T08_T10/clinical_notes_up.bft",
+  "telehealth-icca/dev/clinical-notes/inbound/MDM_T08_T10/event_clinical_notes_up.bft"
+ ],
+ "clinicalPatientNotes.delete.request": [
+  "clinical-patient-notes/clinical-patient-notes.bft"
+ ],
+ "clinicalPatientNotes.get.request": [
+  "clinical-patient-notes/clinical-patient-notes.bft"
+ ],
+ "clinicalPatientNotes.post.request": [
+  "clinical-patient-notes/clinical-patient-notes.bft"
+ ],
+ "clinicalPatientNotes.put.request": [
+  "clinical-patient-notes/clinical-patient-notes.bft"
+ ],
+ "clinician.query.request": [
+  "vital-signs/vitalSignWelchAllynConnex/welch-allyn-connex.bft"
+ ],
+ "closeRequestGERINT": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/close-request-gerint/close-request-gerint.bft"
+ ],
+ "cnes.querydata.bed": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.equipment": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.establishment": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.establishment.contact": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.establishment.services": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.professionals": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.registration": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.request.execute": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.singleprofessional": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.singleprofessional.cbo": [
+  "cnes/cnes.bft"
+ ],
+ "cnes.querydata.spr": [
+  "cnes/cnes.bft"
+ ],
+ "cns.querydata": [
+  "cns.querydata/cns.querydata.bft"
+ ],
+ "cobertura.carencia": [
+  "carencia/carencia.bft",
+  "cobertura-carencia/cobertura-carencia.bft"
+ ],
+ "cockpit.document.events": [
+  "cockpit-ged/philips-tie-cockpit document route.bft"
+ ],
+ "companyestablishment.event": [
+  "company-establishment/philips-tie-Company Establishment.bft"
+ ],
+ "companyestablishment.event.send": [
+  "company-establishment/philips-tie-Company Establishment.bft"
+ ],
+ "condition.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "consult.pack": [
+  "hpms-consult-pack/hpms-consult-pack.bft"
+ ],
+ "consultation.schedule.send": [
+  "consultation-schedule/consultation-schedule-IzyDocs.bft"
+ ],
+ "contract.control.add.request": [
+  "contract-control/contract-control.bft"
+ ],
+ "contract.control.get.request": [
+  "contract-control/contract-control.bft"
+ ],
+ "contract.control.send.request": [
+  "contract-control/contract-control.bft"
+ ],
+ "controluser.event": [
+  "control-users/user-control.bft"
+ ],
+ "costcenter.event.send": [
+  "cost-center/philips-tie-cost-center.bft"
+ ],
+ "cpoe.batch.order.request": [
+  "ris-systems/fred/fred.bft"
+ ],
+ "credit.card.payment": [
+  "hpms-cielo-payment/hpms-cielo-payment.bft"
+ ],
+ "creditcardmovement.request": [
+  "credit-card-movement/credit-card-movement.bft",
+  "financial/credit-card-movement/financial-credit-card-movement.bft",
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "creditcardmovement.request_billing_cards": [
+  "credit-card-movement/credit-card-movement.bft",
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "cssd.management.add.request": [
+  "cssd-management/cssd-management.bft",
+  "t-doc/t-doc.bft"
+ ],
+ "cssd.management.add.send.request": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.delete.request": [
+  "cssd-management/cssd-management.bft",
+  "t-doc/t-doc.bft"
+ ],
+ "cssd.management.delete.send.request": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.get.request": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.send.request": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.send.request.attendance": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.send.request.item": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.send.sterilization": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.send.surgery": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "cssd.management.update.request": [
+  "cssd-management/cssd-management.bft",
+  "t-doc/t-doc.bft"
+ ],
+ "cssd.management.update.send.request": [
+  "cssd-management/cssd-management.bft"
+ ],
+ "dce_cancelamento": [
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn.bft",
+  "invoice/tax-reform/sefaz-dce-rtn-open-api.bft",
+  "invoice/tax-reform/sefaz-dce-rtn.bft"
+ ],
+ "dce_envio": [
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn-open-api.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz-dce-rtn.bft",
+  "invoice/tax-reform/sefaz-dce-rtn-open-api.bft",
+  "invoice/tax-reform/sefaz-dce-rtn.bft"
+ ],
+ "debit.card.payment.capture": [
+  "hpms-cielo-payment/hpms-cielo-payment.bft"
+ ],
+ "debit.card.payment.request": [
+  "hpms-cielo-payment/hpms-cielo-payment.bft"
+ ],
+ "debit.card.payment.response": [
+  "hpms-cielo-payment/hpms-cielo-payment.bft"
+ ],
+ "department.update": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "directcontrol.createclient": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.encounter.billing": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.getResponse": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.getreportbbdva": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.getreportihc": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.oec": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.oec.resend": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.private.fund.eligibilitycheck": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.transmitclaim": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.transmitihc.resend": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.transmitpc": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "directcontrol.verifymedicare": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "document.data.export": [
+  "telehealth-icca/5.00.1818/document-export/MDM_T01_T07/outbound_doc_exp.bft",
+  "telehealth-icca/5.00.1818/document-export/MDM_T01_T07/outbound_event_doc_exp.bft",
+  "telehealth-icca/5.02.1833/document-export/MDM_T01_T07/outbound_doc_exp.bft",
+  "telehealth-icca/5.02.1833/document-export/MDM_T01_T07/outbound_event_doc_exp.bft",
+  "telehealth-icca/dev/document-export/MDM_T01_T07/outbound_doc_exp.bft",
+  "telehealth-icca/dev/document-export/MDM_T01_T07/outbound_event_doc_exp.bft"
+ ],
+ "e.service.clinical.note": [
+  "patient-information/RedeCap/REDCap-TIE.bft"
+ ],
+ "e.service.evaluation": [
+  "patient-information/RedeCap/REDCap-TIE.bft"
+ ],
+ "e.service.template": [
+  "patient-information/RedeCap/REDCap-TIE.bft"
+ ],
+ "eclipse.activate.device": [
+  "ANZ/AUS/eclipse/proda.bft"
+ ],
+ "eclipse.dbs.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.dpr.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.dpy.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.dva.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.dvr.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.dvy.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.ihc.claim.request.job": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.ihc.request": [
+  "ANZ/AUS/eclipse/eclipse.bft",
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "eclipse.imc.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.lab.hl7.receive.result": [
+  "eclipse/philips-tie-Eclipse - Laboratorio.bft"
+ ],
+ "eclipse.lab.hl7.send.order": [
+  "eclipse/philips-tie-Eclipse - Laboratorio.bft"
+ ],
+ "eclipse.ocv.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.oec.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.opv.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.ovs.claim.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.ovs.rtv.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.ovs.sts.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.ovv.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.pci.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.refresh.rsa.key": [
+  "ANZ/AUS/eclipse/proda.bft"
+ ],
+ "eclipse.request.access.token": [
+  "ANZ/AUS/eclipse/proda.bft"
+ ],
+ "eclipse.rtv.era.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.rtv.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.sdd.request": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.sts.era.event": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "eclipse.sts.request": [
+  "ANZ/AUS/eclipse/eclipse.bft",
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "ederson": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-maceio-al-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_nfse_palmas_to_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_aracaju_se_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-nfse_envio_blumenau_rtn.bft"
+ ],
+ "electronic.invoice.cancelation.event": [
+  "software-clic/philips-tie-software-clic.bft"
+ ],
+ "electronicPatientDocumentManagement.get.request": [
+  "radiotherapy-management/ged-radiotherapy-management.bft"
+ ],
+ "electronicPatientDocumentManagement.post.request": [
+  "radiotherapy-management/ged-radiotherapy-management.bft"
+ ],
+ "eligibility.send.event": [
+  "eligibility/philips-tie-API Eligibility Send - FLENI.bft",
+  "eligibility/philips-tie-API Envio Elegibilidad OMINT.bft",
+  "eligibility/philips-tie-eligibility-tasy.bft"
+ ],
+ "elsevier.checkfiles.event": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "elsevier.export": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "elsevier.exportcatalog": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "elsevier.getTokenAndIdentifiers.event": [
+  "elsevier/elsevier.bft"
+ ],
+ "elsevier.importcatalog.import.event": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "elsevier.importcatalog.pending.event": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "elsevier.importcatalog.title.event": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "elsevier.importfiles.event": [
+  "elsevier/check-files/care-plan-elsevier.bft"
+ ],
+ "encounter.attachment.release.pacs": [
+  "magsul/philips-tie-Magsul.bft"
+ ],
+ "encounter.information.request": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "encounterRegulationScheduleChangedFastMedic": [
+  "fastmedic/fastmedic.bft"
+ ],
+ "encounterRegulationScheduleImportFastMedic": [
+  "fastmedic/fastmedic.bft"
+ ],
+ "envio.de.la.admision.del.paciente": [
+  "bombas-infusao-tecsalud/philips-tie-TecSalud - Bombas de Infusión.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "establishmentmaterial.added": [
+  "material-establishment/material-establishment.bft"
+ ],
+ "establishmentmaterial.deleted": [
+  "material-establishment/material-establishment.bft",
+  "material/establishment-material-delete-send/establishment_material_delete_send.bft"
+ ],
+ "establishmentmaterial.send": [
+  "material/establishment-material-insert-send/establishment_material_insert_send.bft"
+ ],
+ "establishmentmaterial.updated": [
+  "material-establishment/material-establishment.bft",
+  "material/establishment-material-update-send/establishment_material_update_send.bft"
+ ],
+ "event.digital-signature": [
+  "digital-signature/philips-tie-Digital Signature.bft"
+ ],
+ "event.digital-signature.signers": [
+  "digital-signature/philips-tie-Digital Signature.bft"
+ ],
+ "event.digital-signature.zip": [
+  "digital-signature/philips-tie-Digital Signature.bft"
+ ],
+ "event.digital.signature.log": [
+  "digital-signature/philips-tie-Digital Signature.bft"
+ ],
+ "event.philips.sleepware": [
+  "radiology/sleepware/sleepware.bft"
+ ],
+ "event.radiologyReport": [
+  "radiology/colpox/insert_report.bft"
+ ],
+ "export.laboratory.information.event": [
+  "slinews/philips-tie-SLine - Laboratory.bft"
+ ],
+ "export.report.information.event": [
+  "sline/philips-tie-Sline.bft"
+ ],
+ "externalCostCenter.update.request": [
+  "external-cost-center/external-cost-center.bft"
+ ],
+ "facial-positivity.insured.register": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "facial-positivity.insured.update": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "facial-positivity.provider.register": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "facial-positivity.provider.service-locations": [
+  "hpms-facial-positivity/hpms-facial-positivity.bft"
+ ],
+ "facial.recognition.system.justify": [
+  "facial-recognition-system/biodoc-facial-recognition-system.bft"
+ ],
+ "facial.recognition.system.mainimage": [
+  "facial-recognition-system/biodoc-facial-recognition-system.bft"
+ ],
+ "facial.recognition.system.newimage": [
+  "facial-recognition-system/biodoc-facial-recognition-system.bft"
+ ],
+ "facial.recognition.system.passwithoutimage": [
+  "facial-recognition-system/biodoc-facial-recognition-system.bft"
+ ],
+ "facial.recognition.system.register": [
+  "facial-recognition-system/biodoc-facial-recognition-system.bft"
+ ],
+ "facial.recognition.system.verify": [
+  "facial-recognition-system/biodoc-facial-recognition-system.bft"
+ ],
+ "facialbiometrics.eligibility": [
+  "ADT/BIOMETRICS/philips-tie-Facial Biometrics.bft",
+  "hpms-facial-biometrics/hpms-facial-biometrics.bft"
+ ],
+ "facialbiometrics.login": [
+  "ADT/BIOMETRICS/philips-tie-Facial Biometrics.bft",
+  "hpms-facial-biometrics/hpms-facial-biometrics.bft"
+ ],
+ "facialbiometrics.reset": [
+  "ADT/BIOMETRICS/philips-tie-Facial Biometrics.bft",
+  "hpms-facial-biometrics/hpms-facial-biometrics.bft"
+ ],
+ "factura.timbrado.send": [
+  "factura/philips-tie-Factura Timbrado.bft"
+ ],
+ "fhemig.add.request": [
+  "siad-stock-integration/siad-stock-integration.bft"
+ ],
+ "fhemig.save.file": [
+  "siad-stock-integration/siad-stock-integration.bft"
+ ],
+ "fhemig.send.request": [
+  "siad-stock-integration/siad-stock-integration.bft"
+ ],
+ "financialadvance.request": [
+  "financial/advance/philips-tie-Financial Advance.bft"
+ ],
+ "financialcheck.request": [
+  "financial/check/financial-check.bft"
+ ],
+ "financialtransactionmovement.event": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "financialtransactionmovement.request": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "financialtransactionmovement.request.new": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft",
+  "financial/transaction-movement/post-artifacts.bft"
+ ],
+ "fleury_integration_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft",
+  "purchase-quotation/purchase-quotation.bft"
+ ],
+ "fleury_labelContingency_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "fleury_receiveSyncExamMaterial_event": [
+  "fleury-integration/philips-tie-Fleury - Laboratório.bft"
+ ],
+ "forponto.send.request": [
+  "ADT/Catraca/philips-tie-Catraca.bft"
+ ],
+ "generate.pacs.access_token": [
+  "radiology/token/generate_pacs_token.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "generate.token": [
+  "CADSUS/philips-tie-CADSUS REST.bft"
+ ],
+ "generic.recieve.files": [
+  "generic-storage-files/Generic Storage Files.bft"
+ ],
+ "gerar.protocolo": [
+  "gerar-protocolo/gerar-protocolo.bft"
+ ],
+ "gerint": [
+  "ADT/GERINT/philips-tie-GERINT.bft"
+ ],
+ "gerintHospitalizationExchange": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "get.fleni.res.url": [
+  "res-fleni/philips-tie-RES - FLENI.bft"
+ ],
+ "get.storage.file": [
+  "generic-storage-files/Generic Storage Files.bft"
+ ],
+ "getAccesTokenPowerBi": [
+  "unitarization/unitarization.bft"
+ ],
+ "getPathologyResultsEvent": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "getPathologyResultsPdfSerialEvent": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "getPathologySuspensionEvent": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "get_status_cfdi": [
+  "cfdi/cfdi_sat_mx.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_send_flow_mexico_mx.bft"
+ ],
+ "gpu.answer.service.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.answer.service.no.client.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.answer.service.no.client.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.answer.service.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.cancel.service.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.cancel.service.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.complementary.service.protocol.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.complementary.service.protocol.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.consult.protocol.history.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.consult.protocol.history.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.consult.protocol.status.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.consult.protocol.status.no.client.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.consult.protocol.status.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.forward.execution.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.forward.execution.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.receiver.file.event": [
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.request.service.protocol.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.request.service.protocol.no.client.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.request.service.protocol.req.event": [
+  "gpu/Old/philips-tie-GPU – Unimed Protocol Management.bft",
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gpu.send.file.event": [
+  "gpu/philips-tie-GPU – Unimed Protocol Management.bft"
+ ],
+ "gravar.agendamento": [
+  "gravar-gendamento/gravar-gendamento.bft"
+ ],
+ "gravar.protocolo": [
+  "gravar-atendimento/gravar-atendimento.bft"
+ ],
+ "habits.addictions": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "health.Insurance.revoke.term.insured": [
+  "hpms-health-insurance-terms-insured/hpms-health-insurance-terms-insured.bft"
+ ],
+ "health.insurance.terms.insured": [
+  "hpms-health-insurance-terms-insured/hpms-health-insurance-terms-insured.bft"
+ ],
+ "health.insurance.token": [
+  "hpms-health-insurance-token/hpms-health-insurance-token.bft"
+ ],
+ "health.plan.search": [
+  "hpms-health-plan/hpms-health-plan.bft"
+ ],
+ "health.provider.get.participants": [
+  "ANZ/AUS/eclipse/eclipse.bft"
+ ],
+ "health.provider.request": [
+  "hpms-provider/hpms-provider.bft"
+ ],
+ "health.usageextract.request": [
+  "hpms-usage-extract/hpms-usage-extract.bft"
+ ],
+ "hemotherapy.cancel": [
+  "hemoterapy-blood/philips-tie-Hemotherapy.bft",
+  "hemoterapy-blood/tie-Hemotherapy-ABC.bft",
+  "hemoterapy-blood/tie-Hemotherapy-Teleton.bft"
+ ],
+ "hemotherapy.result": [
+  "hemoterapy-blood/philips-tie-Hemotherapy.bft",
+  "hemoterapy-blood/tie-Hemotherapy-ABC.bft",
+  "hemoterapy-blood/tie-Hemotherapy-Teleton.bft"
+ ],
+ "hemotherapy.send": [
+  "hemoterapy-blood/philips-tie-Hemotherapy.bft",
+  "hemoterapy-blood/tie-Hemotherapy-ABC.bft",
+  "hemoterapy-blood/tie-Hemotherapy-Teleton.bft"
+ ],
+ "hl7.default.pacs.register": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "hl7.default.pacs.update.procedure": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "hl7.default.pacs.update.report": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "hl7.default.pacs.update.status": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "hl7.default.schedule.update.status": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "inbound.inventory.default.event": [
+  "inventory/inventory-mac/inventory-mac.bft",
+  "inventory/inventory.bft"
+ ],
+ "inbound.order.ORM_O01": [
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/dev/order-import/order_import.bft"
+ ],
+ "inbound.order.RAS_O17": [
+  "telehealth-icca/5.00.1818/order-import/order_import.bft",
+  "telehealth-icca/5.02.1833/order-import/order_import.bft",
+  "telehealth-icca/dev/order-import/order_import.bft"
+ ],
+ "infusion.pump.disconnect.schedule": [
+  "telehealth-icca/5.00.1818/infusion-pump/interface-disconnect/event_infusion_pump_disconnect.bft",
+  "telehealth-icca/5.00.1818/infusion-pump/interface-disconnect/infusion_pump_disconnect.bft",
+  "telehealth-icca/5.02.1833/infusion-pump/interface-disconnect/event_infusion_pump_disconnect.bft",
+  "telehealth-icca/5.02.1833/infusion-pump/interface-disconnect/infusion_pump_disconnect.bft",
+  "telehealth-icca/dev/infusion-pump/interface-disconnect/event_infusion_pump_disconnect.bft",
+  "telehealth-icca/dev/infusion-pump/interface-disconnect/infusion_pump_disconnect.bft"
+ ],
+ "inpart.ops.purchase.order.attachment.receive": [
+  "purchase-order/philips-tie-INPART_OPS - Purchase Order Attachment.bft"
+ ],
+ "insurance.authorization.request": [
+  "insurance-authorization/insurance-authorization.bft"
+ ],
+ "insurance.authorization.status.update": [
+  "overmind/overmind.bft"
+ ],
+ "insurance.managers.discharge": [
+  "insurance-managers/philips-tie-Insurance Managers.bft"
+ ],
+ "insurance.managers.event": [
+  "insurance-managers/philips-tie-Insurance Managers.bft"
+ ],
+ "insurance.send.insert": [
+  "api-Insurance/api-Insurance.bft"
+ ],
+ "insurance.send.update": [
+  "api-Insurance/api-Insurance.bft"
+ ],
+ "insuranceReceipt.request": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "insuranceReturn.request": [
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "integracao.catracas": [
+  "turnstiles/zkbio/philips-tie-zkbio.bft"
+ ],
+ "integracao.nextmidia.senhas": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "integracao.sht.accesstoken": [
+  "sht/access-token/access-token.bft"
+ ],
+ "integracao.sht.envio.destinos": [
+  "sht/envio-destinos/envio-destinos.bft"
+ ],
+ "interfaceamento.envio.event": [
+  "interfaceamento-laboratorio/interfaceamento-laboratorio.bft"
+ ],
+ "interfaceamento.retorno.event": [
+  "interfaceamento-laboratorio/interfaceamento-laboratorio.bft",
+  "purchase-quotation/purchase-quotation.bft"
+ ],
+ "intermedica.beneficiary": [
+  "intermedica-beneficiary/philips-tie-Intermedica Beneficiary.bft"
+ ],
+ "inventory.check.external.status.outbound": [
+  "inventory/inventory-sap/inventory-sap.bft"
+ ],
+ "invoice_cancel": [
+  "credit-card-movement/credit-card-movement.bft",
+  "invoice/invoice-apucarana-pr.bft",
+  "invoice/invoice-araguaina-to.bft",
+  "invoice/invoice-araruama-rj.bft",
+  "invoice/invoice-ariquemes-ro.bft",
+  "invoice/invoice-barueri-sp.bft",
+  "invoice/invoice-belo-horizonte-mg.bft",
+  "invoice/invoice-blumenau-sc.bft",
+  "invoice/invoice-campinas-sp.bft",
+  "invoice/invoice-curitiba-pr.bft",
+  "invoice/invoice-duque-caxias-rj.bft",
+  "invoice/invoice-florianopolis-sc.bft",
+  "invoice/invoice-itapecerica-serra-sp.bft",
+  "invoice/invoice-macae-rj.bft",
+  "invoice/invoice-niteroi-rj.bft",
+  "invoice/invoice-ourinhos-sp.bft",
+  "invoice/invoice-rolandia-pr.bft",
+  "invoice/invoice-sao-bernardo-sp.bft",
+  "invoice/invoice-sefin-nacional.bft",
+  "invoice/invoice-serra-es.bft",
+  "invoice/invoice-taboao-serra-sp.bft",
+  "invoice/invoice-tie-murgueza.bft",
+  "invoice/invoice-tubarao-sc.bft",
+  "invoice/invoice-uberaba-mg.bft",
+  "invoice/invoice-valparaiso-go.bft",
+  "invoice/tax-reform/hom/philips-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-araguaina-to-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-atibaia-sp_rtn.bft",
+  "invoice/tax-reform/invoice-nfse-blumenau-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-braganca-paulista-sp.bft",
+  "invoice/tax-reform/invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-garibaldi-rs-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ijui-rs-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-itabaiana-se-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-itajai-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-jaragua-do-sul-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-joinville-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-juiz-fora-mg-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-jundiai-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-macae-rj-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-macapa-ap-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-maceio-al-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-matao-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-mogi-das-cruzes-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-natal-rn-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ribeirao-pires-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-salvador-ba-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-jose-do-rio-preto-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-paulo-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sorriso-mt-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-toledo-pr-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-vacaria-rs-rtn.bft",
+  "invoice/tax-reform/invoice_nfse_alagoinhas_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_aracaju_se_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ararangua_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_araucaria_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_barra_velha_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_brusque_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_cachoeira_do_sul_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_campina_grande_sul_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_cascavel_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_castro_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_concordia_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_corupa_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_feira_santana_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_gravatai_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_guabiruba_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_itumbiara_go_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ituporanga_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_navegantes_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_osasco_sp_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_palmas_to_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_panambi_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_pato_branco_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ponta_grossa_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_presidente_getulio_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_rio_do_sul_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santa_rosa_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santo_angelo_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santo_augusto_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_sao_jose_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_telemaco_borba_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_timbo_sc_rtn.bft",
+  "invoice/tax-reform/invoice_rio_verde_go_rtn.bft",
+  "invoice/tax-reform/philips-tie-invoice_nfse_resende_rj_rtn.bft",
+  "invoice/tax-reform/philips-tie-invoice_nfse_trombudo_central_sc_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_nfse_eventos.bft",
+  "invoice/third-party-invoice-cancellation.bft"
+ ],
+ "invoice_cancel_asynchronous": [
+  "invoice/diverza.bft",
+  "invoice/indicium.bft",
+  "invoice/invoice-mexico-mx-cancel-asynchronous.bft",
+  "invoice/invoice-mexico-mx.bft",
+  "invoice/invoice-tie-murgueza.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_send_flow_mexico_mx.bft"
+ ],
+ "invoice_check": [
+  "invoice/invoice-apucarana-pr.bft",
+  "invoice/invoice-araguaina-to.bft",
+  "invoice/invoice-araruama-rj.bft",
+  "invoice/invoice-ariquemes-ro.bft",
+  "invoice/invoice-barueri-sp.bft",
+  "invoice/invoice-belo-horizonte-mg.bft",
+  "invoice/invoice-blumenau-sc.bft",
+  "invoice/invoice-campinas-sp.bft",
+  "invoice/invoice-curitiba-pr.bft",
+  "invoice/invoice-duque-caxias-rj.bft",
+  "invoice/invoice-florianopolis-sc.bft",
+  "invoice/invoice-goiania-go.bft",
+  "invoice/invoice-itapecerica-serra-sp.bft",
+  "invoice/invoice-macae-rj.bft",
+  "invoice/invoice-niteroi-rj.bft",
+  "invoice/invoice-ourinhos-sp.bft",
+  "invoice/invoice-rolandia-pr.bft",
+  "invoice/invoice-sao-bernardo-sp.bft",
+  "invoice/invoice-sefin-nacional.bft",
+  "invoice/invoice-serra-es.bft",
+  "invoice/invoice-taboao-serra-sp.bft",
+  "invoice/invoice-tie-murgueza.bft",
+  "invoice/invoice-tubarao-sc.bft",
+  "invoice/invoice-uberaba-mg.bft",
+  "invoice/invoice-valparaiso-go.bft",
+  "invoice/tax-reform/hom/philips-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-araguaina-to-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-atibaia-sp_rtn.bft",
+  "invoice/tax-reform/invoice-nfse-blumenau-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-braganca-paulista-sp.bft",
+  "invoice/tax-reform/invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-garibaldi-rs-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ijui-rs-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-itabaiana-se-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-itajai-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-jaragua-do-sul-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-joinville-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-juiz-fora-mg-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-jundiai-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-macae-rj-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-macapa-ap-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-maceio-al-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-matao-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-natal-rn-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ribeirao-pires-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-salvador-ba-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-jose-do-rio-preto-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-paulo-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-toledo-pr-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-vacaria-rs-rtn.bft",
+  "invoice/tax-reform/invoice_nfse_alagoinhas_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_aracaju_se_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ararangua_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_araucaria_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_barra_velha_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_brusque_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_cachoeira_do_sul_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_campina_grande_sul_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_cascavel_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_castro_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_concordia_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_corupa_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_feira_santana_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_gravatai_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_guabiruba_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_itumbiara_go_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ituporanga_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_navegantes_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_osasco_sp_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_palmas_to_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_panambi_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_pato_branco_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ponta_grossa_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_presidente_getulio_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_rio_do_sul_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santa_rosa_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santo_angelo_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santo_augusto_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_sao_jose_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_telemaco_borba_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_timbo_sc_rtn.bft",
+  "invoice/tax-reform/invoice_rio_verde_go_rtn.bft",
+  "invoice/tax-reform/philips-tie-invoice_nfse_resende_rj_rtn.bft",
+  "invoice/tax-reform/philips-tie-invoice_nfse_trombudo_central_sc_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_nfse_eventos.bft"
+ ],
+ "invoice_debtor_check": [
+  "invoice/indicium.bft"
+ ],
+ "invoice_get_status_asynchronous": [
+  "invoice/diverza.bft",
+  "invoice/indicium.bft",
+  "invoice/invoice-mexico-mx-cancel-asynchronous.bft",
+  "invoice/invoice-mexico-mx.bft",
+  "invoice/invoice-tie-murgueza.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_send_flow_mexico_mx.bft"
+ ],
+ "invoice_refactor": [
+  "invoice/invoice-refactor.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "invoice_replace": [
+  "invoice/invoice-sefin-nacional.bft",
+  "invoice/invoice-tie-murgueza.bft",
+  "invoice/tax-reform/invoice-nfse-araguaina-to-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-blumenau-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-mogi-das-cruzes-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-paulo-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/invoice_nfse_alagoinhas_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_aracaju_se_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_feira_santana_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_itumbiara_go_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_palmas_to_rtn.bft",
+  "invoice/tax-reform/invoice_rio_verde_go_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_nfse_eventos.bft"
+ ],
+ "invoice_send": [
+  "credit-card-movement/credit-card-movement.bft",
+  "invoice/diverza.bft",
+  "invoice/indicium.bft",
+  "invoice/invoice-apucarana-pr.bft",
+  "invoice/invoice-araguaina-to.bft",
+  "invoice/invoice-araruama-rj.bft",
+  "invoice/invoice-ariquemes-ro.bft",
+  "invoice/invoice-barueri-sp.bft",
+  "invoice/invoice-belo-horizonte-mg.bft",
+  "invoice/invoice-blumenau-sc.bft",
+  "invoice/invoice-campinas-sp.bft",
+  "invoice/invoice-curitiba-pr.bft",
+  "invoice/invoice-duque-caxias-rj.bft",
+  "invoice/invoice-florianopolis-sc.bft",
+  "invoice/invoice-goiania-go.bft",
+  "invoice/invoice-itapecerica-serra-sp.bft",
+  "invoice/invoice-macae-rj.bft",
+  "invoice/invoice-niteroi-rj.bft",
+  "invoice/invoice-ourinhos-sp.bft",
+  "invoice/invoice-rolandia-pr.bft",
+  "invoice/invoice-sao-bernardo-sp.bft",
+  "invoice/invoice-sefin-nacional.bft",
+  "invoice/invoice-serra-es.bft",
+  "invoice/invoice-taboao-serra-sp.bft",
+  "invoice/invoice-tie-murgueza.bft",
+  "invoice/invoice-tubarao-sc.bft",
+  "invoice/invoice-uberaba-mg.bft",
+  "invoice/invoice-valparaiso-go.bft",
+  "invoice/tax-reform/hom/philips-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-araguaina-to-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-atibaia-sp_rtn.bft",
+  "invoice/tax-reform/invoice-nfse-blumenau-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-braganca-paulista-sp.bft",
+  "invoice/tax-reform/invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-garibaldi-rs-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ijui-rs-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-itabaiana-se-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-itajai-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-jaragua-do-sul-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-joinville-sc-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-juiz-fora-mg-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-jundiai-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-macae-rj-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-macapa-ap-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-maceio-al-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-matao-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-mogi-das-cruzes-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-natal-rn-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-ribeirao-pires-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-salvador-ba-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-jose-do-rio-preto-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sao-paulo-sp-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-sorriso-mt-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-toledo-pr-rtn.bft",
+  "invoice/tax-reform/invoice-nfse-vacaria-rs-rtn.bft",
+  "invoice/tax-reform/invoice_nfse_alagoinhas_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_aracaju_se_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ararangua_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_araucaria_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_barra_velha_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_brusque_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_cachoeira_do_sul_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_campina_grande_sul_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_cascavel_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_castro_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_concordia_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_corupa_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_feira_santana_ba_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_gravatai_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_guabiruba_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_itumbiara_go_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ituporanga_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_navegantes_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_osasco_sp_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_palmas_to_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_panambi_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_pato_branco_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_ponta_grossa_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_presidente_getulio_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_rio_do_sul_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santa_rosa_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santo_angelo_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_santo_augusto_rs_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_sao_jose_sc_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_telemaco_borba_pr_rtn.bft",
+  "invoice/tax-reform/invoice_nfse_timbo_sc_rtn.bft",
+  "invoice/tax-reform/invoice_rio_verde_go_rtn.bft",
+  "invoice/tax-reform/philips-tie-invoice_nfse_resende_rj_rtn.bft",
+  "invoice/tax-reform/philips-tie-invoice_nfse_trombudo_central_sc_rtn.bft",
+  "invoice/tax-reform/prod/bionexo-nfse-sefin-nacional-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-brasilia-df-rtn.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_nfse_eventos.bft",
+  "invoice/third-party-invoice.bft"
+ ],
+ "invoice_send_mx": [
+  "invoice/philips-tie-invoice_mexico.bft",
+  "invoice/tax-reform/prod/bionexo-tie-invoice_send_flow_mexico_mx.bft"
+ ],
+ "lab.datasus.sendexam": [
+  "datasus/datasus.bft"
+ ],
+ "lab.datasus.sendsusp": [
+  "datasus/datasus.bft"
+ ],
+ "lab.datasus.tokenrequest": [
+  "datasus/datasus.bft"
+ ],
+ "lab.rad.orm.order.request.falcon": [
+  "falcon/outbound/patient-order-message.bft"
+ ],
+ "laboratory.order.information": [
+  "telehealth-icca/5.00.1818/laboratory/lab/event_laboratory.bft",
+  "telehealth-icca/5.00.1818/laboratory/lab/laboratory.bft",
+  "telehealth-icca/5.02.1833/laboratory/lab/event_laboratory.bft",
+  "telehealth-icca/5.02.1833/laboratory/lab/laboratory.bft",
+  "telehealth-icca/dev/laboratory/lab/event_laboratory.bft",
+  "telehealth-icca/dev/laboratory/lab/laboratory.bft"
+ ],
+ "ledgeraccount.event": [
+  "ledger-account/philips-tie-Ledger Account-tecsalud.bft",
+  "ledger-account/philips-tie-Ledger Account.bft",
+  "natural-person/natural-person/natural-person.bft"
+ ],
+ "ledgeraccount.event.send": [
+  "ledger-account/philips-tie-Ledger Account.bft"
+ ],
+ "legalEntity.get.request": [
+  "legal-entity-type/legal-entity-type.bft"
+ ],
+ "legalEntityHist.get.request": [
+  "legal-entity-hist-type-tax/legal-entity-hist-type-tax.bft"
+ ],
+ "legalentity.send": [
+  "legal-entity/legal-entity-abc.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft"
+ ],
+ "legalentitycompl.send": [
+  "legal-entity/legal-entity-abc.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft"
+ ],
+ "leyprovincialaccount.post.outbound": [
+  "billing/leyProvincial/philips-tie-Ley Provincial.bft"
+ ],
+ "leyprovincialaccount.update.inbound": [
+  "billing/leyProvincial/philips-tie-Ley Provincial.bft"
+ ],
+ "location.building.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "location.unit.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "location.ward.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "maintenance.equipment.delete": [
+  "mansis/mansis.bft"
+ ],
+ "maintenance.equipment.get": [
+  "mansis/mansis.bft"
+ ],
+ "maintenance.equipment.post": [
+  "mansis/mansis.bft"
+ ],
+ "maintenance.equipment.put": [
+  "mansis/mansis.bft"
+ ],
+ "material.add.request": [
+  "material/material.bft"
+ ],
+ "material.delete.request": [
+  "material/material.bft"
+ ],
+ "material.get.request": [
+  "material/material.bft"
+ ],
+ "material.supplier.batch.add.request": [
+  "api-material-supplie-batch/api-material-supplie-batch.bft"
+ ],
+ "material.supplier.batch.delete.request": [
+  "api-material-supplie-batch/api-material-supplie-batch.bft"
+ ],
+ "material.supplier.batch.get.request": [
+  "api-material-supplie-batch/api-material-supplie-batch.bft"
+ ],
+ "material.supplier.batch.update.request": [
+  "api-material-supplie-batch/api-material-supplie-batch.bft"
+ ],
+ "material.update.request": [
+  "material/material.bft"
+ ],
+ "material.with.establishment.add.request": [
+  "material/material-with-establishment-tecsalud/API Material (REST) - TecSalud.bft"
+ ],
+ "material.with.establishment.update.request": [
+  "material/material-with-establishment-tecsalud/API Material (REST) - TecSalud.bft"
+ ],
+ "materialBrand.get.request": [
+  "material-brand/material-brand.bft"
+ ],
+ "materialBrand.post.request": [
+  "material-brand/material-brand.bft"
+ ],
+ "materialBrand.put.request": [
+  "material-brand/material-brand.bft"
+ ],
+ "materialBrasindice.added": [
+  "material-brasindice/material-brasindice.bft"
+ ],
+ "materialBrasindice.delete": [
+  "material-brasindice/material-brasindice.bft"
+ ],
+ "materialBrasindice.update": [
+  "material-brasindice/material-brasindice.bft"
+ ],
+ "materialclass.get.request": [
+  "material-class/material-class.bft"
+ ],
+ "materialclass.post.request": [
+  "material-class/material-class.bft"
+ ],
+ "materialclass.put.request": [
+  "material-class/material-class.bft"
+ ],
+ "materialclass.send": [
+  "material-class/material-class.bft"
+ ],
+ "materialcompleteinformation.send": [
+  "WMS Senior/philips-tie-WMS Senior.bft",
+  "material/material-complete-information-send/material_complete_information_send.bft"
+ ],
+ "materialdelete.send": [
+  "material/material-delete-send/material_delete_send.bft"
+ ],
+ "materialfamily.get.request": [
+  "material-family/material-family.bft"
+ ],
+ "materialgroup.get.request": [
+  "material-group/material-group.bft"
+ ],
+ "materialgroup.post.request": [
+  "material-group/material-group.bft"
+ ],
+ "materialgroup.put.request": [
+  "material-group/material-group.bft"
+ ],
+ "materialgroup.send": [
+  "material-group/material-group.bft"
+ ],
+ "materials.requisition.add.request": [
+  "materials-requisition/materials-requisition.bft"
+ ],
+ "materials.requisition.delete.request": [
+  "materials-requisition/materials-requisition.bft"
+ ],
+ "materials.requisition.get.request": [
+  "materials-requisition/materials-requisition.bft"
+ ],
+ "materials.requisition.send": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "materials.requisition.update.request": [
+  "materials-requisition/materials-requisition.bft"
+ ],
+ "materialsimpro.added": [
+  "material-simpro/material-simpro.bft"
+ ],
+ "materialsimpro.deleted": [
+  "material-simpro/material-simpro.bft"
+ ],
+ "materialsimpro.updated": [
+  "material-simpro/material-simpro.bft"
+ ],
+ "materialsubgroup.get.request": [
+  "material-subgroup/philips-tie-API Material Subgroup.bft"
+ ],
+ "materialsubgroup.post.request": [
+  "material-subgroup/philips-tie-API Material Subgroup.bft"
+ ],
+ "materialsubgroup.put.request": [
+  "material-subgroup/philips-tie-API Material Subgroup.bft"
+ ],
+ "materialsubgroup.request": [
+  "material-subgroup/philips-tie-API Material Subgroup.bft"
+ ],
+ "materialsubgroup.send": [
+  "material-subgroup/philips-tie-API Material Subgroup.bft"
+ ],
+ "materialtuss.added": [
+  "material-tuss/material-tuss.bft"
+ ],
+ "materialtuss.deleted": [
+  "material-tuss/material-tuss.bft"
+ ],
+ "materialtuss.updated": [
+  "material-tuss/material-tuss.bft"
+ ],
+ "materialupdate.send": [
+  "material/material-update-send/material_update_send.bft"
+ ],
+ "matrix.envia.pedidos.grupo": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "matrix.envio.exames": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "matrix.movimentacao.paciente": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "matrix.recebe.alteracao.status.amostra": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "matrix.recebe.resultado": [
+  "matrix-v7-integration/philips-tie-Matrix V7 - Laboratório.bft"
+ ],
+ "mdg.search.similarity": [
+  "search-similarity/philips-tie-SAP - MDG - search.similarity.bft"
+ ],
+ "mdm.api.natural.person": [
+  "natural-person/natural-person/Tecsalud-send_Receive_Natural_Person_Data_And_Complement.bft"
+ ],
+ "medical.credentialing.physician.documentation": [
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft"
+ ],
+ "medical.credentialing.physician.registration": [
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft"
+ ],
+ "medical.record.data.request": [
+  "patient-information/PEP-Items/philips-tie-Patient Information - Medical Records.bft"
+ ],
+ "medicalspeciality": [
+  "medical-speciality-api-getspecialitymedical/getspecialitymedical.bft"
+ ],
+ "memed.bridge.prescription": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "memed.bridge.request": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "memed.bridge.token": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "memed.getPatient": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "memed.prescription.cancel": [
+  "memed/Memed_Bridge.bft"
+ ],
+ "mevo.cancelPrescription": [
+  "NexoData/philips-tie-NexoData - Swing.bft"
+ ],
+ "mevo.consultPrescription": [
+  "NexoData/philips-tie-NexoData - Swing.bft"
+ ],
+ "mevo.startPrescription": [
+  "NexoData/philips-tie-NexoData - Swing.bft"
+ ],
+ "mhr.create.discharge.summary.file": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "mhr.patient.records.refresh": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "mhr.remove.document": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "mhr.supersede.discharge.summary": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "mhr.supersede.event.summary": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "mhr.upload.discharge.summary": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "mhr.upload.event.summary": [
+  "ANZ/AUS/MHR/MHR-tie.bft"
+ ],
+ "microbiology.order.information": [
+  "telehealth-icca/5.00.1818/laboratory/mic/event_microbiology.bft",
+  "telehealth-icca/5.00.1818/laboratory/mic/microbiology.bft",
+  "telehealth-icca/5.02.1833/laboratory/mic/event_microbiology.bft",
+  "telehealth-icca/5.02.1833/laboratory/mic/microbiology.bft",
+  "telehealth-icca/dev/laboratory/mic/event_microbiology.bft",
+  "telehealth-icca/dev/laboratory/mic/microbiology.bft"
+ ],
+ "micromedex": [
+  "micromedex/micromedex.bft"
+ ],
+ "mipres.get.audit": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.get.dispensingdirections": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.get.multiprofessionalcommission": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.get.prescriptionmultiplecriteria": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.get.prescriptionnumber": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.get.prescriptionpatient": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.post.prescriptiondata": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mipres.put.linkmipresprescription": [
+  "mipres/api-mipres-com.bft"
+ ],
+ "mockevent.get.request": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "monitorio.send.patient.admission": [
+  "vital-signs/vitalSignMindray/philips-tie-Mindray-SanJavier.bft"
+ ],
+ "monitorio.send.patient.discharge": [
+  "vital-signs/vitalSignMindray/philips-tie-Mindray-SanJavier.bft"
+ ],
+ "monitorio.send.patient.transfer": [
+  "vital-signs/vitalSignMindray/philips-tie-Mindray-SanJavier.bft"
+ ],
+ "murgueza_sftp_nfs": [
+  "invoice/invoice-tie-murgueza.bft"
+ ],
+ "natural.person.history": [
+  "natural-person/natural-person-history/Tecsalud-API Create History Natual Person - JSON.bft",
+  "natural-person/natural-person-history/philips-tie-Natural Person - History.bft"
+ ],
+ "naturalperson.sap.send": [
+  "natural-person/natural-person/natural-person.bft"
+ ],
+ "nephrosys.from.tdms": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.from.tdms.vital.values": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.anticoagulants": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.dialysates": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.medical.staff": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.patient.data": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.prescriptions": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.rooms": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.list.treatment.methods": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nephrosys.vitalupdt.values": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "nexodata.cancelPrescription": [
+  "NexoData/RedeDor/Artefato DBEXA_DLB_PHILIPS_02062023_COMPLETO_2.bft",
+  "NexoData/philips-tie-NexoData.bft"
+ ],
+ "nexodata.consultPrescription": [
+  "NexoData/RedeDor/Artefato DBEXA_DLB_PHILIPS_02062023_COMPLETO_2.bft",
+  "NexoData/philips-tie-NexoData.bft"
+ ],
+ "nexodata.getToken": [
+  "NexoData/RedeDor/Artefato DBEXA_DLB_PHILIPS_02062023_COMPLETO_2.bft",
+  "NexoData/philips-tie-NexoData.bft"
+ ],
+ "nexodata.startPrescription": [
+  "NexoData/RedeDor/Artefato DBEXA_DLB_PHILIPS_02062023_COMPLETO_2.bft",
+  "NexoData/philips-tie-NexoData.bft"
+ ],
+ "nfe_cancelamento": [
+  "invoice/philips-tie-sefaz_nfe.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft",
+  "invoice/tax-reform/sefaz_nfe_rtn.bft"
+ ],
+ "nfe_carta_correcao": [
+  "invoice/philips-tie-sefaz_nfe.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft",
+  "invoice/tax-reform/sefaz_nfe_rtn.bft"
+ ],
+ "nfe_consulta": [
+  "invoice/philips-tie-sefaz_nfe.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft",
+  "invoice/tax-reform/sefaz_nfe_rtn.bft"
+ ],
+ "nfe_consulta_distribuicao": [
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft"
+ ],
+ "nfe_consulta_protocolo": [
+  "invoice/philips-tie-sefaz_nfe.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft",
+  "invoice/tax-reform/sefaz_nfe_rtn.bft"
+ ],
+ "nfe_envio": [
+  "invoice/philips-tie-sefaz_nfe.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft",
+  "invoice/tax-reform/sefaz_nfe_rtn.bft"
+ ],
+ "nfe_inutilizacao": [
+  "invoice/philips-tie-sefaz_nfe.bft",
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft",
+  "invoice/tax-reform/sefaz_nfe_rtn.bft"
+ ],
+ "nfe_manifesto": [
+  "invoice/tax-reform/prod/bionexo-tie-sefaz_nfe_rtn.bft"
+ ],
+ "ngcap_simulation_scheduller_event": [
+  "ADT/PFCS/philips-tie-PFCS-1909.bft"
+ ],
+ "nurse.call": [
+  "ANZ/AUS/nurse-call/nurse-call.bft"
+ ],
+ "observation.consultation.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "observation.exam.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "observation.healthHabit.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "observation.survey.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "obter.beneficiario": [
+  "beneficiario-elegibilidade/beneficiario-elegibilidade.bft"
+ ],
+ "ontology.search": [
+  "Ontology/API - Ontology.bft"
+ ],
+ "opme.export.purchase.order.event": [
+  "cmdk/bp-export-purchase-order/philips-tie-OPME - Exportação de Ordem de Compra .bft"
+ ],
+ "order.verification.request": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "organization.create.update": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "oul.bloodbank.inbounds": [
+  "hemoterapy-blood/tie-Hemotherapy-Teleton.bft",
+  "services-integrations/blood-bank/philips-tie-OUL_R21_BLOOD_BANK.bft"
+ ],
+ "outpatient.admission": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "pacs.update.status.schedule": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "pathology.ws.xml.exam.prescription.update": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.exam.report.cancel": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.get.exam": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.get.exam.list": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.get.exam.suspended": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.register.exam.prescription": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.register.exam.report": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.set.exam.integrated": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "pathology.ws.xml.set.exam.suspended": [
+  "pathology-ws/pathology-ws.bft"
+ ],
+ "patient.accounts.data.billing.transfer": [
+  "account-patient-send/philips-tie-Patient Accounts (Send).bft"
+ ],
+ "patient.address.update": [
+  "ADT/ABC-Mexico/ADT04-ADT08-CreationUpdatePersonAddress.bft",
+  "ANZ/AUS/direct-control/direct-control.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "natural-person/natural-person/Tecsalud-send_Receive_Natural_Person_Data_And_Complement.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft",
+  "ris-systems/fred/fred.bft",
+  "signos-vitales/philips-tie-TecSalud - Signos Vitales.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "patient.admission": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/CARESCAPE - GE/philips-tie-Carescape - GE.bft",
+  "ADT/Draeger/Draeger - ADT.bft",
+  "ADT/Draeger/philips-tie-Draeger - ADT (1).bft",
+  "ADT/Intellispace/philips-tie-IntelliSpace - ADT.bft",
+  "ADT/MASIMO/philips-tie-MASIMO.bft",
+  "ADT/api-adt/api-adt.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "ecg/Philips-TC50/Philips-TC50.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "ged-onbase/GED OnBase.bft",
+  "lis-systems/sonic-lis/sonic-lis.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "radiotherapy-management/patient-admission.bft",
+  "ris-systems/fred/fred.bft",
+  "ris-systems/sonic-ris/sonic-ris.bft",
+  "ris-systems/xper-im/xper-im.bft",
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A01/adt_a01.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A01/event_adt_a01.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A01/outbound_adt_a01.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A01/outbound_event_adt_a01.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A01/adt_a01.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A01/event_adt_a01.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A01/outbound_adt_a01.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A01/outbound_event_adt_a01.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A01/adt_a01.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A01/event_adt_a01.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A01/outbound_adt_a01.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A01/outbound_event_adt_a01.bft"
+ ],
+ "patient.admission.cancel": [
+  "ADT/api-adt/api-adt.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "ris-systems/fred/fred.bft",
+  "signos-vitales/philips-tie-TecSalud - Signos Vitales.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A11/adt_a11.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A11/event_adt_a11.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A11/outbound_adt_a11.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A11/outbound_event_adt_a11.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A11/adt_a11.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A11/event_adt_a11.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A11/outbound_adt_a11.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A11/outbound_event_adt_a11.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A11/adt_a11.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A11/event_adt_a11.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A11/outbound_adt_a11.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A11/outbound_event_adt_a11.bft"
+ ],
+ "patient.admission.cancel.monitor": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft"
+ ],
+ "patient.admission.onbase": [
+  "ged-onbase/GED OnBase ABC.bft"
+ ],
+ "patient.appointment.notification": [
+  "falcon/outbound/patient-appointment-notification.bft"
+ ],
+ "patient.automatic.discharge": [
+  "einstein-fhir/Einstein_FHIR.bft"
+ ],
+ "patient.create": [
+  "ANZ/AUS/direct-control/direct-control.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "lis-microbiology/philips-tie-Laboratory LIS .bft",
+  "natural-person/natural-person/Tecsalud-send_Receive_Natural_Person_Data_And_Complement.bft",
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "patient.data.export": [
+  "telehealth-icca/5.00.1818/patient-data-export/ORU_R01/outbound_event_pde.bft",
+  "telehealth-icca/5.00.1818/patient-data-export/ORU_R01/outbound_pde.bft",
+  "telehealth-icca/5.02.1833/patient-data-export/ORU_R01/outbound_event_pde.bft",
+  "telehealth-icca/5.02.1833/patient-data-export/ORU_R01/outbound_pde.bft",
+  "telehealth-icca/dev/patient-data-export/ORU_R01/outbound_event_pde.bft",
+  "telehealth-icca/dev/patient-data-export/ORU_R01/outbound_pde.bft"
+ ],
+ "patient.data.import": [
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/event_pdi.bft",
+  "telehealth-icca/5.00.1818/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/event_pdi.bft",
+  "telehealth-icca/5.02.1833/patient-data-import/ORU_R01/pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/event_pdi.bft",
+  "telehealth-icca/dev/patient-data-import/ORU_R01/pdi.bft"
+ ],
+ "patient.diagnosis": [
+  "telehealth-icca/5.00.1818/diagnosis/ORU_R01/diagnosis.bft",
+  "telehealth-icca/5.00.1818/diagnosis/ORU_R01/event_diagnosis.bft",
+  "telehealth-icca/5.02.1833/diagnosis/ORU_R01/diagnosis.bft",
+  "telehealth-icca/5.02.1833/diagnosis/ORU_R01/event_diagnosis.bft",
+  "telehealth-icca/dev/diagnosis/ORU_R01/diagnosis.bft",
+  "telehealth-icca/dev/diagnosis/ORU_R01/event_diagnosis.bft"
+ ],
+ "patient.dialysis": [
+  "telehealth-icca/5.02.1833/dialysis/ORU_R01/dialysis.bft",
+  "telehealth-icca/5.02.1833/dialysis/ORU_R01/event_dialysis.bft",
+  "telehealth-icca/dev/dialysis/ORU_R01/dialysis.bft",
+  "telehealth-icca/dev/dialysis/ORU_R01/event_dialysis.bft"
+ ],
+ "patient.discharge": [
+  "ADT/CARESCAPE - GE/philips-tie-Carescape - GE.bft",
+  "ADT/Draeger/Draeger - ADT.bft",
+  "ADT/Draeger/philips-tie-Draeger - ADT (1).bft",
+  "ADT/MASIMO/philips-tie-MASIMO.bft",
+  "ADT/api-adt/api-adt.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "ecg/Philips-TC50/Philips-TC50.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "falcon/outbound/patient-discharge-falcon.bft",
+  "lis-systems/sonic-lis/sonic-lis.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "ris-systems/fred/fred.bft",
+  "ris-systems/olympus-endobase/olympus-endobase.bft",
+  "ris-systems/siemens-axiom-sensis-integrations/siemens-axiom-sensis-integrations.bft",
+  "ris-systems/sonic-ris/sonic-ris.bft",
+  "ris-systems/xper-im/xper-im.bft",
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft",
+  "signos-vitales/philips-tie-TecSalud - Signos Vitales.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A03/adt_a03.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A03/event_adt_a03.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A03/outbound_adt_a03.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A03/outbound_event_adt_a03.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A03/adt_a03.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A03/event_adt_a03.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A03/outbound_adt_a03.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A03/outbound_event_adt_a03.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A03/adt_a03.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A03/event_adt_a03.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A03/outbound_adt_a03.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A03/outbound_event_adt_a03.bft"
+ ],
+ "patient.discharge.cancel": [
+  "ADT/Draeger/Draeger - ADT.bft",
+  "ADT/Draeger/philips-tie-Draeger - ADT (1).bft",
+  "ADT/api-adt/api-adt.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "ris-systems/fred/fred.bft",
+  "signos-vitales/philips-tie-TecSalud - Signos Vitales.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A13/adt_a13.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A13/event_adt_a13.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A13/outbound_adt_a13.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A13/outbound_event_adt_a13.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A13/adt_a13.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A13/event_adt_a13.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A13/outbound_adt_a13.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A13/outbound_event_adt_a13.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A13/adt_a13.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A13/event_adt_a13.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A13/outbound_adt_a13.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A13/outbound_event_adt_a13.bft"
+ ],
+ "patient.discharge.cancel.monitor": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft"
+ ],
+ "patient.discharge.monitor": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/Intellispace/philips-tie-IntelliSpace - ADT.bft"
+ ],
+ "patient.ecmo": [
+  "telehealth-icca/5.02.1833/ecmo/ORU_R01/ecmo.bft",
+  "telehealth-icca/5.02.1833/ecmo/ORU_R01/event_ecmo.bft",
+  "telehealth-icca/dev/ecmo/ORU_R01/ecmo.bft",
+  "telehealth-icca/dev/ecmo/ORU_R01/event_ecmo.bft"
+ ],
+ "patient.encounter.structuredprescription.get.request": [
+  "structured-prescriptions/structured-prescriptions.bft"
+ ],
+ "patient.identifier.update": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A46_A47/adt_a46_a47.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A46_A47/event_adt_a46_a47.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A47/outbound_adt_a47.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A47/outbound_event_adt_a47.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A46_A47/adt_a46_a47.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A46_A47/event_adt_a46_a47.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A47/outbound_adt_a47.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A47/outbound_event_adt_a47.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A46_A47/adt_a46_a47.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A46_A47/event_adt_a46_a47.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A47/outbound_adt_a47.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A47/outbound_event_adt_a47.bft"
+ ],
+ "patient.information.register": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A04/adt_a04.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A04/event_adt_a04.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A04/adt_a04.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A04/event_adt_a04.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A04/adt_a04.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A04/event_adt_a04.bft"
+ ],
+ "patient.information.update": [
+  "ADT/Draeger/Draeger - ADT.bft",
+  "ADT/Draeger/philips-tie-Draeger - ADT (1).bft",
+  "ADT/api-adt/api-adt.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "ris-systems/fred/fred.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A08/event_adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A08/event_adt_a08.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A08/adt_a08.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A08/event_adt_a08.bft"
+ ],
+ "patient.insurance.update": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "patient.mergePatient_ADT_A40": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/api-adt/api-adt.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft"
+ ],
+ "patient.query.request": [
+  "vital-signs/vitalSignWelchAllynConnex/welch-allyn-connex.bft"
+ ],
+ "patient.registration.update": [
+  "ANZ/AUS/direct-control/direct-control.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "natural-person/natural-person/Tecsalud-send_Receive_Natural_Person_Data_And_Complement.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "ris-systems/fred/fred.bft",
+  "ris-systems/olympus-endobase/olympus-endobase.bft",
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft",
+  "signos-vitales/philips-tie-TecSalud - Signos Vitales.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A08/outbound_adt_a08.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A08/outbound_event_adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A08/outbound_adt_a08.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A08/outbound_event_adt_a08.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A08/outbound_adt_a08.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A08/outbound_event_adt_a08.bft"
+ ],
+ "patient.responsibles.get": [
+  "facial-recognition-system/Patient Admission - Facial Eligibility.bft"
+ ],
+ "patient.service.request.falcon": [
+  "falcon/outbound/patient-appointment-request.bft"
+ ],
+ "patient.surgery.request": [
+  "falcon/outbound/patient-appointment-request.bft"
+ ],
+ "patient.swap": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A17/adt_a17.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A17/event_adt_a17.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A17/adt_a17.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A17/event_adt_a17.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A17/adt_a17.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A17/event_adt_a17.bft"
+ ],
+ "patient.swap.monitor": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/Draeger/Draeger - ADT.bft",
+  "ADT/Draeger/philips-tie-Draeger - ADT (1).bft"
+ ],
+ "patient.transfer": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/CARESCAPE - GE/philips-tie-Carescape - GE.bft",
+  "ADT/Draeger/Draeger - ADT.bft",
+  "ADT/Draeger/philips-tie-Draeger - ADT (1).bft",
+  "ADT/Intellispace/philips-tie-IntelliSpace - ADT.bft",
+  "ADT/MASIMO/philips-tie-MASIMO.bft",
+  "ADT/api-adt/api-adt.bft",
+  "ADT/epimed/philips-tie-EPIMED ADT - BACKUP.bft",
+  "Centro de Monitoreo/Patient Transfer - Centro de Monitoreo.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "ecg/Philips-TC50/Philips-TC50.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "einstein-fhir/Einstein_FHIR.bft",
+  "falcon/outbound/patient-transfer-falcon.bft",
+  "lis-systems/sonic-lis/sonic-lis.bft",
+  "patient-information/EPIMED/Epimed-Adt.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "ris-systems/fred/fred.bft",
+  "ris-systems/sonic-ris/sonic-ris.bft",
+  "ris-systems/xper-im/xper-im.bft",
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft",
+  "signos-vitales/philips-tie-TecSalud - Signos Vitales.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A02/adt_a02.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A02/event_adt_a02.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A02/outbound_adt_a02.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A02/outbound_event_adt_a02.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A02/adt_a02.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A02/event_adt_a02.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A02/outbound_adt_a02.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A02/outbound_event_adt_a02.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A02/adt_a02.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A02/event_adt_a02.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A02/outbound_adt_a02.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A02/outbound_event_adt_a02.bft"
+ ],
+ "patient.transfer.cancel": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A12/adt_a12.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A12/event_adt_a12.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A12/outbound_adt_a12.bft",
+  "telehealth-icca/5.00.1818/patient/outbound/ADT_A12/outbound_event_adt_a12.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A12/adt_a12.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A12/event_adt_a12.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A12/outbound_adt_a12.bft",
+  "telehealth-icca/5.02.1833/patient/outbound/ADT_A12/outbound_event_adt_a12.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A12/adt_a12.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A12/event_adt_a12.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A12/outbound_adt_a12.bft",
+  "telehealth-icca/dev/patient/outbound/ADT_A12/outbound_event_adt_a12.bft"
+ ],
+ "patient.vitalsigns.result": [
+  "signos-vitales/ABC - Signos Vitales.bft",
+  "vital-signs/VitalSignsProlife/VitalSignsProlife.bft",
+  "vital-signs/vitalSignAlfamed/Alfamed.bft",
+  "vital-signs/vitalSignDixtal/vitalSignDixtal.bft",
+  "vital-signs/vitalSignDrager/vitalSignDrager.bft",
+  "vital-signs/vitalSignEfficia/vitalSignEfficia.bft",
+  "vital-signs/vitalSignGE-Carespace/Carescape-GE.bft",
+  "vital-signs/vitalSignMindray/philips-tie-Mindray Vital Signs.bft",
+  "vital-signs/vitalSignMindray/philips-tie-Mindray-SanJavier.bft",
+  "vital-signs/vitalSignMindray/philips-tie-MindrayVitalSigns.bft",
+  "vital-signs/vitalSignPhilips/Philips_Monitors.bft",
+  "vital-signs/vitalSignPhilips/philips-tie-Monitores SV - Philips.bft",
+  "vital-signs/vitalSignWelchAllynConnex/welch-allyn-connex.bft",
+  "vital-signs/vitalSignsGlucometer/vitalSignsGlucometer.bft",
+  "vital-signs/vitalsignsEarlyVueVS30/philips-tie-vitalsignsEarlyVueVS30.bft"
+ ],
+ "patient.vitalsignsHillRom": [
+  "vital-signs/vitalSignHillRoom/vitalSignsHillRoom.bft"
+ ],
+ "patient.vitalsignsPEP.result": [
+  "vital-signs/vitalSignCapsule/vitalSignCapsule.bft",
+  "vital-signs/vitalSignsMasimo/vitalSignsMasimo.bft"
+ ],
+ "patient_change": [
+  "invoice/tax-reform/prod/bionexo-tie-invoice-nfse-brasilia-df-rtn.bft"
+ ],
+ "patientinformation.bundle": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "patientinformation.comorbidity": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "patientinformation.device": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "patientinformation.nas": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "patientinformation.physiologicalData": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "patientinformation.saps3": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "patientinformation.sofa": [
+  "patient-information/EPIMED/EpimedSendLabData.bft"
+ ],
+ "person.information.update": [
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/5.00.1818/patient/inbound/ADT_A31/event_adt_a31.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/5.02.1833/patient/inbound/ADT_A31/event_adt_a31.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A31/adt_a31.bft",
+  "telehealth-icca/dev/patient/inbound/ADT_A31/event_adt_a31.bft"
+ ],
+ "pharmacy.treatment.order.falcon": [
+  "falcon/outbound/patient-pharamacy-treatment-order.bft"
+ ],
+ "philips.page.writer.recieve.exam.event.Html": [
+  "page-writer/page-writer.bft"
+ ],
+ "philips.page.writer.recieve.exam.event.Java": [
+  "page-writer/page-writer.bft"
+ ],
+ "physician-registration-api-event": [
+  "api-physician-registration/api-physician-registration-abc.bft"
+ ],
+ "physician.change": [
+  "falcon/outbound/physician-change-falcon.bft"
+ ],
+ "physician.registration.insert": [
+  "ged-onbase/GED OnBase.bft",
+  "onbase-medical-credentialing-new/OnBase Medical Credentialing - New.bft",
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft"
+ ],
+ "physician.registration.update": [
+  "onbase-medical-credentialing/OnBase Medical Credentialing.bft"
+ ],
+ "pix.consultar.cobranca.imediata": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "pix.consultar.devolucao": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "pix.consultar.recebimento": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "pix.get_access_token": [
+  "pix/pix.bft"
+ ],
+ "pix.registrar.cobranca.imediata": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "pix.revisar.cobranca.imediata": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "pix.solicitar.devolucao": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "pix.webhook.registration": [
+  "pix/events.bft",
+  "pix/pix.bft"
+ ],
+ "plan-test.post": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "plan-test.request": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "pre.invoice.manifest": [
+  "invoice/invoice-pre-nota.bft"
+ ],
+ "pre.invoice.request": [
+  "invoice/invoice-pre-nota.bft"
+ ],
+ "pre_invoice_file_import": [
+  "invoice/pre-invoice-file.bft"
+ ],
+ "prescription.addMaterial": [
+  "telehealth-icca/5.00.1818/prescription/add-material/event_prescr_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/event_prescr_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/event_prescr_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft"
+ ],
+ "prescription.addMaterial.Monograph": [
+  "telehealth-icca/5.00.1818/prescription/add-material/event_add_Material_Monograph.bft",
+  "telehealth-icca/5.00.1818/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/event_add_Material_Monograph.bft",
+  "telehealth-icca/5.02.1833/prescription/add-material/integration_prescription_add_material.bft",
+  "telehealth-icca/dev/prescription/add-material/event_add_Material_Monograph.bft",
+  "telehealth-icca/dev/prescription/add-material/integration_prescription_add_material.bft"
+ ],
+ "prescription.addMaterial.compatibility": [
+  "micromedex/micromedex.bft",
+  "telehealth-icca/dev/prescription/add-material/add_material_compatibility.bft"
+ ],
+ "prescription.addMaterial.therapeuticDose": [
+  "telehealth-icca/dev/prescription/add-material/therapeuticDose/event_prescription_therapeuticDose.bft"
+ ],
+ "prescription.dialysis.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "prescription.diet.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "prescription.gas.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "prescription.hemotherapy.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "prescription.image.order.report.acknowledged": [
+  "ris-systems/sonic-ris/sonic-ris.bft"
+ ],
+ "prescription.image.order.report.result": [
+  "ecg/Philips-TC50/Philips-TC50.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "ris-systems/olympus-endobase/olympus-endobase.bft",
+  "ris-systems/siemens-axiom-sensis-integrations/siemens-axiom-sensis-integrations.bft",
+  "ris-systems/sonic-ris/sonic-ris.bft",
+  "ris-systems/workmate-claris-integrations/workmate-claris-integrations.bft",
+  "ris-systems/xper-im/xper-im.bft"
+ ],
+ "prescription.image.order.request": [
+  "ecg/Philips-TC50/Philips-TC50.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "ris-systems/siemens-axiom-sensis-integrations/siemens-axiom-sensis-integrations.bft",
+  "ris-systems/sonic-ris/sonic-ris.bft",
+  "ris-systems/workmate-claris-integrations/workmate-claris-integrations.bft",
+  "ris-systems/xper-im/xper-im.bft"
+ ],
+ "prescription.image.order.update": [
+  "ecg/Philips-TC50/Philips-TC50.bft",
+  "ecg/welch-allyn-ecg/welch-allyn-ecg.bft",
+  "ris-systems/olympus-endobase/olympus-endobase.bft",
+  "ris-systems/sonic-ris/sonic-ris.bft",
+  "ris-systems/xper-im/xper-im.bft"
+ ],
+ "prescription.laboratory.exam.tag": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft"
+ ],
+ "prescription.laboratory.order.report.acknowledged": [
+  "lis-systems/sonic-lis/sonic-lis.bft"
+ ],
+ "prescription.laboratory.order.report.result": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft",
+  "lis-systems/sonic-lis/sonic-lis.bft"
+ ],
+ "prescription.laboratory.order.request": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft",
+  "lis-systems/sonic-lis/sonic-lis.bft",
+  "ris-systems/siemens-axiom-sensis-integrations/siemens-axiom-sensis-integrations.bft"
+ ],
+ "prescription.laboratory.order.request.hl7": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft"
+ ],
+ "prescription.laboratory.order.status.update": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft"
+ ],
+ "prescription.laboratory.order.status.update_LIS_DATE": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft"
+ ],
+ "prescription.laboratory.order.status.update_LIS_Status": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft"
+ ],
+ "prescription.laboratory.order.update": [
+  "lis-microbiology/philips-tie-Laboratory LIS .bft",
+  "lis-systems/sonic-lis/sonic-lis.bft"
+ ],
+ "prescription.medicine.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "prescription.pathology.order.additional.exam": [
+  "anapath/philips-tie-ABC - Anapath.bft"
+ ],
+ "prescription.pathology.order.request": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "prescription.pathology.order.status.update": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "prescription.pathology.order.update": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "prescription.pathology.report.update": [
+  "anapath/philips-tie-ABC - Anapath.bft"
+ ],
+ "prescription.procedure.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "prescription.recommendation.order.request": [
+  "telehealth-icca/5.00.1818/order-export/order_export.bft",
+  "telehealth-icca/5.02.1833/order-export/order_export.bft",
+  "telehealth-icca/dev/order-export/order_export.bft"
+ ],
+ "procedure.add.send": [
+  "procedure-send/procedure-send.bft"
+ ],
+ "procedure.request": [
+  "procedure/procedure.bft"
+ ],
+ "procedure.update.send": [
+  "procedure-send/procedure-send.bft"
+ ],
+ "product_documentation.request": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "profile.event": [
+  "profile/philips-tie-profile.bft"
+ ],
+ "purchase.order.add.request": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft",
+  "purchase-order/purchase-order.bft"
+ ],
+ "purchase.order.attachments.add.request": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft"
+ ],
+ "purchase.order.delete.request": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft",
+  "purchase-order/purchase-order.bft"
+ ],
+ "purchase.order.get.request": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft",
+  "purchase-order/purchase-order.bft"
+ ],
+ "purchase.order.release.send": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft"
+ ],
+ "purchase.order.send.request": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft",
+  "purchase-order/purchase-order.bft"
+ ],
+ "purchase.order.update.request": [
+  "Inpart-OPME/Purchase Order/philips-tie-Purchase Order (REST).bft",
+  "purchase-order/purchase-order.bft"
+ ],
+ "purchase.quotation.send.request": [
+  "purchase-quotation/purchase-quotation.bft"
+ ],
+ "purchase.quotation.update.request": [
+  "purchase-quotation/purchase-quotation.bft"
+ ],
+ "purchase.request.add": [
+  "purchase-request/purchase-request.bft"
+ ],
+ "purchase.request.get": [
+  "purchase-request/purchase-request.bft"
+ ],
+ "purchase.request.send": [
+  "purchase-request/purchase-request.bft"
+ ],
+ "purchase.request.update": [
+  "purchase-request/purchase-request.bft"
+ ],
+ "purchaseordercompleteinformation.send": [
+  "WMS Senior/philips-tie-WMS Senior.bft",
+  "purchase-order/purchase-order-complete-information-send/purchase_order_complete_information_send.bft"
+ ],
+ "pyxis.receive.dispensary.batch.execute.account": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.material.register": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "pyxis.send.material.remove": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "pyxis.send.patient.admission": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.patient.admission.cancel": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.patient.discharge": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.patient.discharge.cancel": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.patient.transfer": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.patient.transfer.surgery.end": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft"
+ ],
+ "pyxis.send.prescription.batch": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "pyxis.send.prescription.batch.cancel": [
+  "billing/pharmacy/pyxis/philips-tie-ABC - Dispensario Pyxis.bft",
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "pyxis.send.surgery.cancel": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "pyxis.send.surgery.register": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "radiology.report.status.event": [
+  "radiology/report/status.bft"
+ ],
+ "radiotherapySchedule.delete.request": [
+  "radiotherapy-management/radiotherapy-schedule.bft"
+ ],
+ "radiotherapySchedule.get.request": [
+  "radiotherapy-management/radiotherapy-schedule.bft"
+ ],
+ "radiotherapySchedule.post.request": [
+  "radiotherapy-management/radiotherapy-schedule.bft"
+ ],
+ "radiotherapySchedule.put.request": [
+  "radiotherapy-management/radiotherapy-schedule.bft"
+ ],
+ "radiotherapyTreatment.delete.request": [
+  "radiotherapy-management/radiotherapy-treatment.bft"
+ ],
+ "radiotherapyTreatment.get.request": [
+  "radiotherapy-management/radiotherapy-treatment.bft"
+ ],
+ "radiotherapyTreatment.post.request": [
+  "radiotherapy-management/radiotherapy-treatment.bft"
+ ],
+ "radiotherapyTreatment.put.request": [
+  "radiotherapy-management/radiotherapy-treatment.bft"
+ ],
+ "radiotherapyTumor.delete.request": [
+  "radiotherapy-management/radiotherapy-tumor.bft"
+ ],
+ "radiotherapyTumor.get.request": [
+  "radiotherapy-management/radiotherapy-tumor.bft"
+ ],
+ "radiotherapyTumor.post.request": [
+  "radiotherapy-management/radiotherapy-tumor.bft"
+ ],
+ "radiotherapyTumor.put.request": [
+  "radiotherapy-management/radiotherapy-tumor.bft"
+ ],
+ "readHL7.germany": [
+  "fresenius/NephroSys_Fresenius.bft"
+ ],
+ "receipt-checkout.event.send": [
+  "cost-center/philips-tie-cost-center.bft"
+ ],
+ "receipt.inspection.event": [
+  "receipt-inspection/receipt.inspection.bft"
+ ],
+ "receiptcheckout.request": [
+  "financial/receipt-checkout/financial-receipt-checkout.bft",
+  "receipt-checkout/receipt-checkout.bft"
+ ],
+ "receive.dispensary.batch.execute.account": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "receive.hl7.tasy_report": [
+  "radiology/cmc-proton/Report/receive_report_ws.bft"
+ ],
+ "receive.hl7.tasy_update.status": [
+  "radiology/cmc-proton/Status/receive_update_status.bft"
+ ],
+ "receive.hl7.tasy_worklist": [
+  "radiology/cmc-proton/Worklist/receive.worklist.bft"
+ ],
+ "receive.teleconsultation.files": [
+  "my-companion/telehealth-import-files.bft"
+ ],
+ "register.audiovideo": [
+  "telehealth-icca/5.02.1833/register-audiovideo/outbond/outbound_event_register_audiovideo.bft",
+  "telehealth-icca/dev/register-audiovideo/outbond/outbound_event_register_audiovideo.bft"
+ ],
+ "register.flags": [
+  "telehealth-icca/5.02.1833/register-flags/inbound/ORU_R40/event_register_flags.bft",
+  "telehealth-icca/5.02.1833/register-flags/outbound/outbound_event_register_flags.bft",
+  "telehealth-icca/dev/register-flags/inbound/ORU_R40/event_register_flags.bft",
+  "telehealth-icca/dev/register-flags/outbound/outbound_event_register_flags.bft"
+ ],
+ "regulation.waitingList": [
+  "regulationWaitingList/regulationWaitingList.bft"
+ ],
+ "regulation.waitingList.update": [
+  "regulationWaitingList/regulationWaitingList.bft"
+ ],
+ "report_generation_falcon": [
+  "falcon/inbound/generate-report-falcon.bft"
+ ],
+ "request.material.price": [
+  "billing/alfaBeta/philips-tie-Alfa Beta Sistemas.bft"
+ ],
+ "rips_get_status_send": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "rips_transmission_receive": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "rips_transmission_send": [
+  "rips/philips-tie-rips.bft"
+ ],
+ "rxt.appointment.simulation.status.update": [
+  "radiotherapy-management/patient-admission-send-json.bft"
+ ],
+ "salvus.receive.prescription.gas.therapy": [
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft"
+ ],
+ "salvus.receive.respiratory": [
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft"
+ ],
+ "salvus.send.prescription.gas.therapy": [
+  "services-integrations/gastherapy/philips-tie-Salvus Integration.bft"
+ ],
+ "save_document_attachment_prescription": [
+  "telehealth-icca/5.02.1833/outpatient-prescription/attachment/outpatient_prescription_attachment.bft",
+  "telehealth-icca/dev/outpatient-prescription/attachment/outpatient_prescription_attachment.bft"
+ ],
+ "scheduler.export.laboratory.information.event": [
+  "slinews/philips-tie-SLine - Laboratory.bft"
+ ],
+ "scheduler.overmind.pending.authorizations.event": [
+  "overmind/overmind.bft"
+ ],
+ "scs.oauth.event": [
+  "hpms-scs-wsd/scs-wsd.bft"
+ ],
+ "search.beneficiary": [
+  "beneficiario-elegibilidade/beneficiario-elegibilidade.bft"
+ ],
+ "search.cns": [
+  "CADSUS/philips-tie-CADSUS REST.bft"
+ ],
+ "search.cpf": [
+  "CADSUS/philips-tie-CADSUS REST.bft"
+ ],
+ "search.name": [
+  "CADSUS/philips-tie-CADSUS REST.bft"
+ ],
+ "search.similarity": [
+  "search-similarity/philips-tie-SAP - MDG - search.similarity.bft"
+ ],
+ "searchCERIH": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "searchMedicalBedsGroup": [
+  "ADT/GERINT/philips-tie-GERINT.bft",
+  "ADT/searchCERIH/philips-tie-Search CERIH.bft"
+ ],
+ "send.batch.accounting": [
+  "accounting/techone/tech-one.bft"
+ ],
+ "send.cancel.inventory.sap": [
+  "inventory/inventory-sap/inventory-sap.bft"
+ ],
+ "send.change.patient.identifier.ADT_A47": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft"
+ ],
+ "send.clinical.patient.notes.create.mosaiq": [
+  "radiotherapy-management/patient-admission.bft"
+ ],
+ "send.clinical.patient.notes.update.mosaiq": [
+  "radiotherapy-management/patient-admission.bft"
+ ],
+ "send.collect.date.update": [
+  "standard-lab-integration/philips-tie-standard-lab-integration.bft"
+ ],
+ "send.compensation.invoice": [
+  "financial/accounting-batch-movement/ABC - SAP - Compensation.bft"
+ ],
+ "send.documents.signed": [
+  "digital-signature/philips-tie-Digital Signature.bft"
+ ],
+ "send.esocial": [
+  "esocial/philips-tie-eSocial.bft"
+ ],
+ "send.historic.authorization": [
+  "insurance-authorization/philips-tie-API SEND HISTORIC AUTHORIZATION (SALES FORCE).bft"
+ ],
+ "send.hl7.default.pacs.merge.patient.ADT.A40": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "send.hl7.default.pacs.report": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "send.hl7.default.pacs.worklist": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "send.hl7.default.pacs.worklist_susp": [
+  "radiology/orm-default/orm-default.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "send.hl7.tasy_integration_report": [
+  "radiology/cmc-proton/Report/send_report_ws.bft"
+ ],
+ "send.hl7.tasy_report": [
+  "radiology/cmc-proton/Report/send_report.bft"
+ ],
+ "send.hl7.tasy_update.status": [
+  "radiology/cmc-proton/Status/send_update_status.bft"
+ ],
+ "send.hl7.tasy_worklist": [
+  "radiology/cmc-proton/Worklist/send.worklist.bft"
+ ],
+ "send.integrated.accounting.batch": [
+  "financial/accounting-batch-movement/SAP - BackOffice.bft"
+ ],
+ "send.inventory": [
+  "inventory/inventory-mac/inventory-mac.bft",
+  "inventory/inventory-sap/inventory-sap.bft"
+ ],
+ "send.inventory.count.sap": [
+  "inventory/inventory-sap/inventory-sap.bft"
+ ],
+ "send.inventory.items": [
+  "inventory/inventory-mac/inventory-mac.bft"
+ ],
+ "send.json.tasy_integration_report": [
+  "report-pepo-json/philips-tie-reportPepoJson.bft"
+ ],
+ "send.laboratory.order.OML_O21": [
+  "radiology/colpox/laboratory_order.bft"
+ ],
+ "send.medical.fees": [
+  "Medical Fees Integration/Medical Fees Integration.bft"
+ ],
+ "send.pacs.exam.schedule": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "send.pacs.exam.schedule.cancellation": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "send.pacs.exam.schedule.modification": [
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft",
+  "tecsalud-ris-pacs/TecSalud - RIS PACS.bft"
+ ],
+ "send.patient.accounts.mac.event": [
+  "mac/mac-patient-account.bft"
+ ],
+ "send.payment.third.partie": [
+  "financial/accounting-batch-movement/SAP - BackOffice.bft"
+ ],
+ "send.procedure.info": [
+  "servicio-renta/TecSalud - Servicio de Renta.bft"
+ ],
+ "send.purchase_need_worklist": [
+  "purchase-order/purchase-order-request-need-worklist/philips-tie-Solicitud de Compras - ABC.bft"
+ ],
+ "send.purchase_request_worklist": [
+  "purchase-order/purchase-order-request-need-worklist/philips-tie-Solicitud de Compras - ABC.bft"
+ ],
+ "send.receipt.inspection": [
+  "receipt-inspection/receipt.inspection.bft"
+ ],
+ "send.receipt.register": [
+  "receipt-inspection/receipt.inspection.bft"
+ ],
+ "send.stockmovement": [
+  "stock-movement/stock-movement.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "send.stockmovement.sap": [
+  "stock-movement/stock-movement.bft"
+ ],
+ "send.teleconsultation.insert.terms.of.use": [
+  "my-companion/telehealth-send-terms-of-use.bft"
+ ],
+ "send.teleconsultation.update.terms.of.use": [
+  "my-companion/telehealth-send-terms-of-use.bft"
+ ],
+ "send.update.patient.ADT_A08": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft"
+ ],
+ "send.update.person.ADT_A31": [
+  "ADT/CARESCAPE - GE/philips-tie-CARESCAPE - ADT V3.bft",
+  "ADT/api-adt/api-adt.bft",
+  "api-patient-enterprisecode/api-patient-enterprisecode.bft",
+  "radiology/colpox/update_person.bft"
+ ],
+ "sendPathologyExamsEvent": [
+  "anapath/philips-tie-ABC - Anapath.bft",
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "sendPathologyExamsSuspensionEvent": [
+  "pathology-integration-pathox/pathology-integration-pathox.bft"
+ ],
+ "sending.account": [
+  "atc/ATC sending.bft",
+  "insurance-managers/philips-tie-Insurance Managers.bft"
+ ],
+ "sequence.request": [
+  "cmdk/dbmodel-sequence-export.bft"
+ ],
+ "service.price.add.request": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "service.price.table.update.request": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "service.price.update.request": [
+  "pyxis-dispensary/philips-tie-Pyxis Dispensary - Integration.bft"
+ ],
+ "sigeh.send.accounts": [
+  "sigeh/SIGEH Integration.bft"
+ ],
+ "siifa.devolucao.fatura": [
+  "siifa-integration/siifa-devolucao-fatura-integration.bft"
+ ],
+ "siifa.protocol.factura": [
+  "siifa-integration/siifa-protocol-integration.bft"
+ ],
+ "siifa.resposta.devolucao": [
+  "siifa-integration/siifa-resposta-devolucao-integration.bft"
+ ],
+ "spinal.event.portal.guardrail-info.ObjectPermissionDTO": [
+  "cmdk-guardrail-sync/philips-tie-cmdk-guardrail-sync.bft"
+ ],
+ "standard.lab.hl7.receive.exam.integrated": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "standard.lab.hl7.receive.exam.statusUpdate": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "standard.lab.hl7.receive.exam.susp": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "standard.lab.hl7.receive.structuredResults": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "standard.lab.hl7.receive.unstructuredResults": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft"
+ ],
+ "standard.pathology.send.exam.event": [
+  "standard-pathology-integration-OpenAPI/philips-tie-Standard Pathology Integration (OpenAPI).bft"
+ ],
+ "standard.pathology.send.exam.suspension.event": [
+  "standard-pathology-integration-OpenAPI/philips-tie-Standard Pathology Integration (OpenAPI).bft"
+ ],
+ "standardLabIntegrationSendExamsEvent": [
+  "standard-lab-integration-HL7/philips-tie-standard-lab-integration-hl7.bft",
+  "standard-lab-integration-OpenAPI/philips-tie-Standard Lab Integration (OpenAPI).bft"
+ ],
+ "standardLabIntegrationSendSuspExamsEvent": [
+  "standard-lab-integration-OpenAPI/philips-tie-Standard Lab Integration (OpenAPI).bft"
+ ],
+ "stocklocation.request": [
+  "stock-location/stock-location.bft"
+ ],
+ "stocklocation.send": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "stockmovement.create": [
+  "stock-movement/stock-movement.bft"
+ ],
+ "stockmovement.request": [
+  "stock-movement/stock-movement.bft"
+ ],
+ "stockmovement.send": [
+  "stock-movement/stock-movement.bft",
+  "tecsalud-ris-pacs-new/TecSalud - RIS PACS - New.bft"
+ ],
+ "stockmovement.update": [
+  "stock-movement/stock-movement-update.bft"
+ ],
+ "surgery.image.order.request": [
+  "ris-systems/olympus-endobase/olympus-endobase.bft",
+  "ris-systems/siemens-axiom-sensis-integrations/siemens-axiom-sensis-integrations.bft"
+ ],
+ "surgery.patient.admission": [
+  "Centro de Monitoreo/Patient Transfer - Centro de Monitoreo.bft"
+ ],
+ "surgery.patient.discharge": [
+  "Centro de Monitoreo/Patient Transfer - Centro de Monitoreo.bft"
+ ],
+ "surgery.schedule.confirmed.datetime.update": [
+  "mansis/mansis.bft"
+ ],
+ "surgery.schedule.send": [
+  "consultation-schedule/consultation-schedule-IzyDocs.bft"
+ ],
+ "surgery.schedule.status.update.cancel": [
+  "mansis/mansis.bft"
+ ],
+ "surgery.schedule.status.update.confirm": [
+  "mansis/mansis.bft"
+ ],
+ "surgery.scheduling.cancellation": [
+  "Inpart-OPME/Inpart - Surgery Status OPME.bft"
+ ],
+ "surgery.scheduling.get.materials.requested": [
+  "Inpart-OPME/Inpart - Surgery Status OPME.bft"
+ ],
+ "surgery.scheduling.items": [
+  "Inpart-OPME/Inpart - Surgery Status OPME.bft"
+ ],
+ "surgeryequipment.availability.check": [
+  "mansis/mansis.bft"
+ ],
+ "surgical.schedule.cancellation": [
+  "surgical-schedule/surgical-schedule.bft"
+ ],
+ "surgicalSchedule.add.request": [
+  "surgical-schedule/surgical-schedule.bft"
+ ],
+ "surgicalSchedule.get.request": [
+  "surgical-schedule/surgical-schedule.bft"
+ ],
+ "surgicalSchedule.ophthalmologyAppointment.get.request": [
+  "surgical-schedule/ophthalmology/ophthalmology.bft"
+ ],
+ "surgicalSchedule.patient-habit-addiction.get.request": [
+  "surgical-schedule/patient/patient-habit-addiction.bft"
+ ],
+ "surgicalSchedule.patient-habit-addiction.post.request": [
+  "surgical-schedule/patient/patient-habit-addiction.bft"
+ ],
+ "surgicalSchedule.patient-habit-addiction.put.request": [
+  "surgical-schedule/patient/patient-habit-addiction.bft"
+ ],
+ "surgicalSchedule.patientallergies.get.request": [
+  "surgical-schedule/patient/patient-allergies.bft"
+ ],
+ "surgicalSchedule.patientallergies.post.request": [
+  "surgical-schedule/patient/patient-allergies.bft"
+ ],
+ "surgicalSchedule.patientallergies.put.request": [
+  "surgical-schedule/patient/patient-allergies.bft"
+ ],
+ "surgicalSchedule.scheduling.get.request": [
+  "surgical-schedule/scheduling/scheduling.bft"
+ ],
+ "surgicalSchedule.update.request": [
+  "surgical-schedule/surgical-schedule.bft"
+ ],
+ "synapse.ris.hl7.receive.report": [
+  "Synapse/philips-tie-Synapse - Radiology RIS_PACS.bft"
+ ],
+ "synapse.ris.hl7.receive.update.status": [
+  "Synapse/philips-tie-Synapse - Radiology RIS_PACS.bft"
+ ],
+ "synapse.ris.hl7.send.order": [
+  "Synapse/philips-tie-Synapse - Radiology RIS_PACS.bft"
+ ],
+ "synapse.ris.hl7.send.schedule.order": [
+  "Synapse/philips-tie-Synapse - Radiology RIS_PACS.bft"
+ ],
+ "tax_obligation_dere": [
+  "tax-obligation/dere/tax-obligation-dere.bft"
+ ],
+ "tax_obligation_reinf": [
+  "tax-obligation/reinf/philips-tie.bft"
+ ],
+ "telemedicina.api.active.call": [
+  "telehealth-icca/5.00.1818/video/active-call/event_active_call.bft",
+  "telehealth-icca/5.00.1818/video/active-call/video_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/event_active_call.bft",
+  "telehealth-icca/5.02.1833/video/active-call/video_active_call.bft",
+  "telehealth-icca/dev/video/active-call/event_active_call.bft",
+  "telehealth-icca/dev/video/active-call/video_active_call.bft"
+ ],
+ "telemedicina.api.callback": [
+  "telehealth-icca/5.00.1818/video/emergency-alert/event_emergency_alert.bft",
+  "telehealth-icca/5.00.1818/video/emergency-alert/video_emergency_alert.bft",
+  "telehealth-icca/5.02.1833/video/emergency-alert/event_emergency_alert.bft",
+  "telehealth-icca/5.02.1833/video/emergency-alert/video_emergency_alert.bft",
+  "telehealth-icca/dev/video/emergency-alert/event_emergency_alert.bft",
+  "telehealth-icca/dev/video/emergency-alert/video_emergency_alert.bft"
+ ],
+ "telemedicina.api.privacy": [
+  "telehealth-icca/5.00.1818/video/privacy/event_privacy.bft",
+  "telehealth-icca/5.00.1818/video/privacy/video_privacy.bft",
+  "telehealth-icca/5.02.1833/video/privacy/event_privacy.bft",
+  "telehealth-icca/5.02.1833/video/privacy/video_privacy.bft",
+  "telehealth-icca/dev/video/privacy/event_privacy.bft"
+ ],
+ "telemedicina.api.softbtn": [
+  "telehealth-icca/5.00.1818/video/soft-button/event_soft_button.bft",
+  "telehealth-icca/5.00.1818/video/soft-button/video_soft_button.bft",
+  "telehealth-icca/5.02.1833/video/soft-button/event_soft_button.bft",
+  "telehealth-icca/5.02.1833/video/soft-button/video_soft_button.bft",
+  "telehealth-icca/dev/video/soft-button/event_soft_button.bft",
+  "telehealth-icca/dev/video/soft-button/video_soft_button.bft"
+ ],
+ "telemedicina.send.request": [
+  "telemedicina/telemedicina.bft"
+ ],
+ "test-case.post": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "test-case.put": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "test-case.request": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "test-result.post": [
+  "product-documentation-ngcap/product-documentation-ngcap.bft"
+ ],
+ "tie.smartlink.event": [
+  "cmdk-traceabilitymatrix-versioninfo/philips-tie-bifrostdevIntegration-TraceabilityMapping-EMR.bft",
+  "cmdk-traceabilitymatrix-versioninfo/philips-tie-bifrostdevIntegration-TraceabilityMapping-HSP.bft"
+ ],
+ "tiss.tie": [
+  "client-tiss-provider/tiss.bft"
+ ],
+ "tokenamil.request": [
+  "client-tiss-provider/tiss.bft"
+ ],
+ "transmit.era": [
+  "ANZ/AUS/direct-control/direct-control.bft"
+ ],
+ "treasury.request_treasury": [
+  "credit-card-movement/credit-card-movement.bft",
+  "financial/transaction-movement/philips-tie-Financial Transaction Movement.bft"
+ ],
+ "treasury_movements_muguerza_resend": [
+  "treasury-muguerza/treasury-muguerza.bft"
+ ],
+ "treasury_movements_muguerza_send": [
+  "treasury-muguerza/treasury-muguerza.bft"
+ ],
+ "update.teleconsultation.terms.of.use": [
+  "my-companion/telehealth-update-terms-of-use.bft"
+ ],
+ "user.event": [
+  "user/philips-tie-user.bft"
+ ],
+ "validation.crm.doctor": [
+  "validation-crm-doctor/validation-crm-doctor.bft"
+ ],
+ "validation.email": [
+  "email-validation/email-validation.bft",
+  "validation-email/validation-email.bft"
+ ],
+ "vital.signs.interface": [
+  "telehealth-icca/5.00.1818/vital-signs/ORU_R01/event_vital_signs.bft",
+  "telehealth-icca/5.00.1818/vital-signs/ORU_R01/vital_signs.bft",
+  "telehealth-icca/5.02.1833/vital-signs/ORU_R01/event_vital_signs.bft",
+  "telehealth-icca/5.02.1833/vital-signs/ORU_R01/vital_signs.bft",
+  "telehealth-icca/dev/vital-signs/ORU_R01/event_vital_signs.bft",
+  "telehealth-icca/dev/vital-signs/ORU_R01/vital_signs.bft"
+ ],
+ "vitalsign (Centro de Monitoreo -> Philips IBE -> TIE)": [
+  "Centro de Monitoreo/Patient Transfer - Centro de Monitoreo.bft"
+ ],
+ "voice-setup": [
+  "voice-setup/philips-tie-voice-setup.bft"
+ ],
+ "voicehcstie.send": [
+  "ADT/VOICEHCS/philips-tie-VOICEHCS.bft"
+ ],
+ "watson-bp": [
+  "watson/Watson.bft"
+ ],
+ "welch.request": [
+  "vital-signs/vitalSignWelch/Welch.bft"
+ ],
+ "welch.request.vn": [
+  "vital-signs/vitalSignWelch/Welch.bft"
+ ],
+ "wms.get.supplier.batch": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "wms.inventory.adjustment": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "wms.material.requisition.update": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "wms.receipt.inspection.receive": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "wms.stock.transfer.control": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "wms.stocktransfer.receive": [
+  "WMS Senior/philips-tie-WMS Senior.bft"
+ ],
+ "wtt.procedure.consultation.event": [
+  "radiology/wtt-integration/wtt-Integration.bft"
+ ],
+ "wtt.procedure.submission.event": [
+  "radiology/wtt-integration/wtt-Integration.bft"
+ ]
+}

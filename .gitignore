@@ -1,0 +1,24 @@
+# Documentos de terceiros (ex.: Evya): não versionar. Ver docs/decisoes/0006.
+referencias/documentos-terceiros/*
+
+# Código-fonte interno da Philips (PL/SQL, tasy-interfaces, TIE): indexar, não versionar. Ver docs/decisoes/0008.
+referencias/*.zip
+
+# Referências brutas com dados de clientes: só local (decisão 0013)
+referencias/lis-referencia/**
+referencias/cci-referencia/**
+referencias/manuais-referencia/**
+!referencias/lis-referencia/modelo-antigo/
+!referencias/**/README.md
+
+# Saídas geradas
+saidas/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+.env
+
+# macOS
+.DS_Store

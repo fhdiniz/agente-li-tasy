@@ -1,0 +1,943 @@
+{
+ "abc.send.advance.payment.updates": [
+  {
+   "objeto": "tasycli.ABC_ADIANTAMENTO_UPDATE (trigger)",
+   "tabela_trigger": "ADIANTAMENTO",
+   "payload": "abc_obter_info_adiantamento("
+  }
+ ],
+ "api.mipres.put.dispensation": [
+  {
+   "objeto": "tasy.MIPRES_INTEGRAR_DISP_LOTE (procedure)",
+   "tabela_trigger": null,
+   "payload": "gather_mipres_values("
+  },
+  {
+   "objeto": "tasy.MIPRES_INTEGRAR_DISP_LOTE (procedure)",
+   "tabela_trigger": null,
+   "payload": "gather_mipres_item_values("
+  },
+  {
+   "objeto": "tasy.PRESCR_DISP_MIPRES_AFTER_UP (trigger)",
+   "tabela_trigger": "PRESCR_DISP_MIPRES",
+   "payload": "gather_mipres_values("
+  },
+  {
+   "objeto": "tasy.UPDATE_PRESCR_MIPRES_HOR (trigger)",
+   "tabela_trigger": "PRESCR_MIPRES_HORARIO",
+   "payload": "gather_mipres_item_values("
+  }
+ ],
+ "api.mipres.put.facturacionnopbs": [
+  {
+   "objeto": "tasy.MIPRES_SEND_CUFE_V3 (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  },
+  {
+   "objeto": "tasy.MIPRES_SEND_CUFE_V3 (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  },
+  {
+   "objeto": "tasy.MIPRES_SEND_CUFE_V3 (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  },
+  {
+   "objeto": "tasy.MIPRES_SEND_CUFE_V2 (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  },
+  {
+   "objeto": "tasy.MIPRES_SEND_CUFE_V2 (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  },
+  {
+   "objeto": "tasy.MIPRES_SEND_CUFE_V2 (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  }
+ ],
+ "bedservicesmanagement.add": [
+  {
+   "objeto": "tasy.SL_UNID_ATEND_AFTER_INSERT (trigger)",
+   "tabela_trigger": "SL_UNID_ATEND",
+   "payload": "bed_services_management_pck.get_bed_service_info("
+  }
+ ],
+ "blackboard_sepsis_sofa_baseline": [
+  {
+   "objeto": "tasysis.SEPSIS_BLACKBOARD_INTEGRATION (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  }
+ ],
+ "bloodbank.send": [
+  {
+   "objeto": "tasypac.LIBERAR_PRESCRICAO (procedure)",
+   "tabela_trigger": null,
+   "payload": "prescription_json_pck.get_lis_message_clob("
+  }
+ ],
+ "bloodbank.update": [
+  {
+   "objeto": "tasy.PRESCR_PROCEDIMENTO_UPDATE (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO",
+   "payload": "prescription_json_pck.get_lis_message_clob("
+  }
+ ],
+ "boleto.register": [
+  {
+   "objeto": "tasyfin.GERAR_BOLETO_API (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  }
+ ],
+ "companyestablishment.send.osana": [
+  {
+   "objeto": "tasyfin.EMPRESA_AFTER_INSERT_UPDATE (trigger)",
+   "tabela_trigger": "EMPRESA",
+   "payload": "COMPANY_ESTABLISHMENT_JSON_PCK.get_company_clob("
+  },
+  {
+   "objeto": "tasyfin.ESTAB_AFTER_INSERT_UPDATE (trigger)",
+   "tabela_trigger": "ESTABELECIMENTO",
+   "payload": "COMPANY_ESTABLISHMENT_JSON_PCK.get_establishment_clob("
+  }
+ ],
+ "consultation.schedule.send": [
+  {
+   "objeto": "tasypac.AGENDA_CONSULTA_AFTER_INSERT (trigger)",
+   "tabela_trigger": "AGENDA_CONSULTA",
+   "payload": "schedule_info_tie_pck.get_consultation_schedule_inf("
+  }
+ ],
+ "elpas.send.actual.patient.exit": [
+  {
+   "objeto": "tasy.ELPAS_SEND_ACTUAL_PAT_EXIT (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "elpas.send.cancel.patient.discharge_exit": [
+  {
+   "objeto": "tasy.ELPAS_CANCEL_DISCHARGE_EXIT (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "elpas.send.cancel.patient.reservation": [
+  {
+   "objeto": "tasy.ELPAS_CANCEL_PATIENT_RESERV (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_bed_request_message_clob("
+  }
+ ],
+ "elpas.send.patient.discharge": [
+  {
+   "objeto": "tasy.ELPAS_SEND_PATIENT_DISCHARGE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "elpas.send.patient.encounter": [
+  {
+   "objeto": "tasy.ELPAS_INT_NEWBORN_SEND_ADT (trigger)",
+   "tabela_trigger": "NASCIMENTO",
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "elpas.send.patient.transfer": [
+  {
+   "objeto": "tasy.ELPAS_SEND_PATIENT_TRANSF (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  }
+ ],
+ "elpas.send.patient.update": [
+  {
+   "objeto": "tasy.ELPAS_INT_SEND_PATIENT_UPDATE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "factura.timbrado.send": [
+  {
+   "objeto": "tasysup.NOTA_FISCAL_UPDATE (trigger)",
+   "tabela_trigger": "NOTA_FISCAL",
+   "payload": "factura_timbrado_json_pck.get_invoice_data_clod("
+  }
+ ],
+ "fsfb.procedureapi": [
+  {
+   "objeto": "tasy.PROC_INTERNO_SEND_INFO (trigger)",
+   "tabela_trigger": "PROC_INTERNO",
+   "payload": "intproce_json_pck.send_procedure_info_clob("
+  }
+ ],
+ "fsfb.stockapi": [
+  {
+   "objeto": "tasysup.MOVIMENTO_ESTOQUE_TIE (trigger)",
+   "tabela_trigger": "MOVIMENTO_ESTOQUE",
+   "payload": "STOCK_MANAGEMENT_JSON_PCK.send_stock_info_clob("
+  }
+ ],
+ "gerint.swalis": [
+  {
+   "objeto": "tasy.ESCALA_EIF_II_GERINT_TIE (trigger)",
+   "tabela_trigger": "ESCALA_EIF_II",
+   "payload": "GERINT_SWALIS_INFO_CLOB("
+  },
+  {
+   "objeto": "tasy.GERINT_SOLIC_INTERN_SWALIS_TIE (trigger)",
+   "tabela_trigger": "GERINT_SOLIC_INTERNACAO",
+   "payload": "GERINT_SWALIS_INFO_CLOB("
+  }
+ ],
+ "hemotherapy.cancel": [
+  {
+   "objeto": "tasysan.SAN_DOACAO_UPDATE (trigger)",
+   "tabela_trigger": "SAN_DOACAO",
+   "payload": "hemo_exam_json_pck.get_message_exam_clob("
+  },
+  {
+   "objeto": "tasy.SAN_RESERVA_UPDATE (trigger)",
+   "tabela_trigger": "SAN_RESERVA",
+   "payload": "hemo_exam_json_pck.get_message_exam_clob("
+  }
+ ],
+ "hemotherapy.send": [
+  {
+   "objeto": "tasysan.SAN_EXAME_REALIZADO_INSERT (trigger)",
+   "tabela_trigger": "SAN_EXAME_REALIZADO",
+   "payload": "hemo_exam_json_pck.get_message_exam_clob("
+  }
+ ],
+ "insurance.authorization.insert": [
+  {
+   "objeto": "tasy.AUTORIZACAO_CONVENIO_AFTINSERT (trigger)",
+   "tabela_trigger": "AUTORIZACAO_CONVENIO",
+   "payload": "INSURANCE_AUTH_JSON_PCK.get_insurance_auth_msg_clob("
+  }
+ ],
+ "insurance.authorization.status.update": [
+  {
+   "objeto": "tasy.INSURANCE_AUTH_STATUS_INTEG (procedure)",
+   "tabela_trigger": null,
+   "payload": "INSURANCE_AUTH_JSON_PCK.get_insurance_auth_msg_clob("
+  },
+  {
+   "objeto": "tasy.AUTORIZACAO_CONVENIO_AFTUPDATE (trigger)",
+   "tabela_trigger": "AUTORIZACAO_CONVENIO",
+   "payload": "INSURANCE_AUTH_JSON_PCK.get_insurance_auth_msg_clob("
+  }
+ ],
+ "insurance.authorization.update": [
+  {
+   "objeto": "tasy.AUTORIZACAO_CONVENIO_AFTUPDATE (trigger)",
+   "tabela_trigger": "AUTORIZACAO_CONVENIO",
+   "payload": "INSURANCE_AUTH_JSON_PCK.get_insurance_auth_msg_clob("
+  }
+ ],
+ "insurance.send.insert": [
+  {
+   "objeto": "tasy.INSURANCE_SEND_INFO (trigger)",
+   "tabela_trigger": "CONVENIO",
+   "payload": "insurance_send_json_pck.send_insurance_info_clob("
+  }
+ ],
+ "insurance.send.update": [
+  {
+   "objeto": "tasy.INSURANCE_SEND_INFO (trigger)",
+   "tabela_trigger": "CONVENIO",
+   "payload": "insurance_send_json_pck.send_insurance_info_clob("
+  }
+ ],
+ "lis.patient.transfer": [
+  {
+   "objeto": "tasylab.LIS_SEND_PATIENT_TRANSFER_TIE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  }
+ ],
+ "mipres.get.audit": [
+  {
+   "objeto": "tasy.MIPRES_CALL_DATA_UPDATE (procedure)",
+   "tabela_trigger": null,
+   "payload": "gather_mipres_data_update("
+  }
+ ],
+ "mipres.get.multiprofessionalcommission": [
+  {
+   "objeto": "tasy.MIPRES_CALL_DATA_UPDATE (procedure)",
+   "tabela_trigger": null,
+   "payload": "gather_mipres_data_update("
+  }
+ ],
+ "mipres.post.prescriptiondata": [
+  {
+   "objeto": "tasy.MIPRES_GERAR_PRESCRICAO_INTEG (package)",
+   "tabela_trigger": null,
+   "payload": "mipres_gerar_prescricao_integ.gerar_prescr_receita_amb("
+  }
+ ],
+ "mipres.put.linkmipresprescription": [
+  {
+   "objeto": "tasy.MIPRES_CALL_LINK_PRESCRIPTION (procedure)",
+   "tabela_trigger": null,
+   "payload": "gather_mipres_prescription("
+  }
+ ],
+ "monitorio.send.patient.admission": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "monitorio.send.patient.discharge": [
+  {
+   "objeto": "tasypac.GERAR_SAIDA_REAL (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "monitorio.send.patient.transfer": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  }
+ ],
+ "murgueza_sftp_nfs": [
+  {
+   "objeto": "tasy.FIS_MURGUEZA_SEND_INVOICE_TXT (procedure)",
+   "tabela_trigger": null,
+   "payload": "fis_murgueza_get_sftp_pck.get_invoice_json_txt("
+  },
+  {
+   "objeto": "tasy.FIS_MURGUEZA_SEND_ACCOUNT_TXT (procedure)",
+   "tabela_trigger": null,
+   "payload": "fis_murgueza_get_sftp_pck.get_account_record_json("
+  }
+ ],
+ "osana.naturalperson": [
+  {
+   "objeto": "tasy.INT_PFCS_PESSOA_FISICA (trigger)",
+   "tabela_trigger": "PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "osana.proceduregroup": [
+  {
+   "objeto": "tasy.GRUPO_PROC_AFTINUP (trigger)",
+   "tabela_trigger": "GRUPO_PROC",
+   "payload": "PRO_GRP_JSON_PCK.get_proceduregroup_info_clob("
+  }
+ ],
+ "osana.procedureinternalproc": [
+  {
+   "objeto": "tasy.PROCEDIMENTO_INSERT_UPDATE (trigger)",
+   "tabela_trigger": "PROCEDIMENTO",
+   "payload": "pro_inproex_json_pck.get_procedures_info_clob("
+  },
+  {
+   "objeto": "tasy.SMART_TIPO_EXAME_AFTERINSERT (trigger)",
+   "tabela_trigger": "PROC_INTERNO",
+   "payload": "pro_inproex_json_pck.get_interexams_info_clob("
+  }
+ ],
+ "osana.scheduleauthstage": [
+  {
+   "objeto": "tasy.EXAM_SCHEDULE_JSON_PCK (package)",
+   "tabela_trigger": null,
+   "payload": "exam_schedule_json_pck.get_authexam_info_clob("
+  },
+  {
+   "objeto": "tasy.EXAM_SCHEDULE_JSON_PCK (package)",
+   "tabela_trigger": null,
+   "payload": "schedule_json_pck.get_auth_cons_serv_info_clob("
+  }
+ ],
+ "outpatient.admission": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.address.update": [
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_ATUAL_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA",
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_ATUAL_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "patient.admission": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.admission.cancel": [
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.admission.cancel.monitor": [
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.automatic.discharge": [
+  {
+   "objeto": "tasy.ATENDIMENTO_PACIENTE_AFTUPDATE (trigger)",
+   "tabela_trigger": "ATENDIMENTO_PACIENTE",
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.create": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_INSERT_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "patient.discharge": [
+  {
+   "objeto": "tasypac.GERAR_SAIDA_REAL (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.discharge.cancel": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.discharge.cancel.monitor": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.discharge.monitor": [
+  {
+   "objeto": "tasypac.GERAR_SAIDA_REAL (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.information.update": [
+  {
+   "objeto": "tasy.ATEND_CATEG_CONVENIO_UPDATE (trigger)",
+   "tabela_trigger": "ATEND_CATEGORIA_CONVENIO",
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.ATENDIMENTO_PACIENTE_AFTUPDATE (trigger)",
+   "tabela_trigger": "ATENDIMENTO_PACIENTE",
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "patient.insurance.update": [
+  {
+   "objeto": "tasy.PESSOA_TITULAR_CONVENIO_UPDATE (trigger)",
+   "tabela_trigger": "PESSOA_TITULAR_CONVENIO",
+   "payload": "person_json_pck.get_patient_message_clob("
+  },
+  {
+   "objeto": "tasy.PESSOA_TITULAR_CONVENIO_BFT (trigger)",
+   "tabela_trigger": "PESSOA_TITULAR_CONVENIO",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "patient.privacy.update": [
+  {
+   "objeto": "tasy.PESSOA_PRIVACIDADE_INSUP (trigger)",
+   "tabela_trigger": "PESSOA_FISICA_PRIVACIDADE",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "patient.registration.update": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA",
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "patient.registration.update.monitor": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA",
+   "payload": "person_json_pck.get_patient_message_clob("
+  }
+ ],
+ "patient.swap.monitor": [
+  {
+   "objeto": "tasy.PATIENT_SWAP_TIE (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  }
+ ],
+ "patient.transfer": [
+  {
+   "objeto": "tasy.REGISTRO_SAIDA_SETOR (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  },
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  }
+ ],
+ "physician.registration.insert": [
+  {
+   "objeto": "tasy.MEDICO_AFTERINSERT (trigger)",
+   "tabela_trigger": "MEDICO",
+   "payload": "PHYSICIAN_JSON_PCK.get_physician_message_clob("
+  }
+ ],
+ "physician.registration.update": [
+  {
+   "objeto": "tasy.MEDICO_AFTER_UPDATE (trigger)",
+   "tabela_trigger": "MEDICO",
+   "payload": "PHYSICIAN_JSON_PCK.get_physician_message_clob("
+  }
+ ],
+ "physician.specialty.insert": [
+  {
+   "objeto": "tasysis.MEDICO_ESPECIALIDADE_ATUAL (trigger)",
+   "tabela_trigger": "MEDICO_ESPECIALIDADE",
+   "payload": "PHYSICIAN_JSON_PCK.get_physician_message_clob("
+  }
+ ],
+ "physician.specialty.update": [
+  {
+   "objeto": "tasysis.MEDICO_ESPECIALIDADE_ATUAL (trigger)",
+   "tabela_trigger": "MEDICO_ESPECIALIDADE",
+   "payload": "PHYSICIAN_JSON_PCK.get_physician_message_clob("
+  }
+ ],
+ "prescription.dialysis.order.request": [
+  {
+   "objeto": "tasy.CPOE_DIALISE_INSERT_UPDT_AFTER (trigger)",
+   "tabela_trigger": "CPOE_DIALISE",
+   "payload": "cpoe_dial_order_json_pck.get_message_clob("
+  },
+  {
+   "objeto": "tasy.CPOE_DIALISE_INSERT_UPDT_AFTER (trigger)",
+   "tabela_trigger": "CPOE_DIALISE",
+   "payload": "cpoe_dial_order_json_pck.get_message_clob("
+  }
+ ],
+ "prescription.diet.order.request": [
+  {
+   "objeto": "tasy.CPOE_DIETA_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_DIETA",
+   "payload": "cpoe_diet_json_pck.get_message_clob("
+  },
+  {
+   "objeto": "tasy.CPOE_DIETA_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_DIETA",
+   "payload": "cpoe_diet_json_pck.get_message_clob("
+  }
+ ],
+ "prescription.gas.order.request": [
+  {
+   "objeto": "tasy.CPOE_GAS_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_GASOTERAPIA",
+   "payload": "cpoe_gas_order_json_pck.get_message_clob("
+  },
+  {
+   "objeto": "tasy.CPOE_GAS_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_GASOTERAPIA",
+   "payload": "cpoe_gas_order_json_pck.get_message_clob("
+  }
+ ],
+ "prescription.hemotherapy.order.request": [
+  {
+   "objeto": "tasypac.CPOE_HEMO_INSERT_UPDATE (trigger)",
+   "tabela_trigger": "CPOE_HEMOTERAPIA",
+   "payload": "cpoe_hemo_order_json_pck.get_message_clob("
+  },
+  {
+   "objeto": "tasypac.CPOE_HEMO_INSERT_UPDATE (trigger)",
+   "tabela_trigger": "CPOE_HEMOTERAPIA",
+   "payload": "cpoe_hemo_order_json_pck.get_message_clob("
+  }
+ ],
+ "prescription.image.order.update": [
+  {
+   "objeto": "tasy.PRESCR_PROCEDIMENTO_UPDATE (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO",
+   "payload": "prescription_json_pck.get_ris_message_clob("
+  }
+ ],
+ "prescription.laboratory.order.request": [
+  {
+   "objeto": "tasypac.LIBERAR_PRESCRICAO (procedure)",
+   "tabela_trigger": null,
+   "payload": "prescription_json_pck.get_lis_message_clob("
+  }
+ ],
+ "prescription.laboratory.order.request.hl7": [
+  {
+   "objeto": "tasy.LIBERAR_PRESCR_PROC_EUP (procedure)",
+   "tabela_trigger": null,
+   "payload": "prescription_json_pck.get_lis_message_clob("
+  },
+  {
+   "objeto": "tasy.PRESCR_PROCEDIMENTO_UPDATE (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO",
+   "payload": "prescription_json_pck.get_lis_message_clob("
+  }
+ ],
+ "prescription.laboratory.order.update": [
+  {
+   "objeto": "tasy.PRESCR_PROCEDIMENTO_UPDATE (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO",
+   "payload": "prescription_json_pck.get_lis_message_clob("
+  }
+ ],
+ "prescription.medicine.order.request": [
+  {
+   "objeto": "tasypac.GERAR_ALTERACAO_SOLUCAO_PRESCR (procedure)",
+   "tabela_trigger": null,
+   "payload": "cpoe_mat_json_pck.get_solution_prescr_message("
+  },
+  {
+   "objeto": "tasypac.GERAR_ALTERACAO_SOLUCAO_PRESCR (procedure)",
+   "tabela_trigger": null,
+   "payload": "cpoe_mat_json_pck.get_solution_prescr_message("
+  },
+  {
+   "objeto": "tasypac.GERAR_ALTERACAO_HORARIO_PRESCR (procedure)",
+   "tabela_trigger": null,
+   "payload": "cpoe_mat_json_pck.get_material_prescr_message("
+  },
+  {
+   "objeto": "tasypac.CPOE_MAT_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_MATERIAL",
+   "payload": "cpoe_mat_json_pck.get_message_clob("
+  },
+  {
+   "objeto": "tasypac.CPOE_MAT_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_MATERIAL",
+   "payload": "cpoe_mat_json_pck.get_message_clob("
+  }
+ ],
+ "prescription.pathology.order.request": [
+  {
+   "objeto": "tasypac.LIBERAR_PRESCRICAO (procedure)",
+   "tabela_trigger": null,
+   "payload": "prescription_json_pck.get_pathology_msg_prescr_clob("
+  },
+  {
+   "objeto": "tasy.GERAR_PROCED_ADICIONAL (procedure)",
+   "tabela_trigger": null,
+   "payload": "prescription_json_pck.get_pathology_message_clob("
+  }
+ ],
+ "prescription.pathology.order.update": [
+  {
+   "objeto": "tasy.PRESCR_PROCEDIMENTO_UPDATE (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO",
+   "payload": "prescription_json_pck.get_pathology_message_clob("
+  }
+ ],
+ "prescription.procedure.order.request": [
+  {
+   "objeto": "tasy.CPOE_PROC_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_PROCEDIMENTO",
+   "payload": "cpoe_proced_order_json_pck.get_message_clob("
+  },
+  {
+   "objeto": "tasy.CPOE_PROC_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_PROCEDIMENTO",
+   "payload": "cpoe_proced_order_json_pck.get_message_clob("
+  }
+ ],
+ "prescription.recommendation.order.request": [
+  {
+   "objeto": "tasy.CPOE_REC_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_RECOMENDACAO",
+   "payload": "recommendation_json_pck.get_recomm_message_clob("
+  },
+  {
+   "objeto": "tasy.CPOE_REC_INSERT_UPDATE_AFTER (trigger)",
+   "tabela_trigger": "CPOE_RECOMENDACAO",
+   "payload": "recommendation_json_pck.get_recomm_message_clob("
+  }
+ ],
+ "pyxis.send.patient.admission": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "pyxis.send.patient.admission.cancel": [
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "pyxis.send.patient.discharge": [
+  {
+   "objeto": "tasypac.GERAR_SAIDA_REAL (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  },
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "pyxis.send.patient.discharge.cancel": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ],
+ "pyxis.send.patient.transfer": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  },
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTUPDATE (trigger)",
+   "tabela_trigger": "ATEND_PACIENTE_UNIDADE",
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  }
+ ],
+ "pyxis.send.patient.transfer.surgery.end": [
+  {
+   "objeto": "tasy.GERAR_PASSAGEM_SETOR_EVENTO (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_transf_message_clob("
+  }
+ ],
+ "rxt.appointment.simulation.status.update": [
+  {
+   "objeto": "tasypac.RXT_AGENDA_UPDATE (trigger)",
+   "tabela_trigger": "RXT_AGENDA",
+   "payload": "schedule_json_pck.get_data_person_schedule_clob("
+  }
+ ],
+ "salvus.send.prescription.gas.therapy": [
+  {
+   "objeto": "tasycli.SALVUS_PRESCR_GAS_HOR_AFIN (trigger)",
+   "tabela_trigger": "PRESCR_GASOTERAPIA_HOR",
+   "payload": "cpoe_gas_order_json_pck.get_message_clob("
+  }
+ ],
+ "send.authorization.analyses": [
+  {
+   "objeto": "tasy.PLS_AUDITORIA_INPART (trigger)",
+   "tabela_trigger": "PLS_AUDITORIA",
+   "payload": "integrate_ops_inpart_pck.generate_data("
+  },
+  {
+   "objeto": "tasy.PLS_AUDITORIA_GRUPO_INPART (trigger)",
+   "tabela_trigger": "PLS_AUDITORIA_GRUPO",
+   "payload": "integrate_ops_inpart_pck.generate_data("
+  },
+  {
+   "objeto": "tasy.PLS_REQUISICAO_HISTOR_INPART (trigger)",
+   "tabela_trigger": "PLS_REQUISICAO_HISTORICO",
+   "payload": "integrate_ops_inpart_pck.generate_data("
+  }
+ ],
+ "send.collect.date.update": [
+  {
+   "objeto": "tasy.REGISTRA_DATA_COLETA_INTEG (procedure)",
+   "tabela_trigger": null,
+   "payload": null
+  }
+ ],
+ "send.integrated.accounting.batch": [
+  {
+   "objeto": "tasycon.PROCESSA_REQ_INTEG_CONTAB (procedure)",
+   "tabela_trigger": null,
+   "payload": "accounting_batch_json_pck.get_payload_json("
+  }
+ ],
+ "send.pacs.exam.schedule": [
+  {
+   "objeto": "tasycli.PACS_SEND_EXAM_AGEINT (trigger)",
+   "tabela_trigger": "AGENDA_INTEGRADA_ITEM",
+   "payload": "get_exam_schedule_info("
+  },
+  {
+   "objeto": "tasy.PACS_SEND_EXAM_SCHEDULE (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "get_exam_schedule_info("
+  },
+  {
+   "objeto": "tasy.PACS_SEND_ADDITIONAL_EXAMS (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE_PROC",
+   "payload": "get_exam_schedule_info("
+  }
+ ],
+ "send.pacs.exam.schedule.cancellation": [
+  {
+   "objeto": "tasy.PACS_SEND_EXAM_SCHEDULE (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "get_exam_schedule_info("
+  }
+ ],
+ "send.pacs.exam.schedule.modification": [
+  {
+   "objeto": "tasy.PACS_SEND_EXAM_SCHEDULE (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "get_exam_schedule_info("
+  },
+  {
+   "objeto": "tasy.PACS_SEND_ADDITIONAL_EXAMS (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE_PROC",
+   "payload": "get_exam_schedule_info("
+  }
+ ],
+ "send.past.history": [
+  {
+   "objeto": "tasypac.PATIENT_PAST_HISTORY_SEND (trigger)",
+   "tabela_trigger": "PACIENTE_ANTEC_CLINICO",
+   "payload": "patient_history_send_json_pck.send_history_clob("
+  }
+ ],
+ "send.patient.consent": [
+  {
+   "objeto": "tasypac.PATIENT_CONSENT_SEND (trigger)",
+   "tabela_trigger": "PEP_PAC_CI",
+   "payload": "patient_consent_send_json_pck.send_consent_clob("
+  }
+ ],
+ "send.patient.prescription": [
+  {
+   "objeto": "tasypac.PATIENT_PRESCRIPTION_SEND (trigger)",
+   "tabela_trigger": "MED_RECEITA",
+   "payload": "patient_prescr_send_json_pck.send_patient_prescription_clob("
+  }
+ ],
+ "send.payment.third.partie": [
+  {
+   "objeto": "tasy.SEND_PAYMENT_THIRD_PARTIES (trigger)",
+   "tabela_trigger": "REPASSE_TERCEIRO",
+   "payload": "payment_third_parties_json_pck.get_payment_transfer_msg_clob("
+  }
+ ],
+ "send.procedure.info": [
+  {
+   "objeto": "tasy.SEND_PROCEDURE_INFO (trigger)",
+   "tabela_trigger": "PROCEDIMENTO",
+   "payload": "get_procedure_info("
+  }
+ ],
+ "send.report.base64": [
+  {
+   "objeto": "tasy.LAUDO_PACIENTE_SEND_REPORT_TIE (trigger)",
+   "tabela_trigger": "LAUDO_PACIENTE",
+   "payload": "medical_report_tie_pck.get_report_info("
+  }
+ ],
+ "standard.pathology.send.exam.suspension.event": [
+  {
+   "objeto": "tasy.PRESCR_PROCEDIMENTO_UPDATE (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO",
+   "payload": "prescription_json_pck.get_pathology_payload_clob("
+  }
+ ],
+ "surgery.image.order.request": [
+  {
+   "objeto": "tasypac.INICIAR_CIRURGIA (procedure)",
+   "tabela_trigger": null,
+   "payload": "prescription_json_pck.get_ris_message_clob("
+  }
+ ],
+ "surgery.schedule.confirmed.datetime.update": [
+  {
+   "objeto": "tasy.AGENDA_PACIENTE_AFTER_INSERT (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "schedule_info_tie_pck.get_surgery_schedule_inf("
+  }
+ ],
+ "surgery.schedule.send": [
+  {
+   "objeto": "tasy.AGENDA_PACIENTE_AFTER_INSERT (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "schedule_info_tie_pck.get_surgery_schedule_inf("
+  }
+ ],
+ "surgery.schedule.status.update.cancel": [
+  {
+   "objeto": "tasy.AGENDA_PACIENTE_AFTER_INSERT (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "schedule_info_tie_pck.get_surgery_schedule_inf("
+  }
+ ],
+ "surgery.schedule.status.update.confirm": [
+  {
+   "objeto": "tasy.AGENDA_PACIENTE_AFTER_INSERT (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE",
+   "payload": "schedule_info_tie_pck.get_surgery_schedule_inf("
+  }
+ ],
+ "voice.discharge.cancellation.send": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null,
+   "payload": "encounter_json_pck.get_encounter_message_clob("
+  }
+ ]
+}

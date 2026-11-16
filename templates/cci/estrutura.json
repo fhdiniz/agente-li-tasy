@@ -1,0 +1,246 @@
+{
+  "documento": "CCI — Control de Cambio de Integración (controle de mudança)",
+  "versao_estrutura": "0.1 (proposta, aguardando validação do grupo)",
+  "base": [
+    "templates/cci/CCI Template Control de cambios integraciones_Bionexo_Tasy.docx",
+    "referencias/cci-referencia/CCI TecSalud - Diverza - Observaciones en Facturas y Notas de Credito - v.01.pdf",
+    "referencias/cci-referencia/Control de cambio Integración - Pyxis.pdf",
+    "referencias/cci-referencia/4004000458 Controle de Mudanças do Projeto_PT_Rev.docx (PT; é o controle de mudanças do PROJETO, mais simples — usado só para terminologia em português)"
+  ],
+  "idiomas": [
+    "es",
+    "pt-BR"
+  ],
+  "entradas": [
+    "LI aprovada da integração (quando existir)",
+    "Descrição da mudança: ata, e-mail ou notas da sessão com o cliente",
+    "Índices do Tasy e catálogo TIE"
+  ],
+  "legenda": "fonte e preenchimento seguem templates/li/estrutura.json",
+  "secoes": [
+    {
+      "id": "cabecalho",
+      "titulo": {
+        "es": "Solicitud de cambio - Informaciones",
+        "pt-BR": "Solicitação de mudança - Informações"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "consultor",
+        "agente"
+      ],
+      "campos": [
+        "Título do CCI",
+        "CCI ID (padrão observado: CCI-<CLIENTE>-DD-MM-AAAA)",
+        "Prioridade do cliente (ver valores.prioridade_cliente)",
+        "Cliente",
+        "País",
+        "Nome do projeto",
+        "Gerente de projeto Bionexo Tasy",
+        "Gerente de projeto cliente",
+        "Solicitado por",
+        "Data",
+        "Integração",
+        "Mudança impactará em (ver valores.impactara_en)",
+        "Impacto em testes do vendor? (Sí | No | Parcialmente)",
+        "Impacto no Go Live? (Sí | No)"
+      ],
+      "instrucao": "O agente sugere título, integração, 'impactará em' e impactos a partir da análise; dados do projeto vêm da LI ou do consultor."
+    },
+    {
+      "id": "1",
+      "titulo": {
+        "es": "Solicitud de cambio",
+        "pt-BR": "Solicitação de mudança"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "consultor",
+        "agente"
+      ],
+      "instrucao": "Contexto, necessidade do cliente, situação atual e decisões tomadas na sessão (com data). Registrar condicionantes ('não aplicar até a confirmação de X')."
+    },
+    {
+      "id": "2",
+      "titulo": {
+        "es": "Solución propuesta",
+        "pt-BR": "Solução proposta"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "base",
+        "agente"
+      ],
+      "subsecoes": [
+        {
+          "id": "2.1",
+          "titulo": {
+            "es": "Reglas de negocio",
+            "pt-BR": "Regras de negócio"
+          }
+        },
+        {
+          "id": "2.2",
+          "titulo": {
+            "es": "Comportamiento esperado",
+            "pt-BR": "Comportamento esperado"
+          }
+        },
+        {
+          "id": "2.3",
+          "titulo": {
+            "es": "Comportamiento actual",
+            "pt-BR": "Comportamento atual"
+          },
+          "instrucao": "Quando houver LI aprovada, extrair do caso de uso correspondente."
+        },
+        {
+          "id": "2.4",
+          "titulo": {
+            "es": "Origen de la información en Tasy",
+            "pt-BR": "Origem da informação no Tasy"
+          },
+          "formato": "tabela",
+          "colunas": [
+            "Documento/cenário",
+            "Origem Tasy (TABELA.CAMPO)",
+            "Tipo / tamanho",
+            "Atributo JSON / segmento",
+            "Destino"
+          ],
+          "fonte": [
+            "base"
+          ]
+        },
+        {
+          "id": "2.5",
+          "titulo": {
+            "es": "Componentes con impacto previsto",
+            "pt-BR": "Componentes com impacto previsto"
+          },
+          "formato": "tabela",
+          "colunas": [
+            "Componente (template/transformação TIE, API, objeto Tasy)",
+            "Situação atual",
+            "Ajuste necessário"
+          ],
+          "fonte": [
+            "base"
+          ],
+          "instrucao": "Usar o catálogo TIE (fluxos, mapeamentos) e os índices para listar o que muda. Ex.: tabela por transformação HL7 como no CCI Pyxis."
+        },
+        {
+          "id": "2.6",
+          "titulo": {
+            "es": "Impacto",
+            "pt-BR": "Impacto"
+          },
+          "formato": "lista"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": {
+        "es": "Información adicional requerida",
+        "pt-BR": "Informação adicional necessária"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ],
+      "instrucao": "Evidências da análise e pendências de confirmação (cliente, vendor, equipe técnica)."
+    },
+    {
+      "id": "4",
+      "titulo": {
+        "es": "Resumen de evaluación de impacto (Bionexo Tasy)",
+        "pt-BR": "Resumo da avaliação de impacto (Bionexo Tasy)"
+      },
+      "obrigatoria": true,
+      "preenchimento": "manual",
+      "fonte": [
+        "consultor"
+      ],
+      "campos": [
+        "Esforço: complexidade x horas (ver valores.esfuerzo_complejidad; só a Alta tem faixa de horas, Média e Baixa sem faixa definida)",
+        "Custo adicional? (ver valores.costo_adicional)"
+      ],
+      "instrucao": "O agente não estima esforço nem custo; deixa 'Pendiente de estimación' para o consultor."
+    },
+    {
+      "id": "5",
+      "titulo": {
+        "es": "Comentarios adicionales",
+        "pt-BR": "Comentários adicionais"
+      },
+      "obrigatoria": false,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente"
+      ]
+    },
+    {
+      "id": "6",
+      "titulo": {
+        "es": "Aprobación Cliente / Aprobación Bionexo Tasy",
+        "pt-BR": "Aprovação Cliente / Aprovação Bionexo Tasy"
+      },
+      "obrigatoria": true,
+      "preenchimento": "manual",
+      "fonte": [
+        "consultor"
+      ],
+      "campos": [
+        "Aprovado / Rejeitado",
+        "Motivo se rejeitado",
+        "Aprovador, cargo, data, assinatura"
+      ]
+    }
+  ],
+  "revisao": {
+    "destaque": "realce amarelo (Word)",
+    "regra": "Seções 'manual' e 'rascunho', dados pessoais e conclusões de confiança média/baixa saem com realce amarelo; campos sem dado viram [PREENCHER: ...]. Ver docs/decisoes/0010.",
+    "aviso_final": "O que está em amarelo no documento cabe análise do consultor."
+  },
+  "valores": {
+    "prioridade_cliente": [
+      "1 - Alta",
+      "2 - Media",
+      "3 - Baja"
+    ],
+    "impactara_en": [
+      "1 - TIE",
+      "2 - IBE",
+      "3 - TIE/IBE",
+      "4 - Tasy (Producto)"
+    ],
+    "esfuerzo_complejidad": [
+      "1 - Alta (>60hrs)",
+      "2 - Media",
+      "3 - Baja"
+    ],
+    "impacto_pruebas_vendor": [
+      "Sí",
+      "No",
+      "Parcialmente"
+    ],
+    "impacto_go_live": [
+      "Sí",
+      "No"
+    ],
+    "costo_adicional": [
+      "Sí",
+      "No",
+      "Pendiente de evaluación"
+    ]
+  },
+  "bases_docx": {
+    "pt-BR": "templates/cci/base-pt-BR.docx",
+    "es": "templates/cci/base-es.docx"
+  }
+}

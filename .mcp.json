@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agente-li-tasy": {
+      "command": "uv",
+      "args": ["run", "--project", "${CLAUDE_PLUGIN_ROOT}/mcp-server", "agente-li"]
+    }
+  }
+}

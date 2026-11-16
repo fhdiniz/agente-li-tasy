@@ -1,0 +1,6 @@
+{
+  "name": "agente-li",
+  "version": "0.2.0",
+  "description": "Gera LI (Levantamento de Integração), Manual de Integração e CCI do Tasy no padrão Bionexo Tasy, cruzando o documento do terceiro com as APIs OpenAPI e o catálogo TIE.",
+  "author": { "name": "Bionexo Tasy" }
+}

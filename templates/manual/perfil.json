@@ -1,0 +1,134 @@
+{
+  "template": "EMR 12352 MO - Modelo para Manual de Integración_009_ES.docx",
+  "pagina": {
+    "largura_cm": 21.0,
+    "altura_cm": 29.7,
+    "orientacao": "portrait"
+  },
+  "margens_cm": {
+    "top": 2.54,
+    "bottom": 2.54,
+    "left": 1.9,
+    "right": 1.9,
+    "header": 1.25,
+    "footer": 1.25
+  },
+  "fontes_tema": {
+    "titulos": "Cambria",
+    "corpo": "Calibri"
+  },
+  "padrao": {
+    "fonte": "minorHAnsi",
+    "tamanho_pt": 11.0,
+    "espaco_depois_pt": 10.0,
+    "entrelinha": 1.15
+  },
+  "estilos_usados": {
+    "Normal": {
+      "nome": "Normal",
+      "tipo": "paragraph",
+      "baseado_em": null,
+      "fonte": "Verdana",
+      "tamanho_pt": 10.0,
+      "espaco_depois_pt": 0.0
+    },
+    "Ttulo1": {
+      "nome": "heading 1",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "negrito": true
+    },
+    "Ttulo2": {
+      "nome": "heading 2",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "negrito": true
+    },
+    "Ttulo1Char": {
+      "nome": "Título 1 Char",
+      "tipo": "character",
+      "baseado_em": "Fontepargpadro",
+      "fonte": "Verdana",
+      "tamanho_pt": 10.0,
+      "negrito": true
+    },
+    "Ttulo2Char": {
+      "nome": "Título 2 Char",
+      "tipo": "character",
+      "baseado_em": "Fontepargpadro",
+      "fonte": "Verdana",
+      "tamanho_pt": 10.0,
+      "negrito": true
+    },
+    "Ttulo10": {
+      "nome": "Título1",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Cambria",
+      "tamanho_pt": 26.0,
+      "cor": "#17365D",
+      "espaco_depois_pt": 15.0,
+      "entrelinha": 1.0
+    },
+    "PargrafodaLista": {
+      "nome": "List Paragraph",
+      "tipo": "paragraph",
+      "baseado_em": "Normal"
+    },
+    "Sumrio1": {
+      "nome": "toc 1",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "espaco_depois_pt": 5.0
+    },
+    "Sumrio2": {
+      "nome": "toc 2",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "espaco_depois_pt": 5.0
+    },
+    "SemEspaamento": {
+      "nome": "No Spacing",
+      "tipo": "paragraph",
+      "baseado_em": null,
+      "fonte": "Verdana",
+      "tamanho_pt": 10.0,
+      "negrito": true,
+      "espaco_depois_pt": 0.0,
+      "entrelinha": 1.0,
+      "alinhamento": "center"
+    },
+    "Hyperlink": {
+      "nome": "Hyperlink",
+      "tipo": "character",
+      "baseado_em": "Fontepargpadro",
+      "cor": "#0000FF"
+    }
+  },
+  "cabecalhos_rodapes": {
+    "header2.xml": {
+      "texto": "Manual de Integración EMR Código del documento: ########  (Nombre del Manual) Rev isión : 00_  Status: Ap robado",
+      "tem_imagem": true,
+      "campos": []
+    },
+    "footer1.xml": {
+      "texto": "Confidencial de la Empresa  Bionexo Tasy                                                                                                                         Página  7  de  7 COPIAS NO  CONTROLADAS",
+      "tem_imagem": false,
+      "campos": []
+    },
+    "header1.xml": {
+      "texto": "Manual HISS EMR Código  del  documento: ########  ( Nom bre del  Manual ) Rev: 00_  Status: Ap robado",
+      "tem_imagem": true,
+      "campos": []
+    },
+    "footer2.xml": {
+      "texto": "Confidencial de la Empresa  Bionexo Tasy                                                                                                                         Página  1  de  7 COPIAS NO  CONTROLADAS",
+      "tem_imagem": false,
+      "campos": []
+    }
+  },
+  "controles_lista_suspensa": 0,
+  "sumario_automatico": true
+}

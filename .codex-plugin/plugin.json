@@ -1,0 +1,15 @@
+{
+  "name": "agente-li",
+  "version": "0.2.0",
+  "description": "Gera LI (Levantamento de Integração), Manual de Integração e CCI do Tasy no padrão Bionexo Tasy, cruzando o documento do terceiro com as APIs OpenAPI e o catálogo TIE.",
+  "author": { "name": "Bionexo Tasy" },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Agente LI Tasy",
+    "shortDescription": "LI, Manual de Integração e CCI no padrão Bionexo Tasy",
+    "developerName": "Bionexo Tasy",
+    "category": "Productivity",
+    "defaultPrompt": ["Gere a LI a partir do documento <arquivo>", "Gere o manual da integração <nome>"]
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "template": "Template de levantamento de integração [OFICIAL].docx",
+  "pagina": {
+    "largura_cm": 21.0,
+    "altura_cm": 29.7,
+    "orientacao": "portrait"
+  },
+  "margens_cm": {
+    "top": 1.0,
+    "bottom": 1.0,
+    "left": 2.0,
+    "right": 2.0,
+    "header": 1.0,
+    "footer": 0.8
+  },
+  "fontes_tema": {
+    "titulos": "Cambria",
+    "corpo": "Calibri"
+  },
+  "padrao": {
+    "fonte": "Times New Roman"
+  },
+  "estilos_usados": {
+    "Normal": {
+      "nome": "Normal",
+      "tipo": "paragraph",
+      "baseado_em": null,
+      "fonte": "minorHAnsi",
+      "tamanho_pt": 11.0
+    },
+    "Heading1": {
+      "nome": "heading 1",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 14.0,
+      "cor": "#0070C0",
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 12.0,
+      "numerado": true
+    },
+    "Heading2": {
+      "nome": "heading 2",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 12.0,
+      "negrito": true,
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 12.0,
+      "numerado": true
+    },
+    "Heading3": {
+      "nome": "heading 3",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "tamanho_pt": 12.0,
+      "negrito": true,
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 12.0,
+      "numerado": true
+    },
+    "Heading4": {
+      "nome": "heading 4",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 12.0,
+      "negrito": true,
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 12.0,
+      "numerado": true
+    },
+    "Heading5": {
+      "nome": "heading 5",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "majorHAnsi",
+      "cor": "#004B78",
+      "espaco_antes_pt": 2.0,
+      "numerado": true
+    },
+    "Heading6": {
+      "nome": "heading 6",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "majorHAnsi",
+      "cor": "#003250",
+      "espaco_antes_pt": 2.0,
+      "numerado": true
+    },
+    "Heading7": {
+      "nome": "heading 7",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "tamanho_pt": 14.0,
+      "espaco_antes_pt": 6.0,
+      "espaco_depois_pt": 6.0,
+      "numerado": true
+    },
+    "Heading8": {
+      "nome": "heading 8",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "majorHAnsi",
+      "tamanho_pt": 10.5,
+      "cor": "#272727",
+      "espaco_antes_pt": 2.0,
+      "numerado": true
+    },
+    "Heading9": {
+      "nome": "heading 9",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "majorHAnsi",
+      "tamanho_pt": 10.5,
+      "italico": true,
+      "cor": "#272727",
+      "espaco_antes_pt": 2.0,
+      "numerado": true
+    },
+    "TOC4": {
+      "nome": "toc 4",
+      "tipo": "paragraph",
+      "baseado_em": "TOC3"
+    },
+    "TOC3": {
+      "nome": "toc 3",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null
+    },
+    "Hyperlink": {
+      "nome": "Hyperlink",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "minorHAnsi",
+      "tamanho_pt": 11.0,
+      "cor": "#0070C0"
+    },
+    "TOC1": {
+      "nome": "toc 1",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri"
+    },
+    "TOCHeading": {
+      "nome": "TOC Heading",
+      "tipo": "paragraph",
+      "baseado_em": "Heading1",
+      "fonte": null,
+      "entrelinha": 1.0791666666666666,
+      "numerado": true
+    },
+    "TOC2": {
+      "nome": "toc 2",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null
+    },
+    "TOC5": {
+      "nome": "toc 5",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 10.0
+    },
+    "TOC6": {
+      "nome": "toc 6",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 10.0
+    },
+    "TOC7": {
+      "nome": "toc 7",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 10.0
+    },
+    "TOC8": {
+      "nome": "toc 8",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 10.0
+    },
+    "TOC9": {
+      "nome": "toc 9",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": null,
+      "tamanho_pt": 10.0
+    },
+    "Heading4Char": {
+      "nome": "Heading 4 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "minorHAnsi",
+      "tamanho_pt": 12.0,
+      "negrito": true
+    },
+    "ListParagraph": {
+      "nome": "List Paragraph",
+      "tipo": "paragraph",
+      "baseado_em": "Normal"
+    },
+    "Heading3Char": {
+      "nome": "Heading 3 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "Calibri",
+      "tamanho_pt": 12.0,
+      "negrito": true
+    },
+    "TOCNormal": {
+      "nome": "TOC Normal",
+      "tipo": "paragraph",
+      "baseado_em": "TOC1"
+    },
+    "TOC1Char": {
+      "nome": "TOC 1 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "Calibri",
+      "tamanho_pt": 11.0
+    },
+    "TOCNormalChar": {
+      "nome": "TOC Normal Char",
+      "tipo": "character",
+      "baseado_em": "TOC1Char",
+      "fonte": "Calibri",
+      "tamanho_pt": 11.0
+    },
+    "Heading5Char": {
+      "nome": "Heading 5 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "majorHAnsi",
+      "tamanho_pt": 11.0,
+      "cor": "#004B78"
+    },
+    "Heading6Char": {
+      "nome": "Heading 6 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "majorHAnsi",
+      "tamanho_pt": 11.0,
+      "cor": "#003250"
+    },
+    "Heading8Char": {
+      "nome": "Heading 8 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "majorHAnsi",
+      "tamanho_pt": 10.5,
+      "cor": "#272727"
+    },
+    "Heading9Char": {
+      "nome": "Heading 9 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "majorHAnsi",
+      "tamanho_pt": 10.5,
+      "italico": true,
+      "cor": "#272727"
+    },
+    "Guidance": {
+      "nome": "Guidance",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "cor": "#800080"
+    },
+    "NoSpacing": {
+      "nome": "No Spacing",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Arial",
+      "tamanho_pt": 10.0
+    },
+    "EndofDocument": {
+      "nome": "End of Document",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Arial",
+      "tamanho_pt": 10.0,
+      "negrito": true,
+      "cor": "#FFFFFF",
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 12.0,
+      "alinhamento": "center"
+    },
+    "Heading1Char": {
+      "nome": "Heading 1 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "minorHAnsi",
+      "tamanho_pt": 14.0,
+      "cor": "#0070C0"
+    },
+    "Heading2Char": {
+      "nome": "Heading 2 Char",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont",
+      "fonte": "minorHAnsi",
+      "tamanho_pt": 12.0,
+      "negrito": true
+    },
+    "paragraph": {
+      "nome": "paragraph",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Times New Roman",
+      "tamanho_pt": 12.0,
+      "espaco_antes_pt": 5.0,
+      "espaco_depois_pt": 5.0
+    },
+    "normaltextrun": {
+      "nome": "normaltextrun",
+      "tipo": "character",
+      "baseado_em": "DefaultParagraphFont"
+    }
+  },
+  "cabecalhos_rodapes": {
+    "header1.xml": {
+      "texto": "Documento de especificação de  requisito  e processos  da integração Registro ID ( Ver  1 ):",
+      "tem_imagem": false,
+      "campos": []
+    },
+    "footer1.xml": {
+      "texto": "Page  20  of  20",
+      "tem_imagem": false,
+      "campos": []
+    }
+  },
+  "controles_lista_suspensa": 0,
+  "sumario_automatico": true
+}

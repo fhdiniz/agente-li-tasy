@@ -1,0 +1,1784 @@
+{
+ "2": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "3": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "4": [
+  {
+   "objeto": "tasypac.GERAR_SAIDA_REAL (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "18": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_ATUAL_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  }
+ ],
+ "19": [
+  {
+   "objeto": "tasycli.REVERTE_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.ACERTAR_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "20": [
+  {
+   "objeto": "tasypac.ALTERAR_DADOS_CIRURGIA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.DESFAZER_INICIO_FIM_CIRURGIA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "21": [
+  {
+   "objeto": "tasypac.ALTERAR_DADOS_CIRURGIA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.DESFAZER_INICIO_FIM_CIRURGIA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "22": [
+  {
+   "objeto": "tasypac.MOVE_TO_FREE_BED (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.TROCA_ATENDIMENTOS_ENTRE_UNID (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.TROCAR_UNIDADE_ATENDIMENTOS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "23": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasypac.INICIAR_CIRURGIA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasycli.AGEINT_ENVIO_ITEM_ISITE_GRAACC (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_PROCEDIMENTO_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "24": [
+  {
+   "objeto": "tasypac.LAUDO_PACIENTE_INSERT_HL7 (trigger)",
+   "tabela_trigger": "LAUDO_PACIENTE"
+  },
+  {
+   "objeto": "tasypac.LAUDO_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "LAUDO_PACIENTE"
+  }
+ ],
+ "25": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_PROCEDIMENTO_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "31": [
+  {
+   "objeto": "tasycli.REVERTE_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.ACERTAR_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "37": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "45": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.ATUALIZAR_NOTA_FISCAL (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "46": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.AGENDA_PAC_INT_OPME_LOG_ATUAL (trigger)",
+   "tabela_trigger": "AGENDA_PAC_INT_OPME_LOG"
+  }
+ ],
+ "50": [
+  {
+   "objeto": "tasypac.PRESCR_ENT_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_MATERIAL"
+  },
+  {
+   "objeto": "tasypac.NUT_PACIENTE_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "NUT_PACIENTE"
+  },
+  {
+   "objeto": "tasypac.PRESCR_REC_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_RECOMENDACAO"
+  },
+  {
+   "objeto": "tasypac.PRESCR_MEDICA_UPD_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypac.PRESCR_GASO_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_GASOTERAPIA"
+  },
+  {
+   "objeto": "tasypac.PRESCR_PROCED_UPD_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasypac.PRESCR_OXIG_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "51": [
+  {
+   "objeto": "tasypac.PRESCR_DIETA_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_DIETA"
+  },
+  {
+   "objeto": "tasypac.PRESCR_MEDICA_UPD_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypac.PRESCR_JEJUM_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "REP_JEJUM"
+  }
+ ],
+ "52": [
+  {
+   "objeto": "tasypac.PRESCR_MEDICA_UPD_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "54": [
+  {
+   "objeto": "tasypac.PRESCR_PROC_UPDATE_HL7_DIXTAL (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "56": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "57": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "58": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.REENVIAR_INT_AUTO_OPME_JOB (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "59": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "67": [
+  {
+   "objeto": "tasypac.GERAR_SINAL_VITAL_DIXTAL (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_SINAL_VITAL_PHILIPS_ACS (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_SINAL_VITAL_PHILIPS (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_SINAL_VITAL_GE (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_SINAL_VITAL_EFFICIA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_CIRURGIA_HL7 (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_PASSAGEM_SETOR_EVENTO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "68": [
+  {
+   "objeto": "tasypac.GERAR_CIRURGIA_HL7 (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_PASSAGEM_SETOR_EVENTO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "69": [
+  {
+   "objeto": "tasypac.GERAR_SAIDA_REAL (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_CIRURGIA_HL7 (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_PASSAGEM_SETOR_EVENTO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "71": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_INSERT_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  }
+ ],
+ "72": [
+  {
+   "objeto": "tasypac.GERAR_CIRURGIA_HL7 (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasycli.REVERTE_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.ACERTAR_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "73": [
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_PROCEDIMENTO_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "74": [
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_PROCEDIMENTO_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "84": [
+  {
+   "objeto": "tasylab.PRESCR_PROC_MAT_ITEM_UPD (trigger)",
+   "tabela_trigger": "PRESCR_PROC_MAT_ITEM"
+  }
+ ],
+ "86": [
+  {
+   "objeto": "tasy.LIBERAR_LAUDO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "92": [
+  {
+   "objeto": "tasysup.ENVIAR_COT_COMPRA_INTEGRACAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "96": [
+  {
+   "objeto": "tasysup.LIBERAR_COTACAO_OC_IMPORTADA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "97": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "98": [
+  {
+   "objeto": "tasysup.OBTER_RESPOSTA_WS_COTACAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "99": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "100": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "101": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "102": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "103": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "127": [
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "131": [
+  {
+   "objeto": "tasysup.ENVIAR_COT_COMPRA_INTEGRACAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "133": [
+  {
+   "objeto": "tasysup.GERAR_COT_ORDEM_SC_CONTRATO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.SUP_REENVIAR_PEDIDO_GIMBA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "141": [
+  {
+   "objeto": "tasysup.ENVIAR_COT_COMPRA_INTEGRACAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "144": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_INSERT_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  }
+ ],
+ "145": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  }
+ ],
+ "159": [
+  {
+   "objeto": "tasycli.REVERTE_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.ACERTAR_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "178": [
+  {
+   "objeto": "tasysup.GERAR_COT_COMPRA_FORNEC_XML (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.GERAR_COT_COMPRA_BIONEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "189": [
+  {
+   "objeto": "tasylab.EXAME_LAB_RESULT_ITEM_HL7 (trigger)",
+   "tabela_trigger": "EXAME_LAB_RESULT_ITEM"
+  }
+ ],
+ "191": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  }
+ ],
+ "192": [
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "193": [
+  {
+   "objeto": "tasypac.AGENDA_PAC_EQUIP_ATUAL_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PAC_EQUIP"
+  },
+  {
+   "objeto": "tasypac.PRESCR_MATERIAL_ATUAL_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MATERIAL"
+  },
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "196": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "214": [
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  },
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  }
+ ],
+ "216": [
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "217": [
+  {
+   "objeto": "tasylab.EXAME_LAB_RESULT_ITEM_HL7 (trigger)",
+   "tabela_trigger": "EXAME_LAB_RESULT_ITEM"
+  }
+ ],
+ "219": [
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "220": [
+  {
+   "objeto": "tasypac.COPIAR_TRANSFERIR_AGENDA_EXAME (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "238": [
+  {
+   "objeto": "tasypac.ROTHMAN_ENVIO_HL7 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "240": [
+  {
+   "objeto": "tasypac.ROTHMAN_ENVIO_HL7 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "241": [
+  {
+   "objeto": "tasypac.ROTHMAN_ENVIO_HL7 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "257": [
+  {
+   "objeto": "tasypac.ENVIAR_LEMBRETE_EV_DIXTAL (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "302": [
+  {
+   "objeto": "tasy.MEDICO_INSERT_HL7 (trigger)",
+   "tabela_trigger": "MEDICO"
+  }
+ ],
+ "303": [
+  {
+   "objeto": "tasy.MEDICO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "MEDICO"
+  }
+ ],
+ "309": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "310": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "324": [
+  {
+   "objeto": "tasypac.AGHOS_SOLICITAR_INTERNACAO_WS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "331": [
+  {
+   "objeto": "tasypac.AGHOS_TRANSFERENCIA_INTERNA_WS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "334": [
+  {
+   "objeto": "tasy.AGHOS_ALTA_SOLICITACAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "345": [
+  {
+   "objeto": "tasycli.PATHOX_PRESCR_MED_AFUP_AMOR (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PATHOX_PRESCR_MEDICA_AFUP_PADRAO (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "347": [
+  {
+   "objeto": "tasycli.PATHOX_PESSOA_FISICA_AFUP (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  }
+ ],
+ "348": [
+  {
+   "objeto": "tasycli.PATHOX_PESSOA_FISICA_DUPLIC (trigger)",
+   "tabela_trigger": "PESSOA_FISICA_DUPLIC"
+  }
+ ],
+ "350": [
+  {
+   "objeto": "tasycli.PATHOX_PRESCR_PROCED_AFUP (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PATHOX_PRESCR_PROCED_AFUP_AMOR (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "352": [
+  {
+   "objeto": "tasysup.ATUALIZAR_NOTA_FISCAL (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.ESTORNAR_NOTA_FISCAL (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.CANCELAR_NOTA_FISCAL (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "372": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "373": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "375": [
+  {
+   "objeto": "tasy.ATENDIMENTO_PACIENTE_AFTUPDATE (trigger)",
+   "tabela_trigger": "ATENDIMENTO_PACIENTE"
+  }
+ ],
+ "376": [
+  {
+   "objeto": "tasy.ATENDIMENTO_PACIENTE_AFTUPDATE (trigger)",
+   "tabela_trigger": "ATENDIMENTO_PACIENTE"
+  }
+ ],
+ "377": [
+  {
+   "objeto": "tasycli.HLC_TOLIFE_TRIAGEM_PACIENTE (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasycli.MSM_TOLIFE_TRIAGEM_PACIENTE (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasycli.HSM_TOLIFE_TRIAGEM_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "380": [
+  {
+   "objeto": "tasylab.INTEGRAR_ZENITE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "403": [
+  {
+   "objeto": "tasyfin.FECHAR_CAIXA_RECEB (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "407": [
+  {
+   "objeto": "tasy.APROVAR_REPASSE_TERCEIRO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "417": [
+  {
+   "objeto": "tasyfin.GERAR_MOVTO_BAIXA_CARTAO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.ATUALIZAR_TRANSACAO_FINANCEIRA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "418": [
+  {
+   "objeto": "tasycli.PUC_MVTO_BANCO_AFTER_INSERT (trigger)",
+   "tabela_trigger": "MOVTO_BANCO_PEND_BAIXA"
+  }
+ ],
+ "420": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "421": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "424": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "425": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "426": [
+  {
+   "objeto": "tasy.MIRTH_ADT_A08_ATUALIZAAO_PAC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_ATUAL_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  }
+ ],
+ "427": [
+  {
+   "objeto": "tasy.MEDICO_INSERT_HL7 (trigger)",
+   "tabela_trigger": "MEDICO"
+  }
+ ],
+ "428": [
+  {
+   "objeto": "tasy.EXCLUIR_ATENDIMENTO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "430": [
+  {
+   "objeto": "tasysup.SUPPLYPOINT_MOV_PAC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_RETORNO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_INTEGR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "432": [
+  {
+   "objeto": "tasysup.SUPPLYPOINT_MOV_PAC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_RETORNO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_INTEGR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "434": [
+  {
+   "objeto": "tasypac.GERAR_LOTE_REAPR_PRESCR (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.GERAR_LOTE_ATEND_PRESCRICAO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasysup.SUPPLYPOINT_MOV_PAC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_INTEGR (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GRAVAR_AG_INT_APR_ITEM_PRESCR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "435": [
+  {
+   "objeto": "tasysup.SUPPLYPOINT_MOV_PAC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_RETORNO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.SUPPLY_MOV_PACIENTE_INTEGR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "436": [
+  {
+   "objeto": "tasysup.SUPPLYPOINT_SUSP_PRESCR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "437": [
+  {
+   "objeto": "tasypac.GERAR_LOTE_REAPR_PRESCR (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "438": [
+  {
+   "objeto": "tasysup.MAT_ESTRUTURA_CAD_AFINSERT (trigger)",
+   "tabela_trigger": "MAT_ESTRUTURA_CADASTRO"
+  },
+  {
+   "objeto": "tasy.MAT_ESTRUTURA_CADASTRO_INSERT (trigger)",
+   "tabela_trigger": "MAT_ESTRUTURA_CADASTRO"
+  }
+ ],
+ "441": [
+  {
+   "objeto": "tasysup.ITEM_REQUISICAO_MATERIAL_ATUAL (trigger)",
+   "tabela_trigger": "ITEM_REQUISICAO_MATERIAL"
+  }
+ ],
+ "446": [
+  {
+   "objeto": "tasylab.EXAME_LAB_RESULT_ITEM_HL7 (trigger)",
+   "tabela_trigger": "EXAME_LAB_RESULT_ITEM"
+  }
+ ],
+ "448": [
+  {
+   "objeto": "tasy.ECLIPSE_ENVIAR_PRESCR_OML_O21 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "462": [
+  {
+   "objeto": "tasypac.GERAR_CIRURGIA_AGENDA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "463": [
+  {
+   "objeto": "tasypac.CANCELAR_AGENDA_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "464": [
+  {
+   "objeto": "tasy.TRANSFERIR_AGENDA_PAC (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "503": [
+  {
+   "objeto": "tasyfin.GERAR_TIT_PAGAR_ADIANT_DEV (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "510": [
+  {
+   "objeto": "tasyger.ENVIAR_PDF_HL7 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "521": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AGENDA_INT_OPME (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "530": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_INSERT_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.AGEINT_ENVIO_ITEM_ISITE_GRAACC (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_HNM (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "531": [
+  {
+   "objeto": "tasycli.AGENDA_PACIENTE_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "544": [
+  {
+   "objeto": "tasy.MEDICO_INSERT_HL7 (trigger)",
+   "tabela_trigger": "MEDICO"
+  }
+ ],
+ "547": [
+  {
+   "objeto": "tasypacs.GERAR_ENVIO_MEDICO_END_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.MEDICO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "MEDICO"
+  }
+ ],
+ "548": [
+  {
+   "objeto": "tasypac.OBTER_SE_ALERTA_MENTOR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "549": [
+  {
+   "objeto": "tasy.SEND_DEMOGRAFIC_DATA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "556": [
+  {
+   "objeto": "tasysup.PESSOA_FISICA_AFTERUP (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasysup.PESSOA_JURIDICA_AFTERINSERT (trigger)",
+   "tabela_trigger": "PESSOA_JURIDICA"
+  },
+  {
+   "objeto": "tasy.PESSOA_FISICA_AFTERINSERT (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_INSERT (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF_VENC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.PESSOA_JURIDICA_AFTERUPDATE (trigger)",
+   "tabela_trigger": "PESSOA_JURIDICA"
+  },
+  {
+   "objeto": "tasyfin.TITULO_RECEBER_AFTER_UPDATE (trigger)",
+   "tabela_trigger": "TITULO_RECEBER"
+  },
+  {
+   "objeto": "tasyfin.TITULO_RECEBER_AFTERINSERT (trigger)",
+   "tabela_trigger": "TITULO_RECEBER"
+  }
+ ],
+ "559": [
+  {
+   "objeto": "tasyfin.TITULO_RECEBER_AFTER_UPDATE (trigger)",
+   "tabela_trigger": "TITULO_RECEBER"
+  },
+  {
+   "objeto": "tasyfin.TITULO_RECEBER_AFTERINSERT (trigger)",
+   "tabela_trigger": "TITULO_RECEBER"
+  }
+ ],
+ "560": [
+  {
+   "objeto": "tasysup.ATUALIZAR_NOTA_FISCAL (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF_VENC (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "562": [
+  {
+   "objeto": "tasysup.PESSOA_FISICA_AFTERUP (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.PESSOA_FISICA_AFTERINSERT (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_INSERT (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF_VENC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.TITULO_RECEBER_AFTER_UPDATE (trigger)",
+   "tabela_trigger": "TITULO_RECEBER"
+  },
+  {
+   "objeto": "tasyfin.TITULO_RECEBER_AFTERINSERT (trigger)",
+   "tabela_trigger": "TITULO_RECEBER"
+  }
+ ],
+ "565": [
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF_VENC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_RECEBER_NFS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "566": [
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF_VENC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_RECEBER_NFS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "567": [
+  {
+   "objeto": "tasyfin.GERAR_TITULO_RECEBER_NFS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "568": [
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.GERAR_TITULO_PAGAR_NF_VENC (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "596": [
+  {
+   "objeto": "tasy.GERAR_SENHA_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "616": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "622": [
+  {
+   "objeto": "tasylab.INTEGRAR_ALVARO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "625": [
+  {
+   "objeto": "tasy.START_FLEURY (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "628": [
+  {
+   "objeto": "tasylab.LAB_GERAR_PROCED_ADICIONAL (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "629": [
+  {
+   "objeto": "tasy.ECE_ENVIAR_PRESCR_OML_O21 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "631": [
+  {
+   "objeto": "tasylab.SOLICITAR_RESULTADO_ALVARO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "634": [
+  {
+   "objeto": "tasy.SUPPLYPOINT_ATUAL_INF_PAC (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "640": [
+  {
+   "objeto": "tasylab.ENVIA_SOLICITACAO_RESULT_DASA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "644": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "645": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "646": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "647": [
+  {
+   "objeto": "tasy.GER_PESSOA_FISICA_UPDATE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "648": [
+  {
+   "objeto": "tasycli.REVERTE_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasyfin.ACERTAR_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "650": [
+  {
+   "objeto": "tasysis.PRONTUARIO_EMISSAO_ATUAL (trigger)",
+   "tabela_trigger": "PRONTUARIO_EMISSAO"
+  }
+ ],
+ "651": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "663": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "664": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "666": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "667": [
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "675": [
+  {
+   "objeto": "tasysis.INTEGRAR_PARDINI_LOTE_WS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "677": [
+  {
+   "objeto": "tasysis.INTEGRAR_UNIMED_VTRP (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "678": [
+  {
+   "objeto": "tasylab.SOLICITAR_RESULTADO_PARDINIWS (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "682": [
+  {
+   "objeto": "tasysis.PRONTUARIO_EMISSAO_ATUAL (trigger)",
+   "tabela_trigger": "PRONTUARIO_EMISSAO"
+  },
+  {
+   "objeto": "tasypac.GERAR_TRANSACAO_RES (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypac.PESSOA_DOCUMENTACAO_AFTUPDATE (trigger)",
+   "tabela_trigger": "PESSOA_DOCUMENTACAO"
+  },
+  {
+   "objeto": "tasy.GERAR_CONSULTA_RES (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "687": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "689": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "693": [
+  {
+   "objeto": "tasy.ATENDIMENTO_PACIENTE_UPD_HL7 (trigger)",
+   "tabela_trigger": "ATENDIMENTO_PACIENTE"
+  }
+ ],
+ "694": [
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "695": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "705": [
+  {
+   "objeto": "tasypac.ABBOTT_ENVIAR_PRESCR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "710": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "711": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "712": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "739": [
+  {
+   "objeto": "tasypac.HEM_LIBERAR_LAUDO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "741": [
+  {
+   "objeto": "tasy.ISCV_AGENDA_PACIENTE_AFTINSUP (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "742": [
+  {
+   "objeto": "tasy.ISCV_AGENDA_PAC_PROC_AFTINSUP (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE_PROC"
+  },
+  {
+   "objeto": "tasy.ISCV_AGENDA_PACIENTE_AFTINSUP (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "743": [
+  {
+   "objeto": "tasy.ISCV_AGENDA_PACIENTE_AFTINSUP (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "744": [
+  {
+   "objeto": "tasy.ISCV_AGENDA_PACIENTE_AFTINSUP (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "745": [
+  {
+   "objeto": "tasy.ISCV_PRESCR_PROCEDIMENTO_INS (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasy.ISCV_PRESCR_MEDICA_AFTINSUP (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasy.ISCV_AGENDA_PACIENTE_AFTINSUP (trigger)",
+   "tabela_trigger": "AGENDA_PACIENTE"
+  }
+ ],
+ "746": [
+  {
+   "objeto": "tasy.ISCV_COMPL_PESSOA_FISICA_UPDAT (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.ISCV_PACIENTE_ALERGIA_AFTINSUP (trigger)",
+   "tabela_trigger": "PACIENTE_ALERGIA"
+  },
+  {
+   "objeto": "tasy.ISCV_PESSOA_FISICA_UPDATE (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  }
+ ],
+ "747": [
+  {
+   "objeto": "tasy.ISCV_ATENDIMENTO_PACIENTE_UPDT (trigger)",
+   "tabela_trigger": "ATENDIMENTO_PACIENTE"
+  }
+ ],
+ "748": [
+  {
+   "objeto": "tasy.ISCV_ACERTO_DUPLIC_PF (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "749": [
+  {
+   "objeto": "tasy.ISCV_PRESCR_PROCEDIMENTO_INS (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasy.ISCV_PRESCR_PROCEDIMENTO_DEL (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasy.ISCV_PRESCR_MEDICA_AFTINSUP (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "768": [
+  {
+   "objeto": "tasy.GER_PESSOA_FISICA_DELETE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "771": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "774": [
+  {
+   "objeto": "tasypac.LIBERAR_PRESCRICAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "777": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "779": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "780": [
+  {
+   "objeto": "tasypac.GERAR_CIRURGIA_HL7 (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_EVENTO_CIRURGIA (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.GERAR_EVENTO_CIR_VOICE (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "781": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "783": [
+  {
+   "objeto": "tasy.PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PESSOA_FISICA"
+  },
+  {
+   "objeto": "tasy.COMPL_PESSOA_FISICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "COMPL_PESSOA_FISICA"
+  }
+ ],
+ "784": [
+  {
+   "objeto": "tasy.CANCELAR_ATENDIMENTO_PACIENTE (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "785": [
+  {
+   "objeto": "tasyfin.ACERTAR_DUPLIC_PESSOA_FISICA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "786": [
+  {
+   "objeto": "tasy.GERAR_ESTORNAR_ALTA (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "790": [
+  {
+   "objeto": "tasycli.PRESCR_PROCEDIMENTO_UPDATE_SCC (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "793": [
+  {
+   "objeto": "tasysup.AJUSTA_STATUS_AG_INT_OPMENEXO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "804": [
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasypacs.PRESCR_PROCEDIMENTO_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "809": [
+  {
+   "objeto": "tasy.INTEGRACAO_DISPENSARIO_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "810": [
+  {
+   "objeto": "tasy.INTEGRACAO_DISPENSARIO_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "813": [
+  {
+   "objeto": "tasy.INTEGRACAO_DISPENSARIO_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "814": [
+  {
+   "objeto": "tasy.INTEGRACAO_DISPENSARIO_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "819": [
+  {
+   "objeto": "tasysup.ORDEM_COMPRA_AFTERUPDATE (trigger)",
+   "tabela_trigger": "ORDEM_COMPRA"
+  }
+ ],
+ "822": [
+  {
+   "objeto": "tasylab.LISTAR_RESULTADO_ALVARO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "853": [
+  {
+   "objeto": "tasy.ENVIAR_PF_MEDICO_HL7 (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.MEDICO_AFTER_UPDATE (trigger)",
+   "tabela_trigger": "MEDICO"
+  },
+  {
+   "objeto": "tasy.MEDICO_AFTERINSERT (trigger)",
+   "tabela_trigger": "MEDICO"
+  },
+  {
+   "objeto": "tasy.MEDICO_DELETE (trigger)",
+   "tabela_trigger": "MEDICO"
+  }
+ ],
+ "862": [
+  {
+   "objeto": "tasypacs.TIE_HL7_ATUALIZA_STATUS_PRESCR (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypacs.TIE_HL7_RIS_ATT_STATUS_PRESC (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasypacs.PRESCR_MEDICA_UPDATE_HL7 (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasycli.PRESCR_MEDICA_UPDATE_HL7_GRAC (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  },
+  {
+   "objeto": "tasy.ATUALIZAR_STATUS_PREP_PRESCR (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "868": [
+  {
+   "objeto": "tasy.PASTEUR_ENVIAR_PRESCR_OML_O21 (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "878": [
+  {
+   "objeto": "tasypac.LIBERAR_PRESCRICAO (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "897": [
+  {
+   "objeto": "tasycli.PATHOX_PRESCR_MED_AFUP_AMOR (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "908": [
+  {
+   "objeto": "tasy.ATEND_PACIENTE_UNID_AFTERPOST (procedure)",
+   "tabela_trigger": null
+  }
+ ],
+ "910": [
+  {
+   "objeto": "tasycli.PATHOX_PRESCR_PROCED_AFUP_AMOR (trigger)",
+   "tabela_trigger": "PRESCR_PROCEDIMENTO"
+  }
+ ],
+ "914": [
+  {
+   "objeto": "tasycli.PRESCR_PROC_HOR_APRAZAMENTO (trigger)",
+   "tabela_trigger": "PRESCR_PROC_HOR"
+  }
+ ],
+ "917": [
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "918": [
+  {
+   "objeto": "tasysup.ITEM_REQUISICAO_MATERIAL_ATUAL (trigger)",
+   "tabela_trigger": "ITEM_REQUISICAO_MATERIAL"
+  }
+ ],
+ "919": [
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "921": [
+  {
+   "objeto": "tasypac.GERAR_LOTE_ATEND_PRESCRICAO (procedure)",
+   "tabela_trigger": null
+  },
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "922": [
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "923": [
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "925": [
+  {
+   "objeto": "tasy.INTEGRACAO_ATHENA_DISP_PCK (package)",
+   "tabela_trigger": null
+  }
+ ],
+ "942": [
+  {
+   "objeto": "tasy.PRESCR_MEDICA_SCC_UPD (trigger)",
+   "tabela_trigger": "PRESCR_MEDICA"
+  }
+ ],
+ "981": [
+  {
+   "objeto": "tasysup.REQUISICAO_MATERIAL_AFUPDATE (trigger)",
+   "tabela_trigger": "REQUISICAO_MATERIAL"
+  }
+ ],
+ "1034": [
+  {
+   "objeto": "tasysup.MOVIMENTO_ESTOQUE_AFINSERT (trigger)",
+   "tabela_trigger": null
+  }
+ ]
+}

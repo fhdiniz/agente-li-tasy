@@ -1,0 +1,243 @@
+{
+  "documento": "Manual de Integración (MO — modelo EMR 12352)",
+  "versao_estrutura": "0.1 (proposta, aguardando validação do grupo)",
+  "base": [
+    "templates/manual/EMR 12352 MO - Modelo para Manual de Integración_009_ES.docx",
+    "referencias/manuais-referencia/Manual_Copiloto_Medico_TecSalud.docx",
+    "referencias/indices/tie/manuais/ (13 manuais oficiais do TIE)"
+  ],
+  "idiomas": [
+    "es",
+    "pt-BR"
+  ],
+  "entradas": [
+    "LI aprovada da integração",
+    "Configuração real no TIE (conector, evento, fluxo, rota, mapeamentos) — catálogo TIE",
+    "Telas e parametrizações do Tasy (consultor)"
+  ],
+  "legenda": "fonte e preenchimento seguem templates/li/estrutura.json",
+  "secoes": [
+    {
+      "id": "aviso",
+      "titulo": {
+        "es": "Advertencia",
+        "pt-BR": "Aviso"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ],
+      "instrucao": "Texto fixo de propriedade da Bionexo Tasy, copiado do modelo."
+    },
+    {
+      "id": "1",
+      "titulo": {
+        "es": "Objetivo de la integración <nombre>",
+        "pt-BR": "Objetivo da integração <nome>"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ],
+      "instrucao": "Necessidade e problema que resolve. Derivar das seções 1 e 3 da LI."
+    },
+    {
+      "id": "1.1",
+      "titulo": {
+        "es": "Principales características",
+        "pt-BR": "Principais características"
+      },
+      "obrigatoria": false,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ]
+    },
+    {
+      "id": "1.2",
+      "titulo": {
+        "es": "Público",
+        "pt-BR": "Público"
+      },
+      "obrigatoria": false,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente",
+        "consultor"
+      ]
+    },
+    {
+      "id": "1.3",
+      "titulo": {
+        "es": "Datos personales y sensibles",
+        "pt-BR": "Dados pessoais e sensíveis"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "base"
+      ],
+      "instrucao": "Listar os dados pessoais/sensíveis trafegados, a partir do mapeamento da LI (ex.: PESSOA_FISICA.NM_PESSOA_FISICA, DT_NASCIMENTO, documentos, dados clínicos)."
+    },
+    {
+      "id": "2",
+      "titulo": {
+        "es": "Requerimientos necesarios",
+        "pt-BR": "Requisitos necessários"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente"
+      ],
+      "subsecoes": [
+        {
+          "id": "2.1",
+          "titulo": {
+            "es": "Infraestructura",
+            "pt-BR": "Infraestrutura"
+          }
+        },
+        {
+          "id": "2.2",
+          "titulo": {
+            "es": "Sistema",
+            "pt-BR": "Sistema"
+          },
+          "instrucao": "Cadastros e funções do Tasy necessários. Derivar da seção 3.6 da LI."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": {
+        "es": "Flujo de la integración",
+        "pt-BR": "Fluxo da integração"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente"
+      ],
+      "formato": "diagrama + passos",
+      "instrucao": "Passo a passo consecutivo. Reaproveitar os fluxos dos casos de uso da LI."
+    },
+    {
+      "id": "4",
+      "titulo": {
+        "es": "Configuraciones y parametrizaciones en el sistema",
+        "pt-BR": "Configurações e parametrizações no sistema"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "base",
+        "consultor"
+      ],
+      "subsecoes": [
+        {
+          "id": "4.1",
+          "titulo": {
+            "es": "Forma de comunicación",
+            "pt-BR": "Forma de comunicação"
+          }
+        },
+        {
+          "id": "4.2",
+          "titulo": {
+            "es": "Registros y parametrizaciones",
+            "pt-BR": "Cadastros e parametrizações"
+          },
+          "instrucao": "Parâmetros e cadastros do Tasy. Para integrações via TIE, detalhar SEMPRE, no modelo EMR 12352 (quanto mais detalhe, melhor): Conector (nome, tipo, protocolo, endpoint), Evento (nome, gatilho no Tasy, trigger/tabela de origem, payload), Fluxo (nome, APIs do Tasy chamadas, métodos), Rota (evento → fluxo, condição, versão mínima do Tasy Interfaces) e Mapeamentos (nome e de-para). Dados do catálogo TIE (referencias/indices/tie) e dos eventos PL/SQL.",
+          "subsecoes": [
+            {
+              "id": "4.2.1",
+              "titulo": {
+                "es": "Conector",
+                "pt-BR": "Conector"
+              }
+            },
+            {
+              "id": "4.2.2",
+              "titulo": {
+                "es": "Evento",
+                "pt-BR": "Evento"
+              }
+            },
+            {
+              "id": "4.2.3",
+              "titulo": {
+                "es": "Flujo",
+                "pt-BR": "Fluxo"
+              }
+            },
+            {
+              "id": "4.2.4",
+              "titulo": {
+                "es": "Ruta",
+                "pt-BR": "Rota"
+              }
+            },
+            {
+              "id": "4.2.5",
+              "titulo": {
+                "es": "Mapeo",
+                "pt-BR": "Mapeamento"
+              }
+            },
+            {
+              "id": "4.2.6",
+              "titulo": {
+                "es": "Parámetros de Tasy",
+                "pt-BR": "Parâmetros do Tasy"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "titulo": {
+        "es": "Pruebas de la integración",
+        "pt-BR": "Testes da integração"
+      },
+      "obrigatoria": false,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente",
+        "consultor"
+      ],
+      "subsecoes": [
+        {
+          "id": "5.1",
+          "titulo": {
+            "es": "Proceso",
+            "pt-BR": "Processo"
+          },
+          "instrucao": "Reaproveitar os casos de teste da LI."
+        },
+        {
+          "id": "5.2",
+          "titulo": {
+            "es": "Visualización de resultados",
+            "pt-BR": "Visualização dos resultados"
+          },
+          "instrucao": "Telas do Tasy onde o resultado aparece (manual)."
+        }
+      ]
+    }
+  ],
+  "revisao": {
+    "destaque": "realce amarelo (Word)",
+    "regra": "Seções 'manual' e 'rascunho', dados pessoais e conclusões de confiança média/baixa saem com realce amarelo; campos sem dado viram [PREENCHER: ...]. Ver docs/decisoes/0010.",
+    "aviso_final": "O que está em amarelo no documento cabe análise do consultor."
+  },
+  "observacao_idioma": "Existe versão em PT com a mesma estrutura; muda só a terminologia. Os títulos pt-BR desta estrutura seguem essa versão.",
+  "bases_docx": {
+    "pt-BR": "templates/manual/base-pt-BR.docx",
+    "es": "templates/manual/base-es.docx"
+  }
+}

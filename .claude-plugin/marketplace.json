@@ -1,0 +1,11 @@
+{
+  "name": "bionexo-tasy",
+  "owner": { "name": "Bionexo Tasy" },
+  "plugins": [
+    {
+      "name": "agente-li",
+      "source": "./",
+      "description": "LI, Manual de Integração e CCI do Tasy no padrão Bionexo Tasy"
+    }
+  ]
+}

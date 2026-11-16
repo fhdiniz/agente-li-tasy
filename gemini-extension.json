@@ -1,0 +1,11 @@
+{
+  "name": "agente-li",
+  "version": "0.2.0",
+  "description": "Gera LI (Levantamento de Integração), Manual de Integração e CCI do Tasy no padrão Bionexo Tasy.",
+  "mcpServers": {
+    "agente-li-tasy": {
+      "command": "uv",
+      "args": ["run", "--project", "${extensionPath}${/}mcp-server", "agente-li"]
+    }
+  }
+}

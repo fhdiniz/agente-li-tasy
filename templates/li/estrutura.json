@@ -1,0 +1,621 @@
+{
+  "documento": "Levantamento de Integração (LI) — Documento de especificação de requisito e processos da integração",
+  "versao_estrutura": "0.1 (proposta, aguardando validação do grupo)",
+  "base": [
+    "templates/li/Template de levantamento de integração [OFICIAL].docx",
+    "referencias/lis-referencia/TecSalud - LI Integracion Baxter NCE - Tasy - Bionexo.docx",
+    "referencias/lis-referencia/San Javier - Especificación de requerimiento y procesos - Integración Facturación Electrónica 1V2.docx",
+    "referencias/lis-referencia/EMR 0198 MO - Levantamento de Interface_Especificação Requisitos e Processos_008.docx (versão PT oficial, mesmo layout; usada para os títulos em português)"
+  ],
+  "idiomas": [
+    "pt-BR",
+    "es"
+  ],
+  "legenda": {
+    "fonte": {
+      "consultor": "Informado pelo consultor no início (intake) ou na revisão",
+      "terceiro": "Extraído do documento do terceiro",
+      "base": "Consultado nos índices do Tasy (OpenAPI, tasy-interfaces, PL/SQL, TIE)",
+      "agente": "Redigido pelo agente a partir das demais fontes"
+    },
+    "preenchimento": {
+      "auto": "O agente preenche; consultor só confere",
+      "rascunho": "O agente propõe; consultor valida e ajusta",
+      "manual": "Só o consultor preenche (o agente deixa marcado como pendente)"
+    }
+  },
+  "secoes": [
+    {
+      "id": "capa",
+      "titulo": {
+        "pt-BR": "Identificação",
+        "es": "Identificación"
+      },
+      "obrigatoria": true,
+      "preenchimento": "manual",
+      "fonte": [
+        "consultor"
+      ],
+      "campos": [
+        "cliente",
+        "nome_projeto",
+        "numero_projeto",
+        "gerente_projeto_philips",
+        "consultor_analista",
+        "processo",
+        "solicitante_email",
+        "classificacao (novo processo | alteração | correção)",
+        "prioridade"
+      ]
+    },
+    {
+      "id": "1",
+      "titulo": {
+        "pt-BR": "Objetivo – Propósito do documento",
+        "es": "Objetivo - Propósito del documento"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ],
+      "instrucao": "Texto padrão citando Tasy, o sistema terceiro e, se houver, o middleware/TIE."
+    },
+    {
+      "id": "1.1",
+      "titulo": {
+        "pt-BR": "Formato de comunicação e método",
+        "es": "Formato de comunicación y método"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "base"
+      ],
+      "formato": "tabela",
+      "colunas": [
+        "Trecho (origem - destino)",
+        "Formato / protocolo"
+      ],
+      "instrucao": "Um trecho por salto (ex.: Terceiro - TIE, TIE - Tasy Interfaces). Protocolo e versão (HTTP/REST, HL7 v2.x/MLLP, SOAP, JSON, XML)."
+    },
+    {
+      "id": "1.2",
+      "titulo": {
+        "pt-BR": "Descrição dos sistemas (principais funcionalidades)",
+        "es": "Descripción de los sistemas (principales funcionalidades)"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "base",
+        "agente"
+      ],
+      "instrucao": "Um parágrafo por sistema: Tasy (funções envolvidas), TIE/middleware (se houver), sistema terceiro e seus componentes."
+    },
+    {
+      "id": "2",
+      "titulo": {
+        "pt-BR": "Escopo e responsabilidades",
+        "es": "Alcance y responsabilidades"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "consultor"
+      ],
+      "formato": "lista + tabela",
+      "colunas": [
+        "Parte",
+        "Responsabilidade principal"
+      ],
+      "instrucao": "Áreas/módulos do Tasy no escopo, quantidade de pontos de integração e responsabilidade de cada parte (cliente, terceiro, Philips/Bionexo)."
+    },
+    {
+      "id": "3",
+      "titulo": {
+        "pt-BR": "Objetivos e descrição geral dos requisitos",
+        "es": "Descripción general del requerimiento de negocio"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "agente"
+      ],
+      "instrucao": "Storytelling do fluxo de negócio, citando os casos de uso (CUxx) na ordem em que acontecem. Registrar decisões já confirmadas pelo cliente."
+    },
+    {
+      "id": "3.1",
+      "titulo": {
+        "pt-BR": "Objetivo da integração / Principais características",
+        "es": "Objetivo de la integración / Principales características"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente"
+      ],
+      "formato": "lista"
+    },
+    {
+      "id": "3.2",
+      "titulo": {
+        "pt-BR": "Casos de uso / Pontos de integração",
+        "es": "Requerimiento específico - Casos de uso"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "terceiro",
+        "base"
+      ],
+      "formato": "diagrama + tabela",
+      "colunas": [
+        "ID",
+        "Área",
+        "Caso de uso",
+        "Direção"
+      ],
+      "instrucao": "Um CU por ponto de integração (colunas iguais às LIs reais). A viabilidade NÃO vai para o cliente: fica na matriz interna (ver 'anexo_interno'). Gaps confirmados alimentam a seção 10.",
+      "diagrama": "UML caso de uso"
+    },
+    {
+      "id": "3.3",
+      "titulo": {
+        "pt-BR": "Requisitos funcionais (regras de negócio)",
+        "es": "Requerimientos funcionales"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "consultor"
+      ],
+      "formato": "tabela",
+      "colunas": [
+        "Regra (RN-xx)",
+        "Descrição"
+      ]
+    },
+    {
+      "id": "3.4",
+      "titulo": {
+        "pt-BR": "Requisitos não funcionais",
+        "es": "Requerimientos no funcionales"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente"
+      ],
+      "formato": "lista",
+      "instrucao": "Disponibilidade, monitoramento/logs, portas liberadas, conexões separadas, volumetria."
+    },
+    {
+      "id": "3.5",
+      "titulo": {
+        "pt-BR": "Premissas",
+        "es": "Premisas"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente",
+        "consultor"
+      ],
+      "formato": "lista"
+    },
+    {
+      "id": "3.6",
+      "titulo": {
+        "pt-BR": "Requisitos necessários para a integração",
+        "es": "Requisitos necesarios para la integración"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "base",
+        "agente"
+      ],
+      "formato": "lista",
+      "instrucao": "Cadastros e parametrizações no Tasy, componentes instalados (Tasy Interfaces, TIE), ambientes do terceiro."
+    },
+    {
+      "id": "4",
+      "titulo": {
+        "pt-BR": "Especificações de arquitetura / sistema",
+        "es": "Especificaciones técnicas"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "consultor",
+        "terceiro"
+      ],
+      "formato": "diagrama + lista",
+      "instrucao": "Diagrama do ambiente do cliente (cloud, servidor, barramento, middleware, terceiro). Versão do Tasy e contratos do cliente (OpenAPI, TIE, Smartlink, Hub de Integração)."
+    },
+    {
+      "id": "5",
+      "titulo": {
+        "pt-BR": "Processos de negócio (mapa)",
+        "es": "Procesos de negocio (mapa)"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "agente"
+      ],
+      "formato": "diagrama",
+      "diagrama": "BPMN, raias por ator"
+    },
+    {
+      "id": "6",
+      "titulo": {
+        "pt-BR": "Detalhamento da integração por caso de uso",
+        "es": "Procedimientos de integración"
+      },
+      "obrigatoria": true,
+      "repetir_por": "caso_de_uso",
+      "subsecoes": [
+        {
+          "id": "6.n",
+          "titulo": {
+            "pt-BR": "CUxx – <nome>",
+            "es": "CUxx - <nombre>"
+          },
+          "preenchimento": "rascunho",
+          "fonte": [
+            "terceiro",
+            "agente"
+          ],
+          "instrucao": "Objetivo do caso de uso e detalhes de negócio levantados."
+        },
+        {
+          "id": "6.n.gatilho",
+          "titulo": {
+            "pt-BR": "Gatilho no Tasy",
+            "es": "Disparador en Tasy"
+          },
+          "obrigatoria": true,
+          "preenchimento": "rascunho",
+          "fonte": [
+            "base",
+            "consultor"
+          ],
+          "instrucao": "Ação que dispara o envio (liberar, salvar, opção de menu, alteração de campo). Para TIE, citar o evento e a trigger/tabela que o dispara."
+        },
+        {
+          "id": "6.n.telas",
+          "titulo": {
+            "pt-BR": "Telas do Tasy",
+            "es": "Pantallas de Tasy"
+          },
+          "obrigatoria": true,
+          "preenchimento": "manual",
+          "fonte": [
+            "consultor"
+          ],
+          "instrucao": "Imagens obrigatórias das telas do processo/recebimento."
+        },
+        {
+          "id": "6.n.passos",
+          "titulo": {
+            "pt-BR": "Passo a passo por sistema",
+            "es": "Paso a paso por sistema"
+          },
+          "preenchimento": "rascunho",
+          "fonte": [
+            "terceiro",
+            "base",
+            "agente"
+          ],
+          "formato": "tabela de passo",
+          "estrutura": [
+            "Sistema terceiro",
+            "Request",
+            "Middleware (se houver)",
+            "Tasy/TIE",
+            "Response sucesso",
+            "Response falha",
+            "Resultado",
+            "Funcionalidades/entradas do Tasy"
+          ]
+        },
+        {
+          "id": "6.n.fluxo",
+          "titulo": {
+            "pt-BR": "Fluxo do processo",
+            "es": "Flujo del proceso"
+          },
+          "obrigatoria": true,
+          "preenchimento": "rascunho",
+          "fonte": [
+            "agente"
+          ],
+          "formato": "diagrama",
+          "instrucao": "Diagrama legível entre sistemas (diferente do diagrama de casos de uso da 3.2).",
+          "diagrama": "BPMN, raias por sistema (ou UML sequência)"
+        },
+        {
+          "id": "6.n.testes",
+          "titulo": {
+            "pt-BR": "Casos de teste / cenários",
+            "es": "Casos de prueba / escenarios"
+          },
+          "preenchimento": "rascunho",
+          "fonte": [
+            "agente",
+            "consultor"
+          ],
+          "instrucao": "Cenários que o cliente vai querer validar; evitar desenvolvimento novo na implantação."
+        },
+        {
+          "id": "6.n.tecnicas",
+          "titulo": {
+            "pt-BR": "Especificações técnicas adicionais / regras de negócio",
+            "es": "Especificaciones técnicas adicionales"
+          },
+          "preenchimento": "rascunho",
+          "fonte": [
+            "base",
+            "terceiro"
+          ],
+          "instrucao": "URL, autenticação, validações, governança/logs, parametrizações do Tasy, procedures/APIs usadas. Listar parâmetros e regras do Tasy envolvidos (nº do parâmetro e descrição)."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "titulo": {
+        "pt-BR": "Layout e exemplo das mensagens",
+        "es": "Layout y ejemplo de los mensajes"
+      },
+      "obrigatoria": true,
+      "repetir_por": "caso_de_uso",
+      "instrucao": "Seção própria após os casos de uso, um subitem por CU (ex.: '7.1 CU01 - Tasy -> Terceiro: <nome>'), com layout/mapeamento e exemplo de mensagem.",
+      "subsecoes": [
+        {
+          "id": "7.n.payload",
+          "titulo": {
+            "pt-BR": "Layout do payload / mensagem",
+            "es": "Layout y ejemplo de los mensajes"
+          },
+          "obrigatoria": true,
+          "preenchimento": "rascunho",
+          "fonte": [
+            "terceiro",
+            "base"
+          ],
+          "instrucao": "Exemplo real, formatado e anonimizado de envio e retorno; autenticação, se houver. Mascarar senhas, tokens e chaves (ex.: <senha>), mesmo que venham no documento do terceiro."
+        },
+        {
+          "id": "7.n.mapeamento",
+          "titulo": {
+            "pt-BR": "Mapeamento das informações",
+            "es": "Mapeo de la información"
+          },
+          "obrigatoria": true,
+          "preenchimento": "rascunho",
+          "fonte": [
+            "terceiro",
+            "base"
+          ],
+          "formato": "tabela",
+          "colunas": [
+            "#",
+            "Campo do payload",
+            "Exemplo",
+            "Obrigatório",
+            "Tabela Tasy",
+            "Campo Tasy",
+            "Aba/função no Tasy",
+            "Tipo",
+            "Tamanho",
+            "Observações"
+          ],
+          "instrucao": "Colunas usadas nas LIs reais: #, Nome do campo, Documentação/Exemplo, Obrigatório, Tabela, Campo Tasy, Aba/função no Tasy, Tipo, Tamanho."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "titulo": {
+        "pt-BR": "Conexão e segurança",
+        "es": "Conexión y seguridad"
+      },
+      "obrigatoria": true,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "agente"
+      ],
+      "formato": "lista + tabela",
+      "colunas": [
+        "Origem / destino",
+        "Serviço",
+        "Regra"
+      ],
+      "instrucao": "Certificados, HTTP/HTTPS, tokens e validade, portas. Nunca incluir senhas."
+    },
+    {
+      "id": "9",
+      "titulo": {
+        "pt-BR": "Abreviaturas e definições",
+        "es": "Abreviaturas y definiciones"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ],
+      "formato": "tabela",
+      "colunas": [
+        "Termo",
+        "Definição"
+      ]
+    },
+    {
+      "id": "9.1",
+      "titulo": {
+        "pt-BR": "Links adicionais",
+        "es": "Enlaces adicionales"
+      },
+      "obrigatoria": false,
+      "preenchimento": "rascunho",
+      "fonte": [
+        "terceiro",
+        "consultor"
+      ]
+    },
+    {
+      "id": "10",
+      "titulo": {
+        "pt-BR": "Lista de GAPs (produto)",
+        "es": "Lista de brechas"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "base"
+      ],
+      "formato": "tabela + legenda",
+      "colunas": [
+        "ID",
+        "Gap",
+        "Tipo",
+        "Prioridade",
+        "Avaliação Philips EMR",
+        "Nº do case",
+        "Responsável",
+        "Observação"
+      ],
+      "valores": {
+        "Tipo": [
+          "Dev/Func",
+          "Dev/NF",
+          "Conf"
+        ],
+        "Prioridade": [
+          "M (obrigatório)",
+          "D (desejado)",
+          "G (bom ter)"
+        ],
+        "Avaliação Philips EMR": [
+          "Atende parcialmente",
+          "Não atende"
+        ]
+      },
+      "instrucao": "Gerada a partir dos CUs classificados como Gap ou Parcial na 3.2, com o motivo e o objeto do Tasy envolvido."
+    },
+    {
+      "id": "11",
+      "titulo": {
+        "pt-BR": "Assuntos abertos e fechados",
+        "es": "Asuntos abiertos y cerrados"
+      },
+      "obrigatoria": false,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente",
+        "consultor"
+      ],
+      "formato": "tabela",
+      "colunas": [
+        "ID",
+        "Assunto",
+        "Resolução / ação",
+        "Status"
+      ],
+      "instrucao": "Perguntas ao terceiro/cliente geradas pelo agente (itens de baixa confiança, inconsistências do documento) e decisões confirmadas."
+    },
+    {
+      "id": "12",
+      "titulo": {
+        "pt-BR": "Participantes e aprovadores",
+        "es": "Participantes y aprobadores"
+      },
+      "obrigatoria": false,
+      "preenchimento": "manual",
+      "fonte": [
+        "consultor"
+      ]
+    },
+    {
+      "id": "13",
+      "titulo": {
+        "pt-BR": "Histórico de revisão",
+        "es": "Historial de revisión del documento"
+      },
+      "obrigatoria": true,
+      "preenchimento": "auto",
+      "fonte": [
+        "agente"
+      ],
+      "formato": "tabela",
+      "colunas": [
+        "Revisão",
+        "Data",
+        "Autor",
+        "Descrição das mudanças",
+        "CR / motivo"
+      ]
+    }
+  ],
+  "revisao": {
+    "destaque": "realce amarelo (Word)",
+    "regra": "Seções 'manual' e 'rascunho', dados pessoais e conclusões de confiança média/baixa saem com realce amarelo; campos sem dado viram [PREENCHER: ...]. Ver docs/decisoes/0010.",
+    "aviso_final": "O que está em amarelo no documento cabe análise do consultor."
+  },
+  "diagramas": {
+    "padrao": "docs/decisoes/0012-diagramas.md",
+    "saidas": [
+      "drawio (editável mandatório)",
+      "png (no docx)",
+      "json",
+      "bpmn (opcional, Bizagi)"
+    ]
+  },
+  "idiomas_regra": "O agente pergunta o idioma (pt-BR ou es) antes de elaborar o documento.",
+  "numeracao": "Alinhada às LIs reais: 1 Objetivo, 2 Escopo, 3 Requisitos, 4 Arquitetura, 5 Processos (mapa), 6 Casos de uso, 7 Layout e exemplos, 8 Conexão e segurança, 9 Abreviaturas (9.1 Links), 10 GAPs + legenda, 11 Assuntos abertos, 12 Participantes, 13 Histórico.",
+  "anexo_interno": {
+    "nome": {
+      "pt-BR": "Matriz de viabilidade (uso interno)",
+      "es": "Matriz de viabilidad (uso interno)"
+    },
+    "arquivo": "<LI>-matriz-viabilidade.xlsx",
+    "destinatario": "consultor e equipe Bionexo Tasy — não enviar ao cliente",
+    "colunas": [
+      "ID",
+      "Caso de uso",
+      "Direção",
+      "Viabilidade",
+      "Contrato Tasy (API / integração TIE)",
+      "Fonte da conclusão",
+      "Confiança",
+      "Observações"
+    ],
+    "valores": {
+      "Viabilidade": [
+        "OpenAPI",
+        "Parcial",
+        "TIE",
+        "Gap",
+        "Fora de escopo"
+      ],
+      "Confiança": [
+        "Alta",
+        "Média",
+        "Baixa"
+      ]
+    }
+  },
+  "bases_docx": {
+    "pt-BR": "templates/li/base-pt-BR.docx",
+    "es": "templates/li/base-es.docx"
+  }
+}

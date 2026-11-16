@@ -1,0 +1,144 @@
+{
+  "template": "CCI Template Control de cambios integraciones_Bionexo_Tasy.docx",
+  "pagina": {
+    "largura_cm": 21.0,
+    "altura_cm": 29.69,
+    "orientacao": "portrait"
+  },
+  "margens_cm": {
+    "top": 3.5,
+    "bottom": 2.01,
+    "left": 2.01,
+    "right": 2.01,
+    "header": 0.99,
+    "footer": 0.99
+  },
+  "fontes_tema": {
+    "titulos": "Cambria",
+    "corpo": "Calibri"
+  },
+  "padrao": {
+    "fonte": "Times New Roman"
+  },
+  "estilos_usados": {
+    "Normal": {
+      "nome": "Normal",
+      "tipo": "paragraph",
+      "baseado_em": null,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "espaco_antes_pt": 5.0,
+      "espaco_depois_pt": 3.0
+    },
+    "Ttulo1": {
+      "nome": "heading 1",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "tamanho_pt": 16.0,
+      "cor": "#000066",
+      "espaco_antes_pt": 20.0,
+      "espaco_depois_pt": 12.0,
+      "numerado": true
+    },
+    "Ttulo2": {
+      "nome": "heading 2",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "tamanho_pt": 14.0,
+      "cor": "#000066",
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 6.0,
+      "numerado": true
+    },
+    "Ttulo3": {
+      "nome": "heading 3",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "tamanho_pt": 12.0,
+      "cor": "#000066",
+      "espaco_antes_pt": 10.0,
+      "numerado": true
+    },
+    "Ttulo4": {
+      "nome": "heading 4",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "italico": true,
+      "cor": "#000066",
+      "espaco_antes_pt": 8.0,
+      "numerado": true
+    },
+    "Ttulo5": {
+      "nome": "heading 5",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "tamanho_pt": 13.0,
+      "negrito": true,
+      "italico": true,
+      "espaco_antes_pt": 12.0,
+      "numerado": true
+    },
+    "Ttulo6": {
+      "nome": "heading 6",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "negrito": true,
+      "espaco_antes_pt": 12.0,
+      "numerado": true
+    },
+    "Ttulo7": {
+      "nome": "heading 7",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "tamanho_pt": 12.0,
+      "espaco_antes_pt": 12.0,
+      "numerado": true
+    },
+    "Ttulo8": {
+      "nome": "heading 8",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Calibri",
+      "tamanho_pt": 12.0,
+      "italico": true,
+      "espaco_antes_pt": 12.0,
+      "numerado": true
+    },
+    "Ttulo9": {
+      "nome": "heading 9",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "fonte": "Cambria",
+      "espaco_antes_pt": 12.0,
+      "numerado": true
+    },
+    "Prrafodelista": {
+      "nome": "List Paragraph",
+      "tipo": "paragraph",
+      "baseado_em": "Normal"
+    },
+    "NormalwDistance": {
+      "nome": "Normal w Distance",
+      "tipo": "paragraph",
+      "baseado_em": "Normal",
+      "espaco_depois_pt": 10.0
+    }
+  },
+  "cabecalhos_rodapes": {
+    "footer1.xml": {
+      "texto": "Copyright © Bionexo  Tas y Page  2 of 3",
+      "tem_imagem": false,
+      "campos": []
+    },
+    "header1.xml": {
+      "texto": "Control Cambio Integración",
+      "tem_imagem": true,
+      "campos": []
+    }
+  },
+  "controles_lista_suspensa": 7,
+  "sumario_automatico": false
+}
