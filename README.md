@@ -6,11 +6,121 @@ Plugin de IA que gera, no padrão Bionexo Tasy:
 - **Manual de Integração** (modelo EMR 12352) a partir do catálogo TIE, de uma API padrão ou de uma LI;
 - **CCI** (Control de Cambio de Integración) no formulário oficial.
 
-Meta: uma LI em no máximo 8h. Primeira vez aqui? Vá direto para a [Instalação passo a passo](#instalação-passo-a-passo). Estado atual, testes e limites: [docs/07-reanalise-critica.md](docs/07-reanalise-critica.md).
+Meta: uma LI em no máximo 8h. Primeira vez aqui? Vá direto para a [Instalação](#instalação). Estado atual, testes e limites: [docs/07-reanalise-critica.md](docs/07-reanalise-critica.md).
 
-## Instalação passo a passo
+## Instalação
 
-Este guia foi escrito para quem nunca instalou um plugin de IA. Leia a visão geral, escolha o modo e siga os passos **na ordem**. Cada comando vem num quadro cinza: copie, cole no terminal e aperte **Enter**.
+Este guia foi escrito para quem nunca instalou um plugin de IA e usa o **aplicativo** (janela com botões), não a linha de comando. Escolha o seu caminho e siga os passos na ordem.
+
+### Escolha o seu caminho
+
+| Você usa... | Siga | Dificuldade |
+|---|---|---|
+| **App do Claude** (Windows ou Mac) | [Caminho 1: app do Claude](#caminho-1-app-do-claude-recomendado) | Fácil, quase tudo com cliques. **Recomendado** |
+| **App do Codex** (Windows ou Mac) | [Caminho 2: app do Codex](#caminho-2-app-do-codex) | Médio: você baixa uma pasta e o Codex faz o resto |
+| Linha de comando (terminal), Gemini CLI, Cursor ou Copilot | [Instalação pelo terminal (avançado)](#instalação-pelo-terminal-avançado) | Para quem já usa terminal |
+
+**Antes de começar, nos dois apps:**
+
+1. **Conta no GitHub com acesso ao plugin.** O plugin fica guardado no GitHub, um site de projetos, num espaço **privado**. Crie uma conta grátis em [github.com](https://github.com) e peça ao responsável (ver [Equipe](#equipe)) para liberar o seu usuário no repositório `fhdiniz/agente-li-tasy`. **Aceite o convite** que chega por e-mail.
+2. **Não use pastas dentro do OneDrive**, nem para o plugin nem para os documentos de trabalho: a sincronização trava arquivos e causa erros.
+
+**Sobre o uv:** o plugin tem uma parte que roda no seu computador (consulta a base do Tasy e gera os `.docx`), escrita em Python. O **uv** é o programa que roda essa parte. Ele é gratuito, de código aberto, da empresa Astral, instala só na sua pasta de usuário, não mexe no sistema e está **liberado pela TI**. Ele baixa sozinho o Python de que precisa, então **você não precisa instalar Python**. Nos dois caminhos abaixo, a própria IA instala o uv para você: basta pedir e autorizar.
+
+### Caminho 1: app do Claude (recomendado)
+
+**Passo 1. Instalar o app.** Baixe em [claude.com/download](https://claude.com/download), instale como qualquer programa e entre com a conta da empresa. Se já tem o app, atualize: menu **Claude > Verificar atualizações** (Mac) ou **Ajuda > Verificar atualizações** (Windows).
+
+**Passo 2. Adicionar o plugin.**
+
+1. No app, clique em **Personalizar** (*Customize*), na barra lateral, e depois em **Plugins**. Ou abra [claude.ai/customize/plugins](https://claude.ai/customize/plugins).
+2. Clique em **Adicionar** (*Add*) e escolha **Adicionar marketplace** (*Add marketplace*).
+3. No campo do endereço, digite:
+
+   ```text
+   fhdiniz/agente-li-tasy
+   ```
+
+4. Se aparecer **Conectar GitHub** (*Connect GitHub*), clique, entre com a sua conta do GitHub e autorize. É isso que dá ao app acesso ao espaço privado. Se aparecer **Instalar o app Claude GitHub** (*Install the Claude GitHub App*), avise o responsável: ele precisa liberar isso uma vez no repositório.
+5. O plugin **agente-li** aparece na lista. Abra e clique em **Adicionar** (*Add*).
+
+**Passo 3. Instalar o uv (a IA faz por você).**
+
+1. No app, abra a aba **Code**.
+2. Escolha uma pasta qualquer para a conversa (o botão de pasta fica logo abaixo da caixa de mensagem). Pode ser a sua pasta de Documentos.
+3. Cole esta mensagem e envie:
+
+   ```text
+   Verifique se o programa uv está instalado neste computador (comando uv --version). Se não estiver, instale pelo método oficial descrito em https://docs.astral.sh/uv/getting-started/installation/ e confirme com uv --version. Me explique em uma frase o que fez.
+   ```
+
+4. O Claude vai pedir permissão para rodar comandos: clique em **Permitir** (*Allow*). No fim ele deve mostrar algo como `uv 0.9.5` (qualquer número serve).
+5. **Feche o app do Claude e abra de novo.**
+
+**Passo 4. Testar.**
+
+1. Crie uma **pasta de trabalho** para o projeto, por exemplo `Documentos\LI-Hospital-X` (fora do OneDrive), e coloque nela o documento do terceiro.
+2. No app, aba **Code**, comece uma nova conversa e escolha **essa pasta**.
+3. Envie: *"consulte no Tasy qual API grava em AGENDA_CONSULTA"*. Na primeira vez pode levar até 2 minutos (o uv baixa o Python). Se vier uma lista de APIs, **está tudo funcionando**.
+
+> **Use a aba Code** para gerar LI, Manual e CCI. O chat comum do Claude carrega as instruções do plugin, mas não roda a parte do computador, então não gera os documentos. O Cowork pode funcionar, mas ainda não foi testado.
+
+### Caminho 2: app do Codex
+
+No Codex, o plugin é instalado de forma manual: você baixa a pasta do plugin e pede ao Codex para ligá-la.
+
+> O app do Codex tem um explorador de plugins (botão **+** ou aba **Plugins**), mas ele mostra só os plugins de marketplaces já configurados. Instalar este plugin por lá ainda não foi testado; até lá, use os passos abaixo, que funcionam com certeza.
+
+**Passo 1. Instalar o app.** Baixe o app do Codex na [página oficial do Codex](https://openai.com/codex/), instale e entre com a conta da empresa.
+
+**Passo 2. Baixar a pasta do plugin (pelo navegador).**
+
+1. Entre no GitHub, já logado, e abra [github.com/fhdiniz/agente-li-tasy](https://github.com/fhdiniz/agente-li-tasy).
+2. Clique no botão verde **Code** e depois em **Download ZIP**.
+3. Crie uma pasta fixa para o plugin, que não vai mudar de lugar: `C:\Projetos` no Windows, ou `Projetos` dentro da sua pasta de usuário no Mac.
+4. Extraia o ZIP dentro dela. Windows: botão direito no arquivo > **Extrair tudo**. Mac: dois cliques no arquivo.
+5. A pasta extraída se chama `agente-li-tasy-main`. **Renomeie para `agente-li-tasy`.**
+6. **Confira:** abrindo `agente-li-tasy`, você deve ver logo de cara as pastas `mcp-server`, `skills` e `templates`. Se aparecer outra pasta `agente-li-tasy-main` dentro, use essa de dentro no lugar.
+
+**Passo 3. Pedir ao Codex para instalar.** Abra o app do Codex, escolha a pasta `agente-li-tasy` como projeto, cole a mensagem abaixo e envie. **Troque o caminho** pelo da sua pasta (no Mac, algo como `/Users/maria/Projetos/agente-li-tasy`).
+
+```text
+Instale o plugin Agente LI Tasy que está na pasta C:\Projetos\agente-li-tasy para este Codex, seguindo o README.md dessa pasta (seção "Modo B: manual", passos B2 e B3 do Codex):
+1) Verifique se o uv está instalado (uv --version). Se não estiver, instale pelo método oficial de https://docs.astral.sh/uv/getting-started/installation/.
+2) Rode o passo B2 e me mostre o resultado (deve terminar com "passed").
+3) Faça o passo B3 do Codex: registre o servidor no config.toml (sem apagar nada que já exista nele) e ligue as skills na pasta .agents/skills.
+No fim, me diga em poucas linhas o que fez e se algo deu errado.
+```
+
+O Codex vai pedir permissão para rodar comandos e alterar arquivos: autorize. Quando terminar, **feche o app do Codex e abra de novo**.
+
+<details>
+<summary>Prefere fazer você mesmo, pelas telas do Codex?</summary>
+
+1. **Instale o uv** com um comando: veja [Passo 3.1 da instalação pelo terminal](#31-uv).
+2. **Registre o servidor:** no app do Codex, abra **Configurações** (ícone de engrenagem) > **Servidores MCP** (*MCP servers*) > **Adicionar servidor** (*Add server*) e preencha:
+   - **Nome:** `agente-li-tasy`
+   - **Tipo:** `STDIO`
+   - **Comando:** `uv`
+   - **Argumentos**, um por linha: `run`, `--project`, `C:/Projetos/agente-li-tasy/mcp-server` (com o caminho da sua pasta, usando `/`) e `agente-li`
+
+   Salve e clique em **Reiniciar** (*Restart*).
+3. **Ligue as skills:** copie as pastas de dentro de `agente-li-tasy\skills` (`gerar-li`, `gerar-manual`, `gerar-cci`, `analisar-viabilidade`, `consultar-tasy`) para a pasta de skills do Codex:
+   - **Windows:** no Explorador de Arquivos, digite `%USERPROFILE%` na barra de endereço e aperte Enter. Crie a pasta `.agents` (se não existir) e, dentro dela, a pasta `skills`. Cole as pastas ali.
+   - **Mac:** no Finder, aperte **Cmd + Shift + G**, digite `~` e aperte Enter. Aperte **Cmd + Shift + .** para mostrar pastas ocultas. Crie a pasta `.agents` (se não existir) e, dentro dela, a pasta `skills`. Cole as pastas ali.
+
+   Atenção: copiadas assim, as skills não se atualizam sozinhas. A cada versão nova do plugin, copie de novo.
+
+</details>
+
+**Passo 4. Testar.** Abra o Codex numa **pasta de trabalho** (fora do OneDrive) com o documento do terceiro e envie: *"consulte no Tasy qual API grava em AGENDA_CONSULTA"*. Se vier uma lista de APIs, **está tudo funcionando**.
+
+> As telas do app do Codex mudam com frequência e este caminho ainda não foi testado de ponta a ponta. Se algum nome de menu estiver diferente, procure pelo equivalente ou peça ajuda ao próprio Codex.
+
+
+## Instalação pelo terminal (avançado)
+
+Para quem prefere a linha de comando, ou usa Gemini CLI, Cursor ou Copilot. Quem usa o app do Claude ou do Codex não precisa desta seção. Leia a visão geral, escolha o modo e siga os passos **na ordem**. Cada comando vem num quadro cinza: copie, cole no terminal e aperte **Enter**.
 
 ### Visão geral: os dois modos de instalação
 
@@ -442,12 +552,14 @@ Depois aponte a ferramenta para a pasta `skills/` do plugin, ou copie as pastas 
    ```
 
 3. Digite `/mcp`. Deve aparecer `agente-li-tasy` como **connected**. Na primeira vez pode demorar até 2 minutos, porque o uv baixa o Python.
-4. Faça uma pergunta de teste: *"consulte no Tasy qual API grava em AGENDA_CONSULTA"*. Se vier uma lista de APIs, **está tudo funcionando**.
+4. Pergunta de teste: *"consulte no Tasy qual API grava em AGENDA_CONSULTA"*. Se vier uma lista de APIs, **está tudo funcionando**.
 
-### Atualizar o plugin
+## Atualizar o plugin
 
 | Como instalou | Como atualizar |
 |---|---|
+| App do Claude | **Personalizar > Plugins**, abra o marketplace `agente-li-tasy` e clique em **Verificar atualizações** (*Check for updates*). Para não precisar lembrar, ligue **Sincronizar automaticamente** (*Sync automatically*) |
+| App do Codex (pedindo ao Codex) | Baixe o ZIP de novo, substitua a pasta `agente-li-tasy` e peça ao Codex: *"atualize o plugin Agente LI Tasy que está em `<pasta>`"* |
 | Modo A, Claude Code | Dentro do Claude Code: `/plugin marketplace update bionexo-tasy`, depois feche e abra de novo |
 | Modo A, Gemini CLI | No terminal: `gemini extensions update agente-li` |
 | Modo B com Git | No terminal: `git -C C:\Projetos\agente-li-tasy pull` (macOS: `git -C ~/Projetos/agente-li-tasy pull`) |
@@ -455,10 +567,13 @@ Depois aponte a ferramenta para a pasta `skills/` do plugin, ou copie as pastas 
 
 A versão instalada e as novidades ficam no [CHANGELOG](CHANGELOG.md).
 
-### Deu problema?
+## Deu problema?
 
 | Sintoma | O que fazer |
 |---|---|
+| App do Claude: o plugin não aparece ou a IA não acha as ferramentas do Tasy | Confira se está na aba **Code** (não no chat comum). Em **Personalizar > Plugins**, veja se `agente-li` está ligado. Feche e abra o app |
+| App do Claude: ao adicionar o marketplace, pede **Connect GitHub** ou **Install the Claude GitHub App** | Conecte a sua conta do GitHub. Se continuar sem acesso, confirme que aceitou o convite; o app do GitHub no repositório é liberado pelo responsável |
+| Mac: a IA diz que não encontra o `uv`, mas ele está instalado | Feche e abra o app. Se continuar, peça à IA: *"descubra o caminho completo do uv e use esse caminho na configuração do servidor agente-li-tasy"* |
 | "não é reconhecido" ou "command not found" logo depois de instalar | Feche e abra o terminal. Se persistir, reinicie o computador |
 | "Repository not found" ou pedido de senha ao instalar | Falta acesso ao repositório privado: refaça o [passo 4](#passo-4-liberar-o-acesso-ao-github) |
 | `/mcp` mostra `agente-li-tasy` como **failed** logo após instalar | Na primeira vez o uv baixa o Python e pode passar do tempo limite. Espere 2 minutos, selecione o servidor em `/mcp` e escolha **reconnect** (ou feche e abra a ferramenta) |
@@ -469,9 +584,9 @@ A versão instalada e as novidades ficam no [CHANGELOG](CHANGELOG.md).
 
 ## Comandos do plugin
 
-Você pode chamar cada função pelo atalho da sua ferramenta ou simplesmente escrevendo a frase, em português, no chat. As duas formas dão o mesmo resultado.
+Você pode chamar cada função pelo atalho da sua ferramenta ou simplesmente escrevendo a frase, em português, na caixa de mensagem. As duas formas dão o mesmo resultado. No app, digite `/` (Claude) ou `$` ou `@` (Codex) e a lista de atalhos aparece para você clicar.
 
-| O que faz | Claude Code | Codex | Gemini, Cursor, Copilot | Exemplo de frase |
+| O que faz | Claude (app, aba Code, ou terminal) | Codex (app ou terminal) | Gemini, Cursor, Copilot | Exemplo de frase |
 |---|---|---|---|---|
 | **Gerar a LI** completa a partir do documento do terceiro, com a matriz interna de viabilidade | `/agente-li:gerar-li` | `$gerar-li` | Frase | *Gere a LI a partir do documento `Evya-4uHub.pdf`* |
 | **Gerar o Manual de Integração** (modelo EMR 12352) a partir de uma integração TIE, de uma API padrão ou de uma LI aprovada | `/agente-li:gerar-manual` | `$gerar-manual` | Frase | *Gere o manual da integração URA Avaya* |
