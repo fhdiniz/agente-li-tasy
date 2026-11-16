@@ -18,6 +18,7 @@ Este guia foi escrito para quem nunca instalou um plugin de IA. Siga as etapas n
 |---|---|---|
 | **Terminal** | Janela onde se digitam comandos. Windows: **PowerShell** (menu Iniciar, digite "PowerShell"). macOS: **Terminal** (Cmd+Espaço, digite "Terminal") | Não, já vem no computador |
 | **Ferramenta de IA** | O programa com que você conversa: Claude Code, Codex ou Gemini CLI | Sim (etapa 3) |
+| **Python** | Linguagem do servidor do plugin | **Não**: o uv baixa sozinho |
 | **Plugin** | Este projeto. Ensina a ferramenta de IA a gerar LI, Manual e CCI | Sim (etapa 4) |
 | **uv** | Programa que roda a parte em Python do plugin. Baixa o Python sozinho | Sim (etapa 1) |
 | **Git** | Programa que baixa o plugin do GitHub e o atualiza | Sim (etapa 1) |
@@ -37,41 +38,101 @@ Este guia foi escrito para quem nunca instalou um plugin de IA. Siga as etapas n
 
 > Não use pasta dentro do **OneDrive** nem para o plugin nem para o trabalho: a sincronização trava arquivos e causa erros.
 
-### Etapa 1. Instalar o uv e o Git
+### Etapa 1. Instalar os programas de apoio
 
-**Windows** (no PowerShell, um comando por vez):
+#### Qual terminal usar
 
-```powershell
-winget install --id=astral-sh.uv -e
-```
+- **Windows: use o PowerShell**, não o "Prompt de Comando" (CMD). Os comandos deste guia foram escritos para o PowerShell, e alguns não funcionam no CMD. Para abrir: clique no menu **Iniciar**, digite **PowerShell** e clique em **Windows PowerShell**. Abra normal, **sem** "Executar como administrador". Se o seu computador abrir o **Terminal** do Windows, tudo bem: ele já abre no PowerShell (a linha começa com `PS C:\...`).
+- **macOS: use o Terminal.** Para abrir: aperte **Cmd + Espaço**, digite **Terminal** e aperte Enter. Fica em Aplicativos > Utilitários.
 
-```powershell
-winget install --id=Git.Git -e
-```
+Para colar um comando: no PowerShell, **botão direito do mouse** ou **Ctrl+V**; no Terminal do Mac, **Cmd+V**. Depois aperte **Enter** e espere terminar (a linha de digitação volta a aparecer).
 
-```powershell
-winget install --id=GitHub.cli -e
-```
+#### O que instalar e por quê
 
-**macOS** (no Terminal):
+| Programa | O que é | Para que o plugin usa | Precisa? | Site oficial |
+|---|---|---|---|---|
+| **uv** | Gerenciador de Python gratuito e de código aberto, da empresa Astral (a mesma do Ruff, muito usado no mercado). Instala só na sua pasta de usuário, não mexe no sistema e não pede administrador. **Liberado pela TI** para as máquinas dos consultores | Baixar e rodar a parte em Python do plugin (o "servidor MCP") | **Sim** | [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/) |
+| **Python** | Linguagem em que o servidor do plugin foi escrito | É o "motor" do servidor | **Não instale.** O uv baixa uma cópia própria do Python na primeira vez e a mantém separada. Se você já tem Python, não tem problema: o uv não interfere | [python.org](https://www.python.org/downloads/) (só para referência) |
+| **Git** | Programa padrão para baixar e atualizar projetos guardados no GitHub | Baixar o plugin e receber as atualizações | **Sim** | [git-scm.com](https://git-scm.com/downloads) |
+| **GitHub CLI** (`gh`) | Programa oficial do GitHub para fazer login pelo terminal | Liberar o Git para acessar o repositório privado sem ficar pedindo senha | **Sim** | [cli.github.com](https://cli.github.com) |
+| **Node.js** | Plataforma para rodar programas em JavaScript | Só para instalar o **Codex** ou o **Gemini CLI** | Só se usar Codex ou Gemini. **Não precisa para o Claude Code** | [nodejs.org](https://nodejs.org/pt) (versão **LTS**) |
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+#### Windows (no PowerShell)
 
-```bash
-xcode-select --install
-```
+O Windows 10 e 11 já trazem o **winget**, o instalador oficial da Microsoft. Os comandos abaixo usam ele. Rode **um de cada vez**:
 
-O segundo comando instala o Git (abre uma janela: clique em **Instalar**). Para o GitHub CLI, se você usa [Homebrew](https://brew.sh):
+1. **uv**
 
-```bash
-brew install gh
-```
+   ```powershell
+   winget install --id=astral-sh.uv -e
+   ```
 
-Sem Homebrew, baixe o instalador `.pkg` em [cli.github.com](https://cli.github.com).
+2. **Git**
 
-**Feche o terminal e abra de novo** (senão ele não enxerga os programas novos). Confira:
+   ```powershell
+   winget install --id=Git.Git -e
+   ```
+
+   Se o Windows perguntar "Deseja permitir que este aplicativo faça alterações?", clique em **Sim**.
+
+3. **GitHub CLI**
+
+   ```powershell
+   winget install --id=GitHub.cli -e
+   ```
+
+4. **Node.js** (só para Codex ou Gemini CLI)
+
+   ```powershell
+   winget install --id=OpenJS.NodeJS.LTS -e
+   ```
+
+Na primeira vez, o winget pode pedir para aceitar os termos da loja: digite **Y** e aperte Enter.
+
+<details>
+<summary>O winget não funciona ("winget não é reconhecido")</summary>
+
+Atualize o **Instalador de Aplicativo** pela [Microsoft Store](https://apps.microsoft.com/detail/9nblggh4nns1) e abra o PowerShell de novo. Ou instale cada programa pelo site oficial:
+
+- **uv**: cole no PowerShell o instalador oficial da Astral:
+
+  ```powershell
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
+
+- **Git**: baixe em [git-scm.com/downloads/win](https://git-scm.com/downloads/win) e clique em **Next** em todas as telas (as opções padrão servem).
+- **GitHub CLI**: baixe o instalador `.msi` em [cli.github.com](https://cli.github.com) e clique em **Next** até o fim.
+- **Node.js**: baixe a versão **LTS** em [nodejs.org](https://nodejs.org/pt) e clique em **Next** até o fim.
+
+</details>
+
+#### macOS (no Terminal)
+
+1. **uv** (instalador oficial da Astral):
+
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. **Git** (vem com as ferramentas de linha de comando da Apple):
+
+   ```bash
+   xcode-select --install
+   ```
+
+   Abre uma janela: clique em **Instalar** e aceite a licença. Demora alguns minutos. Se aparecer "already installed", o Git já está instalado.
+
+3. **GitHub CLI**: baixe o instalador para macOS em [cli.github.com](https://cli.github.com) (botão **Download for Mac**), abra o arquivo e siga as telas. Quem já usa [Homebrew](https://brew.sh) pode instalar com:
+
+   ```bash
+   brew install gh
+   ```
+
+4. **Node.js** (só para Codex ou Gemini CLI): baixe o instalador **LTS** para macOS em [nodejs.org](https://nodejs.org/pt), abra e siga as telas.
+
+#### Conferir se deu certo
+
+**Feche o terminal e abra de novo** (senão ele não enxerga os programas novos). Depois rode:
 
 ```bash
 uv --version
@@ -85,7 +146,7 @@ git --version
 gh --version
 ```
 
-Cada um deve mostrar um número de versão. Se aparecer "não reconhecido" ou "command not found", reinicie o computador e confira de novo.
+Cada um deve mostrar um número de versão (ex.: `uv 0.9.x`). Se aparecer "não é reconhecido" ou "command not found", reinicie o computador e confira de novo.
 
 ### Etapa 2. Liberar o acesso ao GitHub
 
@@ -113,13 +174,13 @@ O plugin fica num repositório **privado**. Sem acesso, a instalação falha com
 
 Escolha **uma**. A recomendada é o **Claude Code**, a única já testada de ponta a ponta com este plugin.
 
-| Ferramenta | Instalação oficial | Comando para abrir |
-|---|---|---|
-| **Claude Code** (recomendada) | [docs.claude.com/claude-code](https://docs.claude.com/en/docs/claude-code/setup) | `claude` |
-| Codex | [developers.openai.com/codex](https://developers.openai.com/codex/cli) | `codex` |
-| Gemini CLI | [github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | `gemini` |
+| Ferramenta | Windows (PowerShell) | macOS (Terminal) | Comando para abrir | Página oficial |
+|---|---|---|---|---|
+| **Claude Code** (recomendada) | `irm https://claude.ai/install.ps1 \| iex` | `curl -fsSL https://claude.ai/install.sh \| bash` | `claude` | [docs.claude.com](https://docs.claude.com/en/docs/claude-code/setup) |
+| Codex (precisa do Node.js) | `npm install -g @openai/codex` | `npm install -g @openai/codex` | `codex` | [developers.openai.com/codex](https://developers.openai.com/codex/cli) |
+| Gemini CLI (precisa do Node.js) | `npm install -g @google/gemini-cli` | `npm install -g @google/gemini-cli` | `gemini` | [github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) |
 
-Na primeira vez que abrir, a ferramenta pede login com a conta da empresa. Siga o que aparecer na tela.
+Depois de instalar, **feche e abra o terminal** e digite o comando para abrir. Na primeira vez que abrir, a ferramenta pede login com a conta da empresa. Siga o que aparecer na tela.
 
 ### Etapa 4. Instalar o plugin
 
@@ -338,13 +399,42 @@ A versão instalada e as novidades ficam no [CHANGELOG](CHANGELOG.md).
 | Atrás de proxy da empresa e o uv não baixa nada | Peça à TI a liberação de `pypi.org`, `files.pythonhosted.org` e `github.com` |
 
 
-## Uso
+## Comandos do plugin
 
-> Gere a LI a partir do documento `<arquivo>`.
-> Gere o manual da integração `<nome>`.
-> Gere o CCI para a mudança `<descrição>`.
+Você pode chamar cada função pelo atalho da sua ferramenta ou simplesmente escrevendo a frase, em português, no chat. As duas formas dão o mesmo resultado.
 
-O agente pergunta o que faltar (idioma sempre), gera o `.docx` e avisa: **o que está em amarelo no documento cabe análise do consultor**. Detalhes no [guia de uso](docs/04-guia-de-uso.md).
+| O que faz | Claude Code | Codex | Gemini, Cursor, Copilot | Exemplo de frase |
+|---|---|---|---|---|
+| **Gerar a LI** completa a partir do documento do terceiro, com a matriz interna de viabilidade | `/agente-li:gerar-li` | `$gerar-li` | Frase | *Gere a LI a partir do documento `Evya-4uHub.pdf`* |
+| **Gerar o Manual de Integração** (modelo EMR 12352) a partir de uma integração TIE, de uma API padrão ou de uma LI aprovada | `/agente-li:gerar-manual` | `$gerar-manual` | Frase | *Gere o manual da integração URA Avaya* |
+| **Gerar o CCI** (controle de mudança) no formulário oficial | `/agente-li:gerar-cci` | `$gerar-cci` | Frase | *Gere o CCI para a mudança: desativar a rota do código de devedor* |
+| **Só analisar a viabilidade** (OpenAPI, Parcial, TIE ou Gap), sem gerar a LI | `/agente-li:analisar-viabilidade` | `$analisar-viabilidade` | Frase | *Analise a viabilidade do documento `Evya-4uHub.pdf`* |
+| **Consultar a base do Tasy** (APIs, tabelas, integrações TIE, PL/SQL) | `/agente-li:consultar-tasy` | `$consultar-tasy` | Frase | *Consulte no Tasy qual API grava em AGENDA_CONSULTA* |
+
+O agente sempre pergunta o idioma (português ou espanhol) e o que mais faltar antes de gerar. Ao terminar, avisa: **o que está em amarelo no documento cabe análise do consultor**. Mais detalhes no [guia de uso](docs/04-guia-de-uso.md).
+
+<details>
+<summary>Ferramentas internas (a IA usa sozinha; você não precisa chamar)</summary>
+
+Os comandos acima usam estas ferramentas do servidor MCP. Elas aparecem na tela quando a IA pede permissão para usá-las.
+
+| Ferramenta | O que faz |
+|---|---|
+| `ler_documento` | Lê o texto de PDF, Word, Markdown ou TXT quando a IA não consegue abrir o arquivo sozinha |
+| `extrair_requisitos` | Extrai os pontos de integração de documentos no padrão "Resumo / Filtros / SQL" (ex.: Evya) |
+| `analisar_sql` | Lista tabelas, colunas e procedures do Tasy citadas num SQL do terceiro |
+| `classificar_viabilidade` | Classifica cada ponto (OpenAPI, Parcial, TIE ou Gap) e gera a matriz interna `.xlsx` |
+| `buscar_apis` / `detalhar_api` | Procura APIs padrão do Tasy e mostra os campos com tabela e coluna |
+| `consultar_tabela` | Mostra tudo que existe no Tasy para uma tabela: APIs, PL/SQL, eventos e integrações TIE |
+| `consultar_plsql` | Mostra assinatura, tabelas gravadas e eventos de procedures e functions do Tasy |
+| `buscar_tie` / `detalhar_tie` | Procura integrações no catálogo TIE e mostra eventos, fluxos e mapeamentos |
+| `rascunho_li` / `rascunho_manual` | Monta o primeiro rascunho da LI ou do Manual para a IA revisar |
+| `validar_documento` | Confere se o conteúdo tem todas as seções obrigatórias do modelo oficial |
+| `gerar_documento` | Gera o `.docx` final (LI, Manual ou CCI) no visual Bionexo Tasy |
+| `gerar_diagrama` | Desenha BPMN, casos de uso e sequência (`.drawio` editável e `.png`) |
+| `formatos` | Guia interno dos formatos de arquivo que a IA usa |
+
+</details>
 
 ## Estrutura
 
